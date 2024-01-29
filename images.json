@@ -1,0 +1,39 @@
+{
+    "bitnami/postgresql": [
+        "15.4.0-debian-11-r45",
+        "14.5.0-debian-11-r35"
+    ],
+    "bitnami/redis": [
+        "7.2.4-debian-11-r2",
+        "6.2.7-debian-11-r11"
+    ],
+    "registry.k8s.io/ingress-nginx/controller": [
+        "v1.9.5",
+        "v1.9.4",
+        "v1.9.3"
+    ],
+    "bitnami/mongodb": [
+        "7.0.5-debian-11-r3",
+        "6.0.10-debian-11-r8",
+        "5.0.10-debian-11-r3"
+    ],
+    "quay.io/prometheus/prometheus": [
+        "v2.49.1"
+    ],
+    "quay.io/prometheus/alertmanager": [
+        "v0.26.0"
+    ],
+    "kubernetesui/dashboard": [
+        "v2.7.0",
+        "v2.6.1"
+    ],
+    "quay.io/jetstack/cert-manager-controller": [
+        "v1.13.2"
+    ],
+    "quay.io/jetstack/cert-manager-webhook": [
+        "v1.13.2"
+    ],
+    "grafana/grafana": [
+        "10.2.3"
+    ]
+}

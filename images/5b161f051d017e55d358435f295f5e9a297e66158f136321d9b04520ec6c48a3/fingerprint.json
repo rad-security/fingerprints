@@ -1,0 +1,576 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "controller",
+      "imageName": "registry.k8s.io/ingress-nginx/controller@sha256:5b161f051d017e55d358435f295f5e9a297e66158f136321d9b04520ec6c48a3",
+      "imageDigest": "sha256:5b161f051d017e55d358435f295f5e9a297e66158f136321d9b04520ec6c48a3",
+      "entrypoint": {
+        "process": {
+          "uid": 101,
+          "gid": 82,
+          "children": [
+            {
+              "uid": 101,
+              "gid": 82,
+              "children": [
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "nginx",
+                      "args": [
+                        "/usr/bin/nginx",
+                        "-v"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/lib/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/etc/ld-musl-x86_64.path"
+                    },
+                    {
+                      "path": "/usr/local/lib/libluajit-5.1.so.2.1.0"
+                    },
+                    {
+                      "path": "/usr/lib/libpcre.so.1.2.13"
+                    },
+                    {
+                      "path": "/lib/libssl.so.3"
+                    },
+                    {
+                      "path": "/lib/libcrypto.so.3"
+                    },
+                    {
+                      "path": "/lib/libz.so.1.2.13"
+                    },
+                    {
+                      "path": "/usr/lib/libGeoIP.so.1.6.12"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "test",
+                      "args": [
+                        "/usr/bin/test",
+                        "-f",
+                        "/proc/net/if_inet6"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/local/lib/libmimalloc.so.1.7"
+                    },
+                    {
+                      "path": "/proc/sys/vm/overcommit_memory"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "test",
+                      "args": [
+                        "/usr/bin/test",
+                        "-f",
+                        "/proc/net/if_inet6"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/local/lib/libmimalloc.so.1.7"
+                    },
+                    {
+                      "path": "/proc/sys/vm/overcommit_memory"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "test",
+                      "args": [
+                        "/usr/bin/test",
+                        "-f",
+                        "/proc/net/if_inet6"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/proc/sys/vm/overcommit_memory"
+                    },
+                    {
+                      "path": "/usr/local/lib/libmimalloc.so.1.7"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "test",
+                      "args": [
+                        "/usr/bin/test",
+                        "-f",
+                        "/proc/net/if_inet6"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/local/lib/libmimalloc.so.1.7"
+                    },
+                    {
+                      "path": "/proc/sys/vm/overcommit_memory"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "test",
+                      "args": [
+                        "/usr/bin/test",
+                        "-f",
+                        "/proc/net/if_inet6"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/proc/sys/vm/overcommit_memory"
+                    },
+                    {
+                      "path": "/usr/local/lib/libmimalloc.so.1.7"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "nginx",
+                      "args": [
+                        "/usr/bin/nginx",
+                        "-c",
+                        "/etc/nginx/nginx.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/base.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/uri.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/request.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/lrucache.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/var.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/param.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/misc.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/exit.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/ctx.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/socket.lua"
+                    },
+                    {
+                      "path": "/etc/nginx/nginx.conf"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/shdict.lua"
+                    },
+                    {
+                      "path": "/usr/lib/libpcre.so.1.2.13"
+                    },
+                    {
+                      "path": "/lib/libssl.so.3"
+                    },
+                    {
+                      "path": "/var/log/nginx/error.log"
+                    },
+                    {
+                      "path": "/usr/lib/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/phase.lua"
+                    },
+                    {
+                      "path": "/lib/libcrypto.so.3"
+                    },
+                    {
+                      "path": "/lib/libz.so.1.2.13"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/utils.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/ndk.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/response.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/coroutine.lua"
+                    },
+                    {
+                      "path": "/etc/ssl/openssl.cnf"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/time.lua"
+                    },
+                    {
+                      "path": "/usr/lib/libGeoIP.so.1.6.12"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/regex.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/hash.lua"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/base64.lua"
+                    },
+                    {
+                      "path": "/tmp/nginx/nginx.pid"
+                    },
+                    {
+                      "path": "/usr/local/lib/libluajit-5.1.so.2.1.0"
+                    },
+                    {
+                      "path": "/usr/local/lib/lua/resty/core/worker.lua"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "nginx",
+                      "args": [
+                        "/usr/bin/nginx",
+                        "-c",
+                        "/tmp/nginx/nginx-cfg*",
+                        "-t"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ssl/openssl.cnf"
+                    },
+                    {
+                      "path": "/var/log/nginx/access.log"
+                    },
+                    {
+                      "path": "/usr/lib/libpcre.so.1.2.13"
+                    },
+                    {
+                      "path": "/etc/nginx/geoip/GeoIPASNum.dat"
+                    },
+                    {
+                      "path": "/tmp/nginx/nginx-cfg*"
+                    },
+                    {
+                      "path": "/usr/lib/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/lib/libcrypto.so.3"
+                    },
+                    {
+                      "path": "/etc/nginx/geoip/GeoIP.dat"
+                    },
+                    {
+                      "path": "/etc/ingress-controller/ssl/default-fake-certificate.pem"
+                    },
+                    {
+                      "path": "/tmp/nginx/nginx.pid"
+                    },
+                    {
+                      "path": "/etc/ld-musl-x86_64.path"
+                    },
+                    {
+                      "path": "/etc/nginx/mime.types"
+                    },
+                    {
+                      "path": "/usr/lib/libGeoIP.so.1.6.12"
+                    },
+                    {
+                      "path": "/etc/nginx/geoip/GeoLiteCity.dat"
+                    },
+                    {
+                      "path": "/usr/local/lib/libluajit-5.1.so.2.1.0"
+                    },
+                    {
+                      "path": "/lib/libssl.so.3"
+                    },
+                    {
+                      "path": "/lib/libz.so.1.2.13"
+                    },
+                    {
+                      "path": "/var/log/nginx/error.log"
+                    }
+                  ]
+                },
+                {
+                  "uid": 101,
+                  "gid": 82,
+                  "programs": [
+                    {
+                      "comm": "nginx",
+                      "args": [
+                        "/usr/bin/nginx",
+                        "-c",
+                        "/etc/nginx/nginx.conf",
+                        "-s",
+                        "reload"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/nginx/geoip/GeoIP.dat"
+                    },
+                    {
+                      "path": "/etc/nginx/geoip/GeoLiteCity.dat"
+                    },
+                    {
+                      "path": "/lib/libz.so.1.2.13"
+                    },
+                    {
+                      "path": "/etc/nginx/nginx.conf"
+                    },
+                    {
+                      "path": "/etc/nginx/mime.types"
+                    },
+                    {
+                      "path": "/etc/ingress-controller/ssl/default-fake-certificate.pem"
+                    },
+                    {
+                      "path": "/usr/lib/libGeoIP.so.1.6.12"
+                    },
+                    {
+                      "path": "/etc/ssl/openssl.cnf"
+                    },
+                    {
+                      "path": "/tmp/nginx/nginx.pid"
+                    },
+                    {
+                      "path": "/lib/libcrypto.so.3"
+                    },
+                    {
+                      "path": "/lib/libssl.so.3"
+                    },
+                    {
+                      "path": "/etc/ld-musl-x86_64.path"
+                    },
+                    {
+                      "path": "/usr/lib/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/usr/local/lib/libluajit-5.1.so.2.1.0"
+                    },
+                    {
+                      "path": "/usr/lib/libpcre.so.1.2.13"
+                    },
+                    {
+                      "path": "/var/log/nginx/error.log"
+                    },
+                    {
+                      "path": "/etc/nginx/geoip/GeoIPASNum.dat"
+                    }
+                  ]
+                }
+              ],
+              "programs": [
+                {
+                  "comm": "nginx-ingress-c",
+                  "args": [
+                    "/nginx-ingress-controller",
+                    "--publish-service=ingress-nginx/rad-sandbox-ingress-nginx-controller",
+                    "--election-id=rad-sandbox-ingress-nginx-leader",
+                    "--controller-class=k8s.io/ingress-nginx",
+                    "--ingress-class=nginx",
+                    "--configmap=ingress-nginx/rad-sandbox-ingress-nginx-controller",
+                    "--validating-webhook=:8443",
+                    "--validating-webhook-certificate=/usr/local/certificates/cert",
+                    "--validating-webhook-key=/usr/local/certificates/key"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+                },
+                {
+                  "path": "/proc"
+                },
+                {
+                  "path": "/etc/nginx/geoip"
+                },
+                {
+                  "path": "/etc/nginx/opentelemetry.toml"
+                },
+                {
+                  "path": "/proc/*/task/*/wchan"
+                },
+                {
+                  "path": "/proc/*/stat"
+                },
+                {
+                  "path": "/proc/stat"
+                },
+                {
+                  "path": "/proc/*/wchan"
+                },
+                {
+                  "path": "/etc/ingress-controller/ssl/default-fake-certificate.pem"
+                },
+                {
+                  "path": "/proc/*/io"
+                },
+                {
+                  "path": "/proc/*/limits"
+                },
+                {
+                  "path": "/proc/*/task/*/status"
+                },
+                {
+                  "path": "/tmp/nginx/nginx-cfg*"
+                },
+                {
+                  "path": "/proc/*/status"
+                },
+                {
+                  "path": "/proc/*/task/*/cgroup"
+                },
+                {
+                  "path": "/proc/*/cgroup"
+                },
+                {
+                  "path": "/proc/*/cmdline"
+                },
+                {
+                  "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+                },
+                {
+                  "path": "/dev/null"
+                },
+                {
+                  "path": "/nginx-ingress-controller"
+                },
+                {
+                  "path": "/usr/local/certificates/*/cert"
+                },
+                {
+                  "path": "/usr/local/certificates/*/key"
+                },
+                {
+                  "path": "/etc/nginx/opentracing.json"
+                },
+                {
+                  "path": "/run/secrets/kubernetes.io/serviceaccount/*/token"
+                },
+                {
+                  "path": "/proc/sys/net/core/somaxconn"
+                },
+                {
+                  "path": "/proc/*/task/*/io"
+                },
+                {
+                  "path": "/proc/*/task/*/stat"
+                },
+                {
+                  "path": "/etc/nginx/nginx.conf"
+                },
+                {
+                  "path": "/proc/*/task"
+                },
+                {
+                  "path": "/etc/resolv.conf"
+                },
+                {
+                  "path": "/etc/passwd"
+                },
+                {
+                  "path": "/etc/nginx/template/nginx.tmpl"
+                },
+                {
+                  "path": "/proc/*/task/*/cmdline"
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "dumb-init",
+              "args": [
+                "/usr/bin/dumb-init",
+                "--",
+                "/nginx-ingress-controller",
+                "--publish-service=ingress-nginx/rad-sandbox-ingress-nginx-controller",
+                "--election-id=rad-sandbox-ingress-nginx-leader",
+                "--controller-class=k8s.io/ingress-nginx",
+                "--ingress-class=nginx",
+                "--configmap=ingress-nginx/rad-sandbox-ingress-nginx-controller",
+                "--validating-webhook=:8443",
+                "--validating-webhook-certificate=/usr/local/certificates/cert",
+                "--validating-webhook-key=/usr/local/certificates/key"
+              ]
+            }
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

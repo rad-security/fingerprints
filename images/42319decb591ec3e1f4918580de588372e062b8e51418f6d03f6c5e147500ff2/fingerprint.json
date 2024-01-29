@@ -1,0 +1,2505 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "mongodb",
+      "imageName": "docker.io/bitnami/mongodb:6.0.10-debian-11-r8",
+      "imageDigest": "sha256:42319decb591ec3e1f4918580de588372e062b8e51418f6d03f6c5e147500ff2",
+      "entrypoint": {
+        "process": {
+          "uid": 1001,
+          "gid": 0,
+          "children": [
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "children": [
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "mkdir",
+                      "args": [
+                        "/bin/mkdir",
+                        "-p",
+                        "/bitnami/mongodb/data"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "rm",
+                      "args": [
+                        "/bin/rm",
+                        "-f",
+                        "/opt/bitnami/mongodb/tmp/mongodb.pid"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "realpath",
+                      "args": [
+                        "/usr/bin/realpath",
+                        "/bitnami/mongodb/conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@port:.*@port: 27017@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@ipv6:.*@ipv6: false@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@quiet:.*@quiet: false@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@verbosity:.*@verbosity: 0@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "/^ *journal:/,/^ *[^:]*:/s/enabled:.*/enabled: true/",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@directoryPerDB:.*@directoryPerDB: false@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "realpath",
+                      "args": [
+                        "/usr/bin/realpath",
+                        "/bitnami/mongodb/data/db"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "mkdir",
+                      "args": [
+                        "/bin/mkdir",
+                        "-p",
+                        "/bitnami/mongodb/data/db"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "id",
+                      "args": [
+                        "/usr/bin/id",
+                        "-u"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "mongod",
+                      "args": [
+                        "/opt/bitnami/mongodb/bin/mongod",
+                        "--fork",
+                        "--config=/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/librtmp.so.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.2.8"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+                    },
+                    {
+                      "path": "/proc/44/mountinfo"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.2"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                    },
+                    {
+                      "path": "/proc/cpuinfo"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.7.0"
+                    },
+                    {
+                      "path": "/proc/version_signature"
+                    },
+                    {
+                      "path": "/dev/urandom"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libkeyutils.so.1.9"
+                    },
+                    {
+                      "path": "/proc/sys/kernel/osrelease"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.20.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/sys/fs/cgroup/memory.max"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libcom_err.so.2.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                    },
+                    {
+                      "path": "/usr/lib/os-release"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libgpg-error.so.0.29.0"
+                    },
+                    {
+                      "path": "/sys/devices/system/cpu/online"
+                    },
+                    {
+                      "path": "/proc/meminfo"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                    },
+                    {
+                      "path": "/proc/version"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                    },
+                    {
+                      "path": "/etc/ssl/openssl.cnf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "mongosh",
+                      "args": [
+                        "/opt/bitnami/mongodb/bin/mongosh",
+                        "--host",
+                        "127.0.0.1",
+                        "--port",
+                        "27017"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/update-metadata.json"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/etc/host.conf"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/snippets/index.bson.br"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1"
+                    },
+                    {
+                      "path": "/etc/ssl/openssl.cnf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libnss_dns-2.31.so"
+                    },
+                    {
+                      "path": "/etc/hosts"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/mongosh_repl_history"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/65afc51cd2a55f85e7fd4634_log"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/config"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/am-65afc51c974d650558a00d7f.json"
+                    },
+                    {
+                      "path": "/etc/nsswitch.conf"
+                    },
+                    {
+                      "path": "/etc/gai.conf"
+                    },
+                    {
+                      "path": "/proc/meminfo"
+                    },
+                    {
+                      "path": "/.mongodb/mongosh/snippets/package.json"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                    },
+                    {
+                      "path": "/.mongoshrc.js"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libcom_err.so.2.1"
+                    },
+                    {
+                      "path": "/etc/resolv.conf"
+                    },
+                    {
+                      "path": "/proc/*/cgroup"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/os-release"
+                    },
+                    {
+                      "path": "/dev/urandom"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libkeyutils.so.1.9"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/dev/null"
+                    }
+                  ],
+                  "connections": [
+                    {
+                      "address": "65.9.66.70",
+                      "hostname": "downloads.mongodb.com",
+                      "port": 443
+                    },
+                    {
+                      "address": "3.94.230.7",
+                      "hostname": "compass.mongodb.com",
+                      "port": 443
+                    },
+                    {
+                      "address": "35.160.151.220",
+                      "hostname": "api.segment.io",
+                      "port": 443
+                    },
+                    {
+                      "address": "185.199.110.133",
+                      "hostname": "raw.githubusercontent.com",
+                      "port": 443
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sleep",
+                      "args": [
+                        "/bin/sleep",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "yq",
+                      "args": [
+                        "/opt/bitnami/common/bin/yq",
+                        "eval",
+                        ".security.authorization",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "date",
+                      "args": [
+                        "/bin/date",
+                        "+%T.%2N "
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/share/zoneinfo/Etc/UTC"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@#?authorization:.*@authorization: enabled@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@#?enableLocalhostAuthBypass:.*@enableLocalhostAuthBypass: false@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@#?bindIp:.*@#bindIp:@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sed",
+                      "args": [
+                        "/bin/sed",
+                        "-E",
+                        "s@#?bindIpAll:.*@bindIpAll: true@",
+                        "/opt/bitnami/mongodb/conf/mongodb.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "find",
+                      "args": [
+                        "/usr/bin/find",
+                        "/docker-entrypoint-initdb.d/",
+                        "-type",
+                        "f",
+                        "-regex",
+                        ".*\\.\\(sh\\|js\\|js.gz\\)"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/docker-entrypoint-initdb.d"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/proc/filesystems"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                    },
+                    {
+                      "path": "/"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    }
+                  ]
+                }
+              ],
+              "programs": [
+                {
+                  "comm": "setup.sh",
+                  "args": [
+                    "/opt/bitnami/scripts/mongodb/setup.sh"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libvalidations.sh"
+                },
+                {
+                  "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libfs.sh"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libservice.sh"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/mongodb-env.sh"
+                },
+                {
+                  "path": "/etc/nsswitch.conf"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/mongodb/setup.sh"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libmongodb.sh"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libfile.sh"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/dev/null"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libos.sh"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/liblog.sh"
+                },
+                {
+                  "path": "/opt/bitnami/scripts/libnet.sh"
+                },
+                {
+                  "path": "/etc/passwd"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "id",
+                  "args": [
+                    "/usr/bin/id",
+                    "-u"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "entrypoint.sh",
+              "args": [
+                "/opt/bitnami/scripts/mongodb/entrypoint.sh",
+                "/opt/bitnami/scripts/mongodb/run.sh"
+              ]
+            },
+            {
+              "comm": "run.sh",
+              "args": [
+                "/opt/bitnami/scripts/mongodb/run.sh"
+              ]
+            },
+            {
+              "comm": "mongod",
+              "args": [
+                "/opt/bitnami/mongodb/bin/mongod",
+                "--config=/opt/bitnami/mongodb/conf/mongodb.conf"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/bitnami/mongodb/data/db/sizeStorer.wt"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9"
+            },
+            {
+              "path": "/proc/pressure/memory"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libservice.sh"
+            },
+            {
+              "path": "/opt/bitnami/scripts/mongodb/run.sh"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal/WiredTigerLog.0000000002"
+            },
+            {
+              "path": "/proc/sys/vm/overcommit_memory"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.2"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/collection-2-3832341278841145227.wt"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3"
+            },
+            {
+              "path": "/opt/bitnami/scripts/mongodb/entrypoint.sh"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libbitnami.sh"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+            },
+            {
+              "path": "/opt/bitnami/mongodb/tmp/mongodb.pid"
+            },
+            {
+              "path": "/proc/sys/kernel/osrelease"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2"
+            },
+            {
+              "path": "/proc/sys/vm/max_map_count"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libcom_err.so.2.1"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/diagnostic.data/metrics.2024-01-23T13-54-39Z-00000"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.7.0"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTigerHS.wt"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libvalidations.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/storage.bson"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+            },
+            {
+              "path": "/usr/share/zoneinfo/Etc/UTC"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+            },
+            {
+              "path": "/sys/fs/cgroup/memory.max"
+            },
+            {
+              "path": "/opt/bitnami/scripts/liblog.sh"
+            },
+            {
+              "path": "/usr/lib/os-release"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1"
+            },
+            {
+              "path": "/dev/urandom"
+            },
+            {
+              "path": "/opt/bitnami/mongodb/logs/mongodb.log"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+            },
+            {
+              "path": "/opt/bitnami/scripts/mongodb-env.sh"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTiger.wt"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal/WiredTigerTmplog.0000000001"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/collection-0-3832341278841145227.wt"
+            },
+            {
+              "path": "/proc/1/net/netstat"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db"
+            },
+            {
+              "path": "/sys/devices/system/cpu/online"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/index-1-3832341278841145227.wt"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/librtmp.so.1"
+            },
+            {
+              "path": "/etc/ssl/openssl.cnf"
+            },
+            {
+              "path": "/proc/1/mountinfo"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libfile.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/mongod.lock"
+            },
+            {
+              "path": "/etc/nsswitch.conf"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/index-6-3832341278841145227.wt"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+            },
+            {
+              "path": "/proc/stat"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTiger"
+            },
+            {
+              "path": "/proc/version"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal/WiredTigerLog.0000000001"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libfs.sh"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libgpg-error.so.0.29.0"
+            },
+            {
+              "path": "/opt/bitnami/mongodb/conf/mongodb.conf"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libos.sh"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/enabled"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal/WiredTigerTmplog.0000000003"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTiger.lock"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/_mdb_catalog.wt"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/etc/ld.so.cache"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/defrag"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.20.1"
+            },
+            {
+              "path": "/proc/version_signature"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libnet.sh"
+            },
+            {
+              "path": "/proc/*/stat"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libmongodb.sh"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libkeyutils.so.1.9"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/journal/WiredTigerTmplog.0000000002"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/index-3-3832341278841145227.wt"
+            },
+            {
+              "path": "/proc/sys/vm/zone_reclaim_mode"
+            },
+            {
+              "path": "/sys/block"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.2.8"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/diagnostic.data"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+            },
+            {
+              "path": "/proc/cpuinfo"
+            },
+            {
+              "path": "/proc/meminfo"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9"
+            },
+            {
+              "path": "/proc/1/net/snmp"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTiger.turtle"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+            },
+            {
+              "path": "/sys/devices/system/cpu"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+            },
+            {
+              "path": "/proc/*/io"
+            },
+            {
+              "path": "/proc/sys/net/ipv4/tcp_fastopen"
+            },
+            {
+              "path": "/proc/vmstat"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/WiredTiger.turtle.set"
+            },
+            {
+              "path": "/bitnami/mongodb/data/db/diagnostic.data/metrics.interim.temp"
+            },
+            {
+              "path": "/proc/*/task/*/stat"
+            },
+            {
+              "path": "/proc/pressure/cpu"
+            },
+            {
+              "path": "/proc/diskstats"
+            }
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "children": [
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "mongod",
+                  "args": [
+                    "/opt/bitnami/mongodb/bin/mongod",
+                    "--version"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/librtmp.so.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libkeyutils.so.1.9"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                },
+                {
+                  "path": "/dev/urandom"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.7.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                },
+                {
+                  "path": "/proc/meminfo"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libgpg-error.so.0.29.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.20.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                },
+                {
+                  "path": "/proc/version"
+                },
+                {
+                  "path": "/proc/cpuinfo"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3"
+                },
+                {
+                  "path": "/etc/ssl/openssl.cnf"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                },
+                {
+                  "path": "/sys/devices/system/cpu/online"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libcom_err.so.2.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/proc/16/mountinfo"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.2.8"
+                },
+                {
+                  "path": "/proc/sys/kernel/osrelease"
+                },
+                {
+                  "path": "/proc/version_signature"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+                },
+                {
+                  "path": "/sys/fs/cgroup/memory.max"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/os-release"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "awk",
+                  "args": [
+                    "/usr/bin/awk",
+                    "-F\"",
+                    "/\"version\"/ {print $4}"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "hostname",
+                  "args": [
+                    "/bin/hostname"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "mongosh",
+                  "args": [
+                    "/opt/bitnami/mongodb/bin/mongosh",
+                    "--host",
+                    "rad-sandbox-mongodb-5c645ccdf8-tbbqj",
+                    "--port",
+                    "27017"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/dev/urandom"
+                },
+                {
+                  "path": "/dev/null"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/proc/meminfo"
+                },
+                {
+                  "path": "/proc/*/cgroup"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libcom_err.so.2.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                },
+                {
+                  "path": "/etc/ssl/openssl.cnf"
+                },
+                {
+                  "path": "/.mongodb/mongosh/config"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1"
+                },
+                {
+                  "path": "/.mongodb/mongosh/65afc51c974d650558a00d80_log"
+                },
+                {
+                  "path": "/etc/nsswitch.conf"
+                },
+                {
+                  "path": "/usr/lib/os-release"
+                },
+                {
+                  "path": "/etc/gai.conf"
+                },
+                {
+                  "path": "/etc/host.conf"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libkeyutils.so.1.9"
+                },
+                {
+                  "path": "/etc/resolv.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libnss_dns-2.31.so"
+                },
+                {
+                  "path": "/etc/hosts"
+                },
+                {
+                  "path": "/.mongodb/mongosh"
+                }
+              ],
+              "connections": [
+                {
+                  "address": "192.168.160.219",
+                  "hostname": "192.168.160.219",
+                  "port": 27017
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

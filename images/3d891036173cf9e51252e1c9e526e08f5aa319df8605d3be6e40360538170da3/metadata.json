@@ -1,0 +1,8 @@
+{
+  "Name": "bitnami/redis",
+  "RepoTags": [
+    "bitnami/redis:7.2.4-debian-11-r2"
+  ],
+  "Id": "3d891036173cf9e51252e1c9e526e08f5aa319df8605d3be6e40360538170da3",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1920px-Redis_Logo.svg.png"
+}

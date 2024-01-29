@@ -1,0 +1,82 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "kubernetes-dashboard",
+      "imageName": "docker.io/kubernetesui/dashboard:v2.7.0",
+      "imageDigest": "sha256:2e500d29e9d5f4a086b908eb8dfe7ecac57d2ab09d65b24f588b1d449841ef93",
+      "entrypoint": {
+        "process": {
+          "uid": 1001,
+          "gid": 2001,
+          "programs": [
+            {
+              "comm": "dashboard",
+              "args": [
+                "/dashboard",
+                "--insecure-bind-address=0.0.0.0",
+                "--bind-address=0.0.0.0",
+                "--namespace=kubernetes-dashboard",
+                "--auto-generate-certificates",
+                "--metrics-provider=none"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/tmp/dashboard.kubernetes-dashboard-*"
+            },
+            {
+              "path": "/dashboard"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/token"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/locale_conf.json"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/public/en"
+            },
+            {
+              "path": "/public/en/index.html"
+            },
+            {
+              "path": "/public/en/assets/config/config.json"
+            },
+            {
+              "path": "/public/en/*.js"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+            }
+          ],
+          "connections": [
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

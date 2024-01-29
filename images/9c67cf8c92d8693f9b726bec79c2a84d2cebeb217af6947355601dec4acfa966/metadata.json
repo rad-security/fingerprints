@@ -1,0 +1,8 @@
+{
+  "Name": "quay.io/jetstack/cert-manager-controller",
+  "RepoTags": [
+    "quay.io/jetstack/cert-manager-controller:v1.13.2"
+  ],
+  "Id": "9c67cf8c92d8693f9b726bec79c2a84d2cebeb217af6947355601dec4acfa966",
+  "LogoUri": "https://cert-manager.io/images/cert-manager-logo-icon.svg"
+}

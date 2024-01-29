@@ -1,0 +1,115 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T21:16:26Z"
+  },
+  "containers": [
+    {
+      "name": "prometheus-server",
+      "imageName": "quay.io/prometheus/prometheus:v2.49.1",
+      "imageDigest": "sha256:beb5e30ffba08d9ae8a7961b9a2145fc8af6296ff2a4f463df7cd722fcbfc789",
+      "entrypoint": {
+        "process": {
+          "uid": 65534,
+          "gid": 65534,
+          "programs": [
+            {
+              "comm": "prometheus",
+              "args": [
+                "/bin/prometheus",
+                "--storage.tsdb.retention.time=15d",
+                "--config.file=/etc/config/prometheus.yml",
+                "--storage.tsdb.path=/data",
+                "--web.console.libraries=/etc/prometheus/console_libraries",
+                "--web.console.templates=/etc/prometheus/consoles",
+                "--web.enable-lifecycle"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/token"
+            },
+            {
+              "path": "/proc/*/limits"
+            },
+            {
+              "path": "/data/lock"
+            },
+            {
+              "path": "/data/queries.active"
+            },
+            {
+              "path": "/etc/hosts"
+            },
+            {
+              "path": "/etc/config/*/rules"
+            },
+            {
+              "path": "/data/wal"
+            },
+            {
+              "path": "/etc/nsswitch.conf"
+            },
+            {
+              "path": "/etc/config/*/recording_rules.yml"
+            },
+            {
+              "path": "/proc/*/stat"
+            },
+            {
+              "path": "/proc/stat"
+            },
+            {
+              "path": "/bin/prometheus"
+            },
+            {
+              "path": "/etc/localtime"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/etc/resolv.conf"
+            },
+            {
+              "path": "/data/wal/00000000"
+            },
+            {
+              "path": "/data/chunks_head"
+            },
+            {
+              "path": "/etc/config/*/prometheus.yml"
+            },
+            {
+              "path": "/etc/config/*/alerting_rules.yml"
+            },
+            {
+              "path": "/etc/config/*/alerts"
+            },
+            {
+              "path": "/data"
+            }
+          ],
+          "connections": []
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "bitnami/postgresql": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1280px-Postgresql_elephant.svg.png",
+    "bitnami/redis": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1920px-Redis_Logo.svg.png",
+    "grafana/grafana": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg",
+    "registry.k8s.io/ingress-nginx/controller": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+    "bitnami/mongodb": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    "quay.io/prometheus/prometheus": "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg",
+    "quay.io/prometheus/alertmanager": "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg",
+    "kubernetesui/dashboard": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+    "quay.io/jetstack/cert-manager-controller": "https://cert-manager.io/images/cert-manager-logo-icon.svg",
+    "quay.io/jetstack/cert-manager-webhook": "https://cert-manager.io/images/cert-manager-logo-icon.svg"
+}

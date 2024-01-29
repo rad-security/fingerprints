@@ -1,0 +1,8 @@
+{
+  "Name": "grafana/grafana",
+  "RepoTags": [
+    "grafana/grafana:10.2.3"
+  ],
+  "Id": "6b5b37eb35bbf30e7f64bd7f0fd41c0a5b7637f65d3bf93223b04a192b8bf3e2",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg"
+}

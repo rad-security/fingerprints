@@ -1,0 +1,1733 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T19:58:13Z"
+  },
+  "containers": [
+    {
+      "name": "grafana",
+      "imageName": "docker.io/grafana/grafana:10.2.3",
+      "imageDigest": "sha256:6b5b37eb35bbf30e7f64bd7f0fd41c0a5b7637f65d3bf93223b04a192b8bf3e2",
+      "entrypoint": {
+        "process": {
+          "uid": 472,
+          "gid": 472,
+          "children": [
+            {
+              "uid": 472,
+              "gid": 472,
+              "programs": [
+                {
+                  "comm": "mkdir",
+                  "args": [
+                    "/bin/mkdir",
+                    "/var/lib/grafana/plugins"
+                  ]
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "run.sh",
+              "args": [
+                "/run.sh"
+              ]
+            },
+            {
+              "comm": "grafana",
+              "args": [
+                "/usr/share/grafana/bin/grafana",
+                "server",
+                "--homepath=/usr/share/grafana",
+                "--config=/etc/grafana/grafana.ini",
+                "--packaging=docker",
+                "cfg:default.log.mode=console",
+                "cfg:default.paths.data=/var/lib/grafana/",
+                "cfg:default.paths.logs=/var/log/grafana",
+                "cfg:default.paths.plugins=/var/lib/grafana/plugins",
+                "cfg:default.paths.provisioning=/etc/grafana/provisioning"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/datagrid/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/components/ConfigEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-pyroscope-datasource/QueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/parca/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/state-timeline/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/vTrus_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/logs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/dist/dashboards"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/AnnotationQueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/configuration"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GTS_Root_R2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/annolist/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/fsql"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/BucketAggregationsEditor/SettingsEditor/FiltersSettingsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/signup_started.txt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mssql/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/views/swagger.html"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/ISRG_Root_X2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/news"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-postgresql-datasource/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/query-runner"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/types"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Trustwave_Global_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertGroups/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/azure_monitor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/metric-math"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/invited_to_org.txt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GTS_Root_R1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/jaeger/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components/promQail/state"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Izenpe.com.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt"
+            },
+            {
+              "path": "/var/lib/grafana/alerting/1"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries"
+            },
+            {
+              "path": "/proc/*/limits"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/cloudwatch-sql/completion"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/utils/query"
+            },
+            {
+              "path": "/etc/hosts"
+            },
+            {
+              "path": "/usr/lib/libreadline.so.8.2"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/debug"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/utils"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/QueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/testData"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/jaeger/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/piechart/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/Errors"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/candlestick/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/D-TRUST_EV_Root_CA_1_2020.crt"
+            },
+            {
+              "path": "/run.sh"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/HiPKI_Root_CA_-_G1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-pyroscope-datasource/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/NativeSearch/TagsField"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table-old/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/jaeger/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/nodeGraph"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/MetricAggregationsEditor/SettingsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/logs/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components/metrics-modal/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/logs/completion"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/utils"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt"
+            },
+            {
+              "path": "/dev/urandom"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/parca/plugin.json"
+            },
+            {
+              "path": "/var/lib/grafana/alerting/1/silences"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/layers"
+            },
+            {
+              "path": "/etc/ssl/certs/ca-certificates.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/migrations"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/alertmanager/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/SearchTraceQLEditor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/overrides"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/opentsdb/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/HARICA_TLS_RSA_Root_CA_2021.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-postgresql-datasource/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SecureTrust_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/emSign_ECC_Root_CA_-_C3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph/specs/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/state-timeline"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql-test-data"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/status-history/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/barchart/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/migrations"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/annolist/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/shared"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mixed"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/datagrid"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt"
+            },
+            {
+              "path": "/var/lib/grafana/alerting"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table-old/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/editor/element"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/MetricAggregationsEditor/SettingsEditor/BucketScriptSettingsEditor/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/dashboards"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/nodeGraph/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/plugins/annotations"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/flamegraph/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/text"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/HARICA_TLS_ECC_Root_CA_2021.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_TLS_ECC_P384_Root_G5.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table/img"
+            },
+            {
+              "path": "/etc/resolv.conf"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/components/monaco-query-field"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/flamegraph/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/E-Tugra_Global_Root_CA_RSA_v3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/influxql/hooks"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mixed/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/news/fixtures"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/opentsdb/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/nodeGraph/editor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/ResourcePicker"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/migrations"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/shared"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/zipkin/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/signup_started.html"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-pyroscope-datasource"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/piechart/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gauge/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/conf/defaults.ini"
+            },
+            {
+              "path": "/usr/share/grafana/bin/grafana"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/layers/basemaps"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/opentsdb/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__/monarch"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_TLS_RSA4096_Root_G5.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/flamegraph"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/variable"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certigna.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/heatmap/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Telia_Root_CA_v2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/text/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/xychart/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mssql/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mysql"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mysql/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/cloudwatch-logs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gauge"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table-old"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/dashboard"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/reset_password.txt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-pyroscope-datasource/pyroscopeql"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R6.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/welcome_on_signup.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/dashlist"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/zipkin/img"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/azureMetadata"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertGroups/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/views/error.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/resources"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/NativeSearch"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/dashboard/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/components/monaco-query-field"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertlist/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certum_EC-384_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/status-history"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/datagrid/img"
+            },
+            {
+              "path": "/var/lib/grafana/alerting/1/silences.3efe98209c9df50f"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-postgresql-datasource"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/components/connections"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Security_Communication_ECC_RootCA1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/views"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TrustCor_ECA-1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/barchart/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt"
+            },
+            {
+              "path": "/var/lib/grafana/png"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/traceql"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/welcome/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/e-Szigno_Root_CA_2017.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/flux"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/editor/inline"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/nodeGraph/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertlist/unified-alerting"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/welcome_on_signup.txt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/annotation"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/parca/QueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/heatmap/partials"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/D-TRUST_BR_Root_CA_1_2020.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/new_user_invite.txt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/stat/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_R46.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components/promQail/resources"
+            },
+            {
+              "path": "/etc/ssl/certs"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/TracesQueryEditor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt"
+            },
+            {
+              "path": "/etc/grafana/grafana.ini"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/zipkin/utils"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components/metrics-modal"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/candlestick/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G4.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/utils/rxjs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/cloudwatch-sql"
+            },
+            {
+              "path": "/var/lib/grafana/grafana.db"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mssql/azureauth"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/MetricAggregationsEditor/SettingsEditor/BucketScriptSettingsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components"
+            },
+            {
+              "path": "/var/lib/grafana/alerting/1/__default__.tmpl"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/influxql"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/xychart"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/jaeger"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/live"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/metric-math/completion"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/ng_alert_notification.txt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/stat/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/editor/layer"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/resourcePicker"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/alertmanager/img"
+            },
+            {
+              "path": "/proc/*/stat"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/shared/Dimensions"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/new_user_invite.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/influxql/utils"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-pyroscope-datasource/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/BJCA_Global_Root_CA2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/plugins"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/configuration/overhaul"
+            },
+            {
+              "path": "/usr/share/grafana/public/views/index.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/jaeger/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/dashlist/plugin.json"
+            },
+            {
+              "path": "/etc/nsswitch.conf"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/UCA_Extended_Validation_Root.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/stat"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_E46.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gauge/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/datagrid/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/debug/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/NAVER_Global_Root_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mysql/configuration"
+            },
+            {
+              "path": "/var/lib/grafana/plugins"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/components/promQail"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gettingstarted/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/dashboard/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/alert_notification.html"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Security_Communication_RootCA3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/annolist"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/bargauge"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/live/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/MetricAggregationsEditor/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/welcome"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/news/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/config"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/heatmap/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/__mocks__"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/vTrus_ECC_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/dashboards"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/barchart"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/influxql/visual"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/MetaInspector"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/BucketAggregationsEditor/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-postgresql-datasource/img"
+            },
+            {
+              "path": "/etc/grafana/provisioning/notifiers"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table/cells"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/trend/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/alertmanager"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/MetricsQueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/influxql/code"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/news/component"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GTS_Root_R4.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/opentsdb"
+            },
+            {
+              "path": "/var/lib/grafana/csv"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gettingstarted"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gauge/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/QueryEditor/LogsQueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/histogram"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gettingstarted/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GLOBALTRUST_2020.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/emSign_Root_CA_-_C1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/QueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/azure_resource_graph"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Trustwave_Global_ECC_P384_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mssql/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/BucketAggregationsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mysql/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/state-timeline/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/piechart"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/types"
+            },
+            {
+              "path": "/var/lib/grafana"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certainly_Root_E1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/news/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/candlestick"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/BucketAggregationsEditor/SettingsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/configuration"
+            },
+            {
+              "path": "/etc/grafana/provisioning/plugins"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/layers/data"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/e2e"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/heatmap"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/dist"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/LogsQueryEditor"
+            },
+            {
+              "path": "/etc/grafana/provisioning/datasources"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertlist/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/dynamic-labels"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mysql/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/dashboards"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/docs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/heatmap/tooltip"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/dashboards"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/editor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/ANF_Secure_Server_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/components/monaco-query-field/monaco-completion-provider"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/components/__snapshots__"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/parca"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/debug/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/histogram/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertGroups"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/ConfigEditor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/hooks"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/E-Tugra_Global_Root_CA_ECC_v3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mixed/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/shared/MetricStatEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo"
+            },
+            {
+              "path": "/var/lib/grafana/grafana.db-journal"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/BJCA_Global_Root_CA1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/traces"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/gettingstarted/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/dashboards"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/utils"
+            },
+            {
+              "path": "/proc/stat"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/xychart/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/alert_notification.txt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/ResourceField"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/dist/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/plugin.json"
+            },
+            {
+              "path": "/usr/lib/libncursesw.so.6.4"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/hooks"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/state-timeline/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/CheatSheet"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certigna_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/style"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querybuilder/shared/hooks"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/querybuilder"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Microsoft_RSA_Root_Certificate_Authority_2017.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/reset_password.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/querybuilder/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/querycache"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/VariableQueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/tempo/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/traces/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/MetricAggregationsEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/components/monaco-query-field/monaco-completion-provider"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/VariableEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/barchart/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/shared/LogGroups"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/UCA_Global_G2_Root.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/traces/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/language/monarch"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/dashboards"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-2.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor/query/fsql"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/bargauge/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/influxdb/components/editor"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/invited_to_org.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/azure_log_analytics"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/certSIGN_Root_CA_G2.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Microsoft_ECC_Root_Certificate_Authority_2017.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/mssql"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table-old/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/dashlist/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/components/ArgQueryEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch"
+            },
+            {
+              "path": "/etc/grafana/provisioning/alerting"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/components/QueryEditor/BucketAggregationsEditor/SettingsEditor/FiltersSettingsEditor/state"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/prometheus/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/geomap/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/logs/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/elasticsearch/test-helpers"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__/dynamic-label-test-data"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/histogram/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/welcome/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/alertlist"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/parca/lang"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/__mocks__"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/TunTrust_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/status-history/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_RSA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana/components"
+            },
+            {
+              "path": "/etc/grafana/provisioning/dashboards"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Certainly_Root_R1.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana-testdata-datasource/components"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/alert_notification_example.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/text/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/live/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/trend/plugin.json"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/GTS_Root_R3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/QueryEditor/MetricsQueryEditor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_3.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table/plugin.json"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/opentsdb/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/canvas/editor"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/emSign_ECC_Root_CA_-_G3.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/graphite/specs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/bargauge/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/azure_log_analytics/__mocks__"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/zipkin"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_ECC.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/logs"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/graph/Legend"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/components/QueryEditor/MetricsQueryEditor/SQLBuilderEditor"
+            },
+            {
+              "path": "/usr/share/grafana/public/emails/ng_alert_notification.html"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/table"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Secure_Global_CA.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/grafana"
+            },
+            {
+              "path": "/usr/share/grafana/public/img/user_profile.png"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/timeseries/__snapshots__"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloud-monitoring/img"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/configuration"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/panel/trend"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/Trustwave_Global_ECC_P256_Certification_Authority.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-logs-test-data"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/loki/img"
+            },
+            {
+              "path": "/usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt"
+            },
+            {
+              "path": "/usr/share/grafana/public/app/plugins/datasource/azuremonitor/__mocks__"
+            }
+          ],
+          "connections": [
+            {
+              "address": "185.199.111.133",
+              "hostname": "raw.githubusercontent.com",
+              "port": 443
+            },
+            {
+              "address": "34.120.177.193",
+              "hostname": "grafana.com",
+              "port": 443
+            },
+            {
+              "address": "35.241.23.245",
+              "hostname": "grafana.net",
+              "port": 443
+            }
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "registry.k8s.io/ingress-nginx/controller",
+  "RepoTags": [
+    "registry.k8s.io/ingress-nginx/controller:v1.9.4"
+  ],
+  "Id": "5b161f051d017e55d358435f295f5e9a297e66158f136321d9b04520ec6c48a3",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
+}

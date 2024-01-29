@@ -1,0 +1,85 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "kubernetes-dashboard",
+      "imageName": "docker.io/kubernetesui/dashboard:v2.6.1",
+      "imageDigest": "sha256:290bebc3cd96c22b6f89e7b21f5c2b16ce5c275a0ec2c2de10e0d8b9dd110289",
+      "entrypoint": {
+        "process": {
+          "uid": 1001,
+          "gid": 2001,
+          "programs": [
+            {
+              "comm": "dashboard",
+              "args": [
+                "/dashboard",
+                "--insecure-bind-address=0.0.0.0",
+                "--bind-address=0.0.0.0",
+                "--namespace=kubernetes-dashboard",
+                "--auto-generate-certificates",
+                "--metrics-provider=none"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/public/en/assets/images/kubernetes-logo.png"
+            },
+            {
+              "path": "/public/en/assets/config/config.json"
+            },
+            {
+              "path": "/tmp/dashboard.kubernetes-dashboard-*"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/public/en"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+            },
+            {
+              "path": "/locale_conf.json"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/public/en/index.html"
+            },
+            {
+              "path": "/public/en/*.js"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/token"
+            },
+            {
+              "path": "/dashboard"
+            }
+          ],
+          "connections": [
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

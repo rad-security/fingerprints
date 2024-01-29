@@ -1,0 +1,3120 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "postgresql",
+      "imageName": "docker.io/bitnami/postgresql:14.5.0-debian-11-r35",
+      "imageDigest": "sha256:f80798b4d43cb41567a98e989772563a9d3d8e98859bb394a0e4f2ad2cefade1",
+      "entrypoint": {
+        "process": {
+          "uid": 1001,
+          "gid": 0,
+          "children": [
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "hostname",
+                  "args": [
+                    "/bin/hostname",
+                    "--fqdn"
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "id",
+                  "args": [
+                    "/usr/bin/id",
+                    "-u"
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "touch",
+                  "args": [
+                    "/usr/bin/touch",
+                    "/opt/bitnami/postgresql/tmp/.initialized"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/tmp/.initialized"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "id",
+                  "args": [
+                    "/usr/bin/id",
+                    "-u"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "entrypoint.sh",
+              "args": [
+                "/opt/bitnami/scripts/postgresql/entrypoint.sh",
+                "/opt/bitnami/scripts/postgresql/run.sh"
+              ]
+            },
+            {
+              "comm": "run.sh",
+              "args": [
+                "/opt/bitnami/scripts/postgresql/run.sh"
+              ]
+            },
+            {
+              "comm": "postgres",
+              "args": [
+                "/opt/bitnami/postgresql/bin/postgres",
+                "-D",
+                "/bitnami/postgresql/data",
+                "--config-file=/opt/bitnami/postgresql/conf/postgresql.conf",
+                "--external_pid_file=/opt/bitnami/postgresql/tmp/postgresql.pid",
+                "--hba_file=/opt/bitnami/postgresql/conf/pg_hba.conf"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/tmp/tmp.saST7b5YTZ"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libnet.sh"
+            },
+            {
+              "path": "/bitnami/postgresql/data/base/13759"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libicui18n.so.67.1"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/share/timezonesets/Default"
+            },
+            {
+              "path": "/bitnami/postgresql/data/base/13758"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/lib"
+            },
+            {
+              "path": "/dev/shm/PostgreSQL.4214796502"
+            },
+            {
+              "path": "/etc/host.conf"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+            },
+            {
+              "path": "/bitnami/postgresql/data/postmaster.opts"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+            },
+            {
+              "path": "/opt/bitnami/scripts/postgresql/entrypoint.sh"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/conf/conf.d"
+            },
+            {
+              "path": "/etc/hosts"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+            },
+            {
+              "path": "/usr/lib/locale/locale-archive"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libservice.sh"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libos.sh"
+            },
+            {
+              "path": "/bitnami/postgresql/data/pg_ident.conf"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/lib/pgaudit.so"
+            },
+            {
+              "path": "/bitnami/postgresql/data/postmaster.pid"
+            },
+            {
+              "path": "/etc/gai.conf"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libfs.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libicudata.so.67.1"
+            },
+            {
+              "path": "/bitnami/postgresql/data/pg_notify"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libvalidations.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10"
+            },
+            {
+              "path": "/bitnami/postgresql/data/postgresql.auto.conf"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/conf/pg_hba.conf"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libicuuc.so.67.1"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/tmp/postgresql.pid"
+            },
+            {
+              "path": "/bitnami/postgresql/data/base"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+            },
+            {
+              "path": "/bitnami/postgresql/data/pg_tblspc"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libbitnami.sh"
+            },
+            {
+              "path": "/bitnami/postgresql/data/PG_VERSION"
+            },
+            {
+              "path": "/etc/ld.so.cache"
+            },
+            {
+              "path": "/opt/bitnami/scripts/postgresql-env.sh"
+            },
+            {
+              "path": "/etc/nsswitch.conf"
+            },
+            {
+              "path": "/bitnami/postgresql/data/global/pg_control"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+            },
+            {
+              "path": "/bitnami/postgresql/data/base/1"
+            },
+            {
+              "path": "/opt/bitnami/scripts/postgresql/run.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/tmp/.s.PGSQL.5432.lock"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libfile.sh"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+            },
+            {
+              "path": "/proc/meminfo"
+            },
+            {
+              "path": "/opt/bitnami/scripts/libpostgresql.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+            },
+            {
+              "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+            },
+            {
+              "path": "/opt/bitnami/scripts/liblog.sh"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+            },
+            {
+              "path": "/etc/locale.alias"
+            },
+            {
+              "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+            },
+            {
+              "path": "/etc/resolv.conf"
+            }
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "children": [
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "id",
+                  "args": [
+                    "/usr/bin/id",
+                    "-u"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "children": [
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "children": [
+                    {
+                      "uid": 1001,
+                      "gid": 0,
+                      "programs": [
+                        {
+                          "comm": "postgres",
+                          "args": [
+                            "/opt/bitnami/postgresql/bin/postgres",
+                            "-V"
+                          ]
+                        }
+                      ],
+                      "files": [
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libicudata.so.67.1"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libicuuc.so.67.1"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libicui18n.so.67.1"
+                        },
+                        {
+                          "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+                        },
+                        {
+                          "path": "/etc/ld.so.cache"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                        },
+                        {
+                          "path": "/usr/lib/locale/locale-archive"
+                        },
+                        {
+                          "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                        },
+                        {
+                          "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                        }
+                      ]
+                    }
+                  ],
+                  "programs": [
+                    {
+                      "comm": "sh",
+                      "args": [
+                        "/bin/sh",
+                        "-c",
+                        "\"/opt/bitnami/postgresql/bin/postgres\" -V"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    }
+                  ]
+                },
+                {
+                  "uid": 1001,
+                  "gid": 0,
+                  "programs": [
+                    {
+                      "comm": "sh",
+                      "args": [
+                        "/bin/sh",
+                        "-c",
+                        "exec \"/opt/bitnami/postgresql/bin/postgres\" -D \"/bitnami/postgresql/data\" --config-file=/opt/bitnami/postgresql/conf/postgresql"
+                      ]
+                    },
+                    {
+                      "comm": "postgres",
+                      "args": [
+                        "/opt/bitnami/postgresql/bin/postgres",
+                        "-D",
+                        "/bitnami/postgresql/data",
+                        "--config-file=/opt/bitnami/postgresql/conf/postgresql.conf",
+                        "--external_pid_file=/opt/bitnami/postgresql/tmp/postgresql.pid",
+                        "--hba_file=/opt/bitnami/postgresql/conf/pg_hba.conf"
+                      ]
+                    }
+                  ],
+                  "files": [
+                    {
+                      "path": "/bitnami/postgresql/data/postmaster.pid"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/pg_notify"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/lib"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/postgresql.auto.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/conf/conf.d"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                    },
+                    {
+                      "path": "/etc/hosts"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libz.so.1.2.11"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/librt-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                    },
+                    {
+                      "path": "/proc/meminfo"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libicui18n.so.67.1"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/PG_VERSION"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                    },
+                    {
+                      "path": "/dev/null"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/tmp/postgresql.pid"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/pg_ident.conf"
+                    },
+                    {
+                      "path": "/etc/host.conf"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/base/13759"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                    },
+                    {
+                      "path": "/etc/ld.so.cache"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                    },
+                    {
+                      "path": "/usr/lib/locale/locale-archive"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/base"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/conf/pg_hba.conf"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/liblzma.so.5.2.5"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/postmaster.opts"
+                    },
+                    {
+                      "path": "/tmp/.s.PGSQL.5432.lock"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libicuuc.so.67.1"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libicudata.so.67.1"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/base/1"
+                    },
+                    {
+                      "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/base/13758"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/global/pg_control"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                    },
+                    {
+                      "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                    },
+                    {
+                      "path": "/etc/nsswitch.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                    },
+                    {
+                      "path": "/etc/resolv.conf"
+                    },
+                    {
+                      "path": "/etc/gai.conf"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                    },
+                    {
+                      "path": "/dev/shm/PostgreSQL.3019588184"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28"
+                    },
+                    {
+                      "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                    },
+                    {
+                      "path": "/bitnami/postgresql/data/pg_tblspc"
+                    },
+                    {
+                      "path": "/opt/bitnami/postgresql/share/timezonesets/Default"
+                    }
+                  ]
+                }
+              ],
+              "programs": [
+                {
+                  "comm": "pg_ctl",
+                  "args": [
+                    "/opt/bitnami/postgresql/bin/pg_ctl",
+                    "start",
+                    "-w",
+                    "-D",
+                    "/bitnami/postgresql/data",
+                    "-l",
+                    "/opt/bitnami/postgresql/logs/postgresql.log",
+                    "-o",
+                    "--config-file=/opt/bitnami/postgresql/conf/postgresql.conf --external_pid_file=/opt/bitnami/postgresql/tmp/postgresql.pid --hba"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/dev/null"
+                },
+                {
+                  "path": "/bitnami/postgresql/data/PG_VERSION"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/bitnami/postgresql/data/postgresql.conf"
+                },
+                {
+                  "path": "/bitnami/postgresql/data/postmaster.pid"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "pg_isready",
+                  "args": [
+                    "/opt/bitnami/postgresql/bin/pg_isready",
+                    "-U",
+                    "postgres",
+                    "-p",
+                    "5432"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/lib/libpq.so.5.14"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                },
+                {
+                  "path": "/tmp/tmp.saST7b5YTZ"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "psql",
+                  "args": [
+                    "/opt/bitnami/postgresql/bin/psql",
+                    "-U",
+                    "postgres",
+                    "-p",
+                    "5432"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libbsd.so.0.11.3"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/tmp/tmp.saST7b5YTZ"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libmd.so.0.0.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/lib/libpq.so.5.14"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libedit.so.2.0.63"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001trust\u0001md5\u0001g",
+                    "/opt/bitnami/postgresql/conf/pg_hba.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/pg_hba.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "psql",
+                  "args": [
+                    "/opt/bitnami/postgresql/bin/psql",
+                    "--version"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libedit.so.2.0.63"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.29.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.3.7"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.4"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.4"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.11.5"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libmd.so.0.0.4"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libresolv-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/lib/libpq.so.5.14"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libbsd.so.0.11.3"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.11.5"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-oE",
+                    "[0-9]+\\.[0-9]+"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-oE",
+                    "^[0-9]+"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*wal_level",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*wal_level\\s*=.*\u0001wal_level = 'replica'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*max_wal_size",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*max_wal_size\\s*=.*\u0001max_wal_size = '400MB'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*max_wal_senders",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*max_wal_senders\\s*=.*\u0001max_wal_senders = '16'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*wal_keep_size",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*wal_keep_size\\s*=.*\u0001wal_keep_size = '128MB'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*hot_standby",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*hot_standby\\s*=.*\u0001hot_standby = 'on'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*fsync",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*fsync\\s*=.*\u0001fsync = 'on'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*shared_preload_libraries",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*shared_preload_libraries\\s*=.*\u0001shared_preload_libraries = 'pgaudit'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*pgaudit.log_catalog",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*log_connections",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*log_connections\\s*=.*\u0001log_connections = 'false'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*log_disconnections",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*log_disconnections\\s*=.*\u0001log_disconnections = 'false'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*log_hostname",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*log_hostname\\s*=.*\u0001log_hostname = 'false'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*client_min_messages",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*client_min_messages\\s*=.*\u0001client_min_messages = 'error'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "rm",
+                  "args": [
+                    "/bin/rm",
+                    "-f",
+                    "/bitnami/postgresql/data/postgresql.conf",
+                    "/bitnami/postgresql/data/pg_hba.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "find",
+                  "args": [
+                    "/usr/bin/find",
+                    "/docker-entrypoint-initdb.d/",
+                    "-type",
+                    "f",
+                    "-regex",
+                    ".*\\.\\(sh\\|sql\\|sql.gz\\)"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/docker-entrypoint-initdb.d"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "grep",
+                  "args": [
+                    "/bin/grep",
+                    "-qE",
+                    "^#*\\s*listen_addresses",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/etc/locale.alias"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "sed",
+                  "args": [
+                    "/bin/sed",
+                    "s\u0001^#*\\s*listen_addresses\\s*=.*\u0001listen_addresses = '*'\u0001g",
+                    "/opt/bitnami/postgresql/conf/postgresql.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/opt/bitnami/postgresql/conf/postgresql.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "date",
+                  "args": [
+                    "/bin/date",
+                    "+%T.%2N "
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/share/zoneinfo/Etc/UTC"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "id",
+                  "args": [
+                    "/usr/bin/id",
+                    "-u"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "pg_ctl",
+                  "args": [
+                    "/opt/bitnami/postgresql/bin/pg_ctl",
+                    "stop",
+                    "-w",
+                    "-D",
+                    "/bitnami/postgresql/data",
+                    "-m",
+                    "fast",
+                    "-t",
+                    "60"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/bitnami/postgresql/data/postmaster.pid"
+                },
+                {
+                  "path": "/opt/bitnami/common/lib/libnss_wrapper.so.0.3.2"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/usr/lib/locale/locale-archive"
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

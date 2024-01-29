@@ -1,0 +1,8 @@
+{
+  "Name": "bitnami/postgresql",
+  "RepoTags": [
+    "bitnami/postgresql:15.4.0-debian-11-r45"
+  ],
+  "Id": "5dba7e6a514d5d628d484d23212dcaf3d7c5816af1d4970649547a03a99f78dc",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1280px-Postgresql_elephant.svg.png"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "kubernetesui/dashboard",
+  "RepoTags": [
+    "kubernetesui/dashboard:v2.7.0"
+  ],
+  "Id": "2e500d29e9d5f4a086b908eb8dfe7ecac57d2ab09d65b24f588b1d449841ef93",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg"
+}

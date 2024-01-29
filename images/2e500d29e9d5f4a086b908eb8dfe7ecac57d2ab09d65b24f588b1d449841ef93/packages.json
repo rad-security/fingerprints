@@ -1,0 +1,2556 @@
+{
+  "artifacts": [
+    {
+      "id": "7a739cba3bae07b4",
+      "name": "github.com/beorn7/perks",
+      "version": "v1.0.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "a43d8ceda0aff279",
+      "name": "github.com/cespare/xxhash/v2",
+      "version": "v2.1.2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.2:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "67f93c7f7a7bde57",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+        "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "2ed0bbdeace145e7",
+      "name": "github.com/docker/distribution",
+      "version": "v2.8.1+incompatible",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:docker:distribution:v2.8.1\\+incompatible:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/docker/distribution@v2.8.1+incompatible",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:Q50tZOPR6T/hjNsyc9g8/syEs6bk8XXApsHjKukMl68=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "f0e4d981197b6cfb",
+      "name": "github.com/emicklei/go-restful/v3",
+      "version": "v3.8.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:emicklei:go-restful\\/v3:v3.8.0:*:*:*:*:*:*:*",
+        "cpe:2.3:a:emicklei:go_restful\\/v3:v3.8.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/emicklei/go-restful/v3@v3.8.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:eCZ8ulSerjdAiaNpF7GxXIE7ZCMo1moN1qX+S609eVw=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "c905cd3de1949be0",
+      "name": "github.com/go-logr/logr",
+      "version": "v1.2.3",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:go-logr:logr:v1.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go_logr:logr:v1.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go:logr:v1.2.3:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/go-logr/logr@v1.2.3",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:2DntVwHkVopvECVRSlL5PSo9eG+cAkDCuckLubN+rq0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "49d7839095a7d345",
+      "name": "github.com/go-openapi/jsonpointer",
+      "version": "v0.19.5",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "777438f3f7ccbdc8",
+      "name": "github.com/go-openapi/jsonreference",
+      "version": "v0.20.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:go-openapi:jsonreference:v0.20.0:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go_openapi:jsonreference:v0.20.0:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go:jsonreference:v0.20.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/jsonreference@v0.20.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:MYlu0sBgChmCfJxxUKZ8g1cPWFOB37YSZqewK7OKeyA=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "38c37014d4ad75c2",
+      "name": "github.com/go-openapi/swag",
+      "version": "v0.21.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:go-openapi:swag:v0.21.1:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go_openapi:swag:v0.21.1:*:*:*:*:*:*:*",
+        "cpe:2.3:a:go:swag:v0.21.1:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag@v0.21.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:wm0rhTb5z7qpJRHBdPOMuY4QjVUMbF6/kwoYeRAOrKU=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "cc8c5ac5a960a1e0",
+      "name": "github.com/gogo/protobuf",
+      "version": "v1.3.2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "f5598d41ad32a748",
+      "name": "github.com/golang/glog",
+      "version": "v1.0.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:glog:v1.0.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/golang/glog@v1.0.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:nfP3RFugxnNRyKgeWd4oI1nYvXpxrx8ck8ZrcizshdQ=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "03e8bcd882613372",
+      "name": "github.com/golang/protobuf",
+      "version": "v1.5.2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "be58eaaf914b2ec7",
+      "name": "github.com/google/gnostic",
+      "version": "v0.6.9",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:google:gnostic:v0.6.9:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/google/gnostic@v0.6.9",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:ZK/5VhkoX835RikCHpSUJV9a+S3e1zLh59YnyWeBW+0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "8174b1677f114278",
+      "name": "github.com/google/gofuzz",
+      "version": "v1.2.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/google/gofuzz@v1.2.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "f67aac0be424d8bb",
+      "name": "github.com/gorilla/websocket",
+      "version": "v1.5.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:gorilla:websocket:v1.5.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/gorilla/websocket@v1.5.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "a21e73f99951624c",
+      "name": "github.com/imdario/mergo",
+      "version": "v0.3.13",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:imdario:mergo:v0.3.13:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/imdario/mergo@v0.3.13",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:lFzP57bqS/wsqKssCGmtLAb8A0wKjLGrve2q3PPVcBk=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "0377c4de1e939b5d",
+      "name": "github.com/josharian/intern",
+      "version": "v1.0.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/josharian/intern@v1.0.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "8b7a1bb59b75fcc0",
+      "name": "github.com/json-iterator/go",
+      "version": "v1.1.12",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
+        "cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*",
+        "cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "9a6c2ecad5fc63f6",
+      "name": "github.com/kubernetes/dashboard",
+      "version": "v2.7.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:kubernetes:dashboard:v2.7.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/kubernetes/dashboard@v2.7.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goBuildSettings": {
+          "-compiler": "gc",
+          "-ldflags": "-X github.com/kubernetes/dashboard/src/app/backend/client.Version=v2.7.0",
+          "CGO_ENABLED": "0",
+          "GOAMD64": "v1",
+          "GOARCH": "amd64",
+          "GOOS": "linux",
+          "vcs": "git",
+          "vcs.modified": "false",
+          "vcs.revision": "42deb6b32a27296ac47d1f9839a68fab6053e5fc",
+          "vcs.time": "2022-09-16T11:33:19Z"
+        },
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "4223ee18d5d323c3",
+      "name": "github.com/mailru/easyjson",
+      "version": "v0.7.7",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/mailru/easyjson@v0.7.7",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "02b4bd5b814372a3",
+      "name": "github.com/matttproud/golang_protobuf_extensions",
+      "version": "v1.0.2-0.20181231171920-c182affec369",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*",
+        "cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "7c7eaaa58f0c1951",
+      "name": "github.com/moby/spdystream",
+      "version": "v0.2.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/moby/spdystream@v0.2.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:cjW1zVyyoiM0T7b6UoySUFqzXMoqRckQtXwGPiBhOM8=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "9fab22f3c112061e",
+      "name": "github.com/modern-go/concurrent",
+      "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+        "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+        "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "3f3bf64f9868771b",
+      "name": "github.com/modern-go/reflect2",
+      "version": "v1.0.2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+        "cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+        "cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "7e7857179ada1eaf",
+      "name": "github.com/munnerz/goautoneg",
+      "version": "v0.0.0-20191010083416-a7dc8b61c822",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "883e9e71f35e3548",
+      "name": "github.com/opencontainers/go-digest",
+      "version": "v1.0.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:opencontainers:go-digest:v1.0.0:*:*:*:*:*:*:*",
+        "cpe:2.3:a:opencontainers:go_digest:v1.0.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "cfa8f63425d2c729",
+      "name": "github.com/prometheus/client_golang",
+      "version": "v1.12.2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:prometheus:client-golang:v1.12.2:*:*:*:*:*:*:*",
+        "cpe:2.3:a:prometheus:client_golang:v1.12.2:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.12.2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:51L9cDoUHVrXx4zWYlcLQIZ+d+VXHgqnYKkIuq4g/34=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "84fe3deee3778b9f",
+      "name": "github.com/prometheus/client_model",
+      "version": "v0.2.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*",
+        "cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/client_model@v0.2.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "2439d7edfc508bc2",
+      "name": "github.com/prometheus/common",
+      "version": "v0.34.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:prometheus:common:v0.34.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/common@v0.34.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:RBmGO9d/FVjqHT0yUGQwBJhkwKV+wPCn7KGpvfab0uE=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "5ed14ad1477c4ed9",
+      "name": "github.com/prometheus/procfs",
+      "version": "v0.7.3",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/procfs@v0.7.3",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "d2e5a431fa5f8535",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "bb9a752f068e9c1a",
+      "name": "golang.org/x/crypto",
+      "version": "v0.0.0-20220525230936-793ad666bf5e",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20220525230936-793ad666bf5e:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20220525230936-793ad666bf5e",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:T8NU3HyQ8ClP4SEE+KbFlg6n0NhuTsN4MyznaarGsZM=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "b92112e036edfaf1",
+      "name": "golang.org/x/net",
+      "version": "v0.0.0-20220722155237-a158d28d115b",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/net:v0.0.0-20220722155237-a158d28d115b:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.0.0-20220722155237-a158d28d115b",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:PxfKdU9lEEDYjdIzOtC4qFWgkU2rGHdKlKowJSMN9h0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "ebb067004716c077",
+      "name": "golang.org/x/oauth2",
+      "version": "v0.0.0-20220524215830-622c5d57e401",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/oauth2:v0.0.0-20220524215830-622c5d57e401:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/oauth2@v0.0.0-20220524215830-622c5d57e401",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:zwrSfklXn0gxyLRX/aR+q6cgHbV/ItVyzbPlbA+dkAw=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "32a64dac7f0acb0f",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20220722155257-8c9f86f7a55f",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220722155257-8c9f86f7a55f:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220722155257-8c9f86f7a55f",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:v4INt8xihDGvnrfjMDVXGxw9wrfxYyCjk0KbXjhR55s=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "906b01de9a86c1ea",
+      "name": "golang.org/x/term",
+      "version": "v0.0.0-20220526004731-065cf7ba2467",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/term:v0.0.0-20220526004731-065cf7ba2467:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/term@v0.0.0-20220526004731-065cf7ba2467",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:CBpWXWQpIRjzmkkA+M7q9Fqnwd2mZr3AFqexg8YTfoM=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "d39bce4eb41402fa",
+      "name": "golang.org/x/text",
+      "version": "v0.3.7",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/text:v0.3.7:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.3.7",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "25edf7926ddeb0c1",
+      "name": "golang.org/x/time",
+      "version": "v0.0.0-20220411224347-583f2d630306",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:x\\/time:v0.0.0-20220411224347-583f2d630306:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/golang.org/x/time@v0.0.0-20220411224347-583f2d630306",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:+gHMid33q6pen7kv9xvT+JRinntgeXO2AeZVd0AWD3w=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "562c3ab45737a536",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.28.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:google:protobuf:v1.28.0:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.28.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:w43yiav+6bVFTBQFZX0r7ipe9JQ1QsbMgHwbBziscLw=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "80bfcffcbb198b7f",
+      "name": "gopkg.in/igm/sockjs-go.v2",
+      "version": "v2.1.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/gopkg.in/igm/sockjs-go.v2@v2.1.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:Ehqymxnfkkwi8R7SZIUARn77M0slA8vki0VgcfOdALw=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "458da656b8ef02ef",
+      "name": "gopkg.in/inf.v0",
+      "version": "v0.9.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "23036f60f0274436",
+      "name": "gopkg.in/square/go-jose.v2",
+      "version": "v2.6.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:NGk74WTnPKBNUhNzQX7PYcTLUjoq7mzKk2OKbvwk2iI=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "fa75e5d3c3eecce9",
+      "name": "gopkg.in/yaml.v2",
+      "version": "v2.4.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "66190fdf187b5730",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "07ebd374569db457",
+      "name": "k8s.io/api",
+      "version": "v0.25.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/api@v0.25.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:H+Q4ma2U/ww0iGB78ijZx6DRByPz6/733jIuFpX70e0=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "5b0777a2a737db5b",
+      "name": "k8s.io/apiextensions-apiserver",
+      "version": "v0.25.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/apiextensions-apiserver@v0.25.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:CJ9zlyXAbq0FIW8CD7HHyozCMBpDSiH7EdrSTCZcZFY=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "8e4a9026e402e21f",
+      "name": "k8s.io/apimachinery",
+      "version": "v0.25.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/apimachinery@v0.25.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:MlP0r6+3XbkUG2itd6vp3oxbtdQLQI94fD5gCS+gnoU=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "bf9cd428cc24df10",
+      "name": "k8s.io/client-go",
+      "version": "v0.25.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/client-go@v0.25.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:CVWIaCETLMBNiTUta3d5nzRbXvY5Hy9Dpl+VvREpu5E=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "ecc6927035ca097d",
+      "name": "k8s.io/klog/v2",
+      "version": "v2.70.1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:klog:v2:v2.70.1:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/k8s.io/klog/v2@v2.70.1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:7aaoSdahviPmR+XkS7FyxlkkXs6tHISSG03RxleQAVQ=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "f31f924b4c086aa0",
+      "name": "k8s.io/kube-openapi",
+      "version": "v0.0.0-20220803162953-67bda5d908f1",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20220803162953-67bda5d908f1",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:MQ8BAZPZlWk3S9K4a9NCkIFQtZShWqoha7snGixVgEA=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "0d7c8e526372ab36",
+      "name": "k8s.io/utils",
+      "version": "v0.0.0-20220728103510-ee6ede2d64ed",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/k8s.io/utils@v0.0.0-20220728103510-ee6ede2d64ed",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:jAne/RjBTyawwAy0utX5eqigAwz/lQhTmy+Hr/Cpue4=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "bfe78584bbf99865",
+      "name": "sigs.k8s.io/json",
+      "version": "v0.0.0-20220713155537-f223a00ba0e2",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20220713155537-f223a00ba0e2",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:iXTIw73aPyC+oRdyqqvVJuloN1p0AC/kzH07hu3NE+k=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "62502dacf6343938",
+      "name": "sigs.k8s.io/structured-merge-diff/v4",
+      "version": "v4.2.3",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:structured-merge-diff:v4:v4.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:structured_merge_diff:v4:v4.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:structured-merge:v4:v4.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:structured_merge:v4:v4.2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:a:structured:v4:v4.2.3:*:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.3",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:PRbqxJClWWYMNV1dhaG4NsibJbArud9kFxnAMREiWFE=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "7ab4ded9d8de6b99",
+      "name": "sigs.k8s.io/yaml",
+      "version": "v1.3.0",
+      "type": "go-module",
+      "foundBy": "go-module-binary-cataloger",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/sigs.k8s.io/yaml@v1.3.0",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": "amd64",
+        "h1Digest": "h1:a2VclLzOGrwOHDiV8EfBGhvjHvP46CtW5j6POvhYGGo=",
+        "mainModule": "github.com/kubernetes/dashboard",
+        "goCryptoSettings": [
+          "standard-crypto"
+        ]
+      }
+    },
+    {
+      "id": "f3648f27c50bd5ee",
+      "name": "stdlib",
+      "version": "go1.19",
+      "type": "go-module",
+      "foundBy": "",
+      "locations": [
+        {
+          "path": "/dashboard",
+          "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "accessPath": "/dashboard",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "BSD-3-Clause",
+          "spdxExpression": "BSD-3-Clause",
+          "type": "declared",
+          "urls": [],
+          "locations": []
+        }
+      ],
+      "language": "go",
+      "cpes": [
+        "cpe:2.3:a:golang:go:1.19:-:*:*:*:*:*:*"
+      ],
+      "purl": "pkg:golang/stdlib@1.19",
+      "metadataType": "go-module-buildinfo-entry",
+      "metadata": {
+        "goCompiledVersion": "go1.19",
+        "architecture": ""
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "02b4bd5b814372a3",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "0377c4de1e939b5d",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "03e8bcd882613372",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "07ebd374569db457",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "0d7c8e526372ab36",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "23036f60f0274436",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "2439d7edfc508bc2",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "25edf7926ddeb0c1",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "2ed0bbdeace145e7",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "32a64dac7f0acb0f",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "38c37014d4ad75c2",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "3f3bf64f9868771b",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "4223ee18d5d323c3",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "458da656b8ef02ef",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "49d7839095a7d345",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "02b4bd5b814372a3",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "0377c4de1e939b5d",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "03e8bcd882613372",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "07ebd374569db457",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "0d7c8e526372ab36",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "23036f60f0274436",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "2439d7edfc508bc2",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "25edf7926ddeb0c1",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "2ed0bbdeace145e7",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "32a64dac7f0acb0f",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "38c37014d4ad75c2",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "3f3bf64f9868771b",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "4223ee18d5d323c3",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "458da656b8ef02ef",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "49d7839095a7d345",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "562c3ab45737a536",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "5b0777a2a737db5b",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "5ed14ad1477c4ed9",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "62502dacf6343938",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "66190fdf187b5730",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "67f93c7f7a7bde57",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "777438f3f7ccbdc8",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "7a739cba3bae07b4",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "7ab4ded9d8de6b99",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "7c7eaaa58f0c1951",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "7e7857179ada1eaf",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "80bfcffcbb198b7f",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "8174b1677f114278",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "84fe3deee3778b9f",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "883e9e71f35e3548",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "8b7a1bb59b75fcc0",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "8e4a9026e402e21f",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "906b01de9a86c1ea",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "9a6c2ecad5fc63f6",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "9fab22f3c112061e",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "a21e73f99951624c",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "a43d8ceda0aff279",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "b92112e036edfaf1",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "bb9a752f068e9c1a",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "be58eaaf914b2ec7",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "bf9cd428cc24df10",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "bfe78584bbf99865",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "c905cd3de1949be0",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "cc8c5ac5a960a1e0",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "cfa8f63425d2c729",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "d2e5a431fa5f8535",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "d39bce4eb41402fa",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "ebb067004716c077",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "ecc6927035ca097d",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "f0e4d981197b6cfb",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "f31f924b4c086aa0",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "f3648f27c50bd5ee",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "f5598d41ad32a748",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "f67aac0be424d8bb",
+      "type": "contains"
+    },
+    {
+      "parent": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "child": "fa75e5d3c3eecce9",
+      "type": "contains"
+    },
+    {
+      "parent": "562c3ab45737a536",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "5b0777a2a737db5b",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "5ed14ad1477c4ed9",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "62502dacf6343938",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "66190fdf187b5730",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "67f93c7f7a7bde57",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "777438f3f7ccbdc8",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "7a739cba3bae07b4",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "7ab4ded9d8de6b99",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "7c7eaaa58f0c1951",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "7e7857179ada1eaf",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "80bfcffcbb198b7f",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "8174b1677f114278",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "84fe3deee3778b9f",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "883e9e71f35e3548",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "8b7a1bb59b75fcc0",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "8e4a9026e402e21f",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "906b01de9a86c1ea",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "9a6c2ecad5fc63f6",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "9fab22f3c112061e",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "a21e73f99951624c",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "a43d8ceda0aff279",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "b92112e036edfaf1",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "bb9a752f068e9c1a",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "be58eaaf914b2ec7",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "bf9cd428cc24df10",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "bfe78584bbf99865",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "c905cd3de1949be0",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "cc8c5ac5a960a1e0",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "cfa8f63425d2c729",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "d2e5a431fa5f8535",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "d39bce4eb41402fa",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "ebb067004716c077",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "ecc6927035ca097d",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f0e4d981197b6cfb",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f31f924b4c086aa0",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f3648f27c50bd5ee",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f5598d41ad32a748",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "f67aac0be424d8bb",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    },
+    {
+      "parent": "fa75e5d3c3eecce9",
+      "child": "2ea62a251373e294",
+      "type": "evident-by"
+    }
+  ],
+  "files": [
+    {
+      "id": "2ea62a251373e294",
+      "location": {
+        "path": "/dashboard",
+        "layerID": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07"
+      }
+    }
+  ],
+  "source": {
+    "id": "539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+    "name": "kubernetesui/dashboard",
+    "version": "v2.7.0",
+    "type": "image",
+    "metadata": {
+      "userInput": "kubernetesui/dashboard:v2.7.0",
+      "imageID": "sha256:07655ddf2eebe5d250f7a72c25f638b27126805d61779741b4e62e69ba080558",
+      "manifestDigest": "sha256:539cfbb8fa3f3e859b35909d4acbe728d64959f71bdfeba4ce2cdb34c1085bc9",
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "tags": [
+        "kubernetesui/dashboard:v2.7.0"
+      ],
+      "imageSize": 245710051,
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:bd8a70623766df659fac15bf8b5b42dd01bcbb9acf77c1287bec77dde4d13d07",
+          "size": 245709080
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:c88361932af56cdb9f867a88198866cea23150245c075619d57824a7f7571396",
+          "size": 971
+        }
+      ],
+      "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjoxNTU1LCJkaWdlc3QiOiJzaGEyNTY6MDc2NTVkZGYyZWViZTVkMjUwZjdhNzJjMjVmNjM4YjI3MTI2ODA1ZDYxNzc5NzQxYjRlNjJlNjliYTA4MDU1OCJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyNDkyMjIxNDQsImRpZ2VzdCI6InNoYTI1NjpiZDhhNzA2MjM3NjZkZjY1OWZhYzE1YmY4YjViNDJkZDAxYmNiYjlhY2Y3N2MxMjg3YmVjNzdkZGU0ZDEzZDA3In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MzA3MiwiZGlnZXN0Ijoic2hhMjU2OmM4ODM2MTkzMmFmNTZjZGI5Zjg2N2E4ODE5ODg2NmNlYTIzMTUwMjQ1YzA3NTYxOWQ1NzgyNGE3Zjc1NzEzOTYifV19",
+      "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJVc2VyIjoibm9ucm9vdCIsIkV4cG9zZWRQb3J0cyI6eyI4NDQzL3RjcCI6e30sIjkwOTAvdGNwIjp7fX0sIkVudiI6WyJQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2JpbiJdLCJFbnRyeXBvaW50IjpbIi9kYXNoYm9hcmQiLCItLWluc2VjdXJlLWJpbmQtYWRkcmVzcz0wLjAuMC4wIiwiLS1iaW5kLWFkZHJlc3M9MC4wLjAuMCJdLCJXb3JraW5nRGlyIjoiLyIsIk9uQnVpbGQiOm51bGx9LCJjcmVhdGVkIjoiMjAyMi0wOS0xNlQxMTo0OTo0OC41NDkzNTI4ODNaIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMjItMDktMTZUMTE6NDk6NDYuOTUxMjc3MjM3WiIsImNyZWF0ZWRfYnkiOiJBREQgLiAvICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjItMDktMTZUMTE6NDk6NDguNTQ5MzUyODgzWiIsImNyZWF0ZWRfYnkiOiJDT1BZIC9ldGMvcGFzc3dkIC9ldGMvcGFzc3dkICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjItMDktMTZUMTE6NDk6NDguNTQ5MzUyODgzWiIsImNyZWF0ZWRfYnkiOiJVU0VSIG5vbnJvb3QiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA5LTE2VDExOjQ5OjQ4LjU0OTM1Mjg4M1oiLCJjcmVhdGVkX2J5IjoiRVhQT1NFIG1hcFs4NDQzL3RjcDp7fSA5MDkwL3RjcDp7fV0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA5LTE2VDExOjQ5OjQ4LjU0OTM1Mjg4M1oiLCJjcmVhdGVkX2J5IjoiRU5UUllQT0lOVCBbXCIvZGFzaGJvYXJkXCIgXCItLWluc2VjdXJlLWJpbmQtYWRkcmVzcz0wLjAuMC4wXCIgXCItLWJpbmQtYWRkcmVzcz0wLjAuMC4wXCJdIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJtb2J5LmJ1aWxka2l0LmJ1aWxkaW5mby52MSI6ImV5Sm1jbTl1ZEdWdVpDSTZJbVJ2WTJ0bGNtWnBiR1V1ZGpBaUxDSnpiM1Z5WTJWeklqcGJleUowZVhCbElqb2laRzlqYTJWeUxXbHRZV2RsSWl3aWNtVm1Jam9pWkc5amEyVnlMbWx2TDJ4cFluSmhjbmt2ZFdKMWJuUjFPakl3TGpBMElpd2ljR2x1SWpvaWMyaGhNalUyT2pNMVlXSXlZbVkxTnpneE5HVTVabVkwT1dVek5qVmxabVExWVRVNU16VmlOamt4TldWbFpHVTFZemRtT0RVNE1XVTVaVEZpT0RWbE1HVmxZMkpsTVRZaWZWMTkiLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6YmQ4YTcwNjIzNzY2ZGY2NTlmYWMxNWJmOGI1YjQyZGQwMWJjYmI5YWNmNzdjMTI4N2JlYzc3ZGRlNGQxM2QwNyIsInNoYTI1NjpjODgzNjE5MzJhZjU2Y2RiOWY4NjdhODgxOTg4NjZjZWEyMzE1MDI0NWMwNzU2MTlkNTc4MjRhN2Y3NTcxMzk2Il19fQ==",
+      "repoDigests": [
+        "kubernetesui/dashboard@sha256:2e500d29e9d5f4a086b908eb8dfe7ecac57d2ab09d65b24f588b1d449841ef93"
+      ],
+      "architecture": "amd64",
+      "os": "linux"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "0.101.1",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "image"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "java-archive-cataloger",
+          "javascript-package-cataloger",
+          "nix-store-cataloger",
+          "php-composer-installed-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "sbom-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "wordpress-cli-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/home/dpacak/go/pkg/mod",
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "max-parent-recursive-depth": 5,
+          "use-network": false
+        },
+        "javascript": {
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "13.0.0",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-13.0.0.json"
+  }
+}

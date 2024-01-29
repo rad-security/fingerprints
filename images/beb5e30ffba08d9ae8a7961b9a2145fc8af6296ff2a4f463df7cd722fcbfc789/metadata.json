@@ -1,0 +1,8 @@
+{
+  "Name": "quay.io/prometheus/prometheus",
+  "RepoTags": [
+    "quay.io/prometheus/prometheus:v2.49.1"
+  ],
+  "Id": "beb5e30ffba08d9ae8a7961b9a2145fc8af6296ff2a4f463df7cd722fcbfc789",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg"
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "quay.io/jetstack/cert-manager-webhook",
+  "RepoTags": [
+    "quay.io/jetstack/cert-manager-webhook:v1.13.2"
+  ],
+  "Id": "0a9470447ebf1d3ff1c172e19268be12dc26125ff83320d456f6826c677c0ed2",
+  "LogoUri": "https://cert-manager.io/images/cert-manager-logo-icon.svg"
+}

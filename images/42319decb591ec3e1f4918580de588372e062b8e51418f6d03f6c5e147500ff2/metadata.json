@@ -1,0 +1,8 @@
+{
+  "Name": "bitnami/mongodb",
+  "RepoTags": [
+    "bitnami/mongodb:6.0.10-debian-11-r8"
+  ],
+  "Id": "42319decb591ec3e1f4918580de588372e062b8e51418f6d03f6c5e147500ff2",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+}

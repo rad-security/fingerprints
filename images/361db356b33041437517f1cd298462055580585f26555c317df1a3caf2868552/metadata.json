@@ -1,0 +1,8 @@
+{
+  "Name": "quay.io/prometheus/alertmanager",
+  "RepoTags": [
+    "quay.io/prometheus/alertmanager:v0.26.0"
+  ],
+  "Id": "361db356b33041437517f1cd298462055580585f26555c317df1a3caf2868552",
+  "LogoUri": "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg"
+}

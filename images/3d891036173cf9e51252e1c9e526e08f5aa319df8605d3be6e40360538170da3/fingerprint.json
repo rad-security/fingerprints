@@ -1,0 +1,248 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "redis",
+      "imageName": "docker.io/bitnami/redis:7.2.4-debian-11-r2",
+      "imageDigest": "sha256:3d891036173cf9e51252e1c9e526e08f5aa319df8605d3be6e40360538170da3",
+      "entrypoint": {
+        "process": {
+          "uid": 1001,
+          "gid": 0,
+          "children": [
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "cp",
+                  "args": [
+                    "/bin/cp",
+                    "/opt/bitnami/redis/mounted-etc/master.conf",
+                    "/opt/bitnami/redis/etc/master.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/opt/bitnami/redis/mounted-etc/*/master.conf"
+                },
+                {
+                  "path": "/opt/bitnami/redis/etc/master.conf"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libattr.so.1.1.2448"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                }
+              ]
+            },
+            {
+              "uid": 1001,
+              "gid": 0,
+              "programs": [
+                {
+                  "comm": "cp",
+                  "args": [
+                    "/bin/cp",
+                    "/opt/bitnami/redis/mounted-etc/redis.conf",
+                    "/opt/bitnami/redis/etc/redis.conf"
+                  ]
+                }
+              ],
+              "files": [
+                {
+                  "path": "/opt/bitnami/redis/etc/redis.conf"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libselinux.so.1"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+                },
+                {
+                  "path": "/etc/ld.so.cache"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libacl.so.1.1.2253"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+                },
+                {
+                  "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+                },
+                {
+                  "path": "/proc/filesystems"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libattr.so.1.1.2448"
+                },
+                {
+                  "path": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.1"
+                },
+                {
+                  "path": "/opt/bitnami/redis/mounted-etc/*/redis.conf"
+                }
+              ]
+            }
+          ],
+          "programs": [
+            {
+              "comm": "bash",
+              "args": [
+                "/bin/bash",
+                "-c",
+                "/opt/bitnami/scripts/start-scripts/start-master.sh"
+              ]
+            },
+            {
+              "comm": "start-master.sh",
+              "args": [
+                "/opt/bitnami/scripts/start-scripts/start-master.sh"
+              ]
+            },
+            {
+              "comm": "redis-server",
+              "args": [
+                "/opt/bitnami/redis/bin/redis-server",
+                "--port",
+                "6379",
+                "--requirepass",
+                "******",
+                "--masterauth",
+                "******",
+                "--include",
+                "/opt/bitnami/redis/etc/redis.conf",
+                "--include",
+                "/opt/bitnami/redis/etc/master.conf"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/proc/sys/vm/overcommit_memory"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libnss_files-2.31.so"
+            },
+            {
+              "path": "/data/appendonlydir"
+            },
+            {
+              "path": "/etc/ssl/openssl.cnf"
+            },
+            {
+              "path": "/etc/ld.so.cache"
+            },
+            {
+              "path": "/etc/passwd"
+            },
+            {
+              "path": "/usr/share/zoneinfo/Etc/UTC"
+            },
+            {
+              "path": "/opt/bitnami/redis/etc/master.conf"
+            },
+            {
+              "path": "/data/appendonlydir/temp-appendonly.aof.manifest"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
+            },
+            {
+              "path": "/opt/bitnami/scripts/start-scripts/*/start-master.sh"
+            },
+            {
+              "path": "/dev/urandom"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/data/appendonlydir/appendonly.aof.1.incr.aof"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libm-2.31.so"
+            },
+            {
+              "path": "/sys/devices/system/clocksource/clocksource0/current_clocksource"
+            },
+            {
+              "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1"
+            },
+            {
+              "path": "/etc/nsswitch.conf"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libtinfo.so.6.2"
+            },
+            {
+              "path": "/proc/*/stat"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libdl-2.31.so"
+            },
+            {
+              "path": "/lib/x86_64-linux-gnu/libpthread-2.31.so"
+            },
+            {
+              "path": "/opt/bitnami/redis/etc/redis.conf"
+            },
+            {
+              "path": "/data/temp-rewriteaof-1.aof"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/enabled"
+            }
+          ],
+          "connections": [
+            {
+              "address": "192.168.160.214",
+              "hostname": "192.168.160.214",
+              "port": 6379
+            }
+          ]
+        }
+      },
+      "exec": {
+        "process": {
+          "programs": [
+            {
+              "comm": "exec"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
