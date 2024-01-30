@@ -43,15 +43,6 @@
           "connections": [
           ]
         }
-      },
-      "exec": {
-        "process": {
-          "programs": [
-            {
-              "comm": "exec"
-            }
-          ]
-        }
       }
     }
   ]

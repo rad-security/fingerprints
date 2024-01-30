@@ -47,15 +47,6 @@
             }
           ]
         }
-      },
-      "exec": {
-        "process": {
-          "programs": [
-            {
-              "comm": "exec"
-            }
-          ]
-        }
       }
     }
   ]
