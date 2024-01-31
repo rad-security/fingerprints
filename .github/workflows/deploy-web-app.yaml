@@ -1,0 +1,15 @@
+name: Trigger web application deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-build:
+    runs-on: linux
+    steps:
+      - name: Invoke deployment hook
+        uses: distributhor/workflow-webhook@v3
+        with:
+          webhook_url: ${{ secrets.VERCEL_DEPLOY_HOOK }}
