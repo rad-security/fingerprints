@@ -1,5 +1,6 @@
 {
     "bitnami/postgresql": [
+        "16.1.0-debian-11-r24",
         "15.4.0-debian-11-r45",
         "14.5.0-debian-11-r35"
     ],

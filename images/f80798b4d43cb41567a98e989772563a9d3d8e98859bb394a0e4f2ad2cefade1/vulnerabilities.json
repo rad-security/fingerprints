@@ -1898,7 +1898,8 @@
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/",
-      "https://security.gentoo.org/glsa/202310-03"
+      "https://security.gentoo.org/glsa/202310-03",
+      "https://security.netapp.com/advisory/ntap-20240125-0008/"
      ],
      "description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
      "cvss": [
@@ -2980,7 +2981,8 @@
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/",
-      "https://security.gentoo.org/glsa/202310-03"
+      "https://security.gentoo.org/glsa/202310-03",
+      "https://security.netapp.com/advisory/ntap-20240125-0008/"
      ],
      "description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
      "cvss": [
@@ -4052,7 +4054,8 @@
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/",
-      "https://security.gentoo.org/glsa/202310-03"
+      "https://security.gentoo.org/glsa/202310-03",
+      "https://security.netapp.com/advisory/ntap-20240125-0008/"
      ],
      "description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
      "cvss": [
@@ -5354,9 +5357,11 @@
      "severity": "High",
      "urls": [
       "http://www.openwall.com/lists/oss-security/2024/01/19/3",
+      "https://access.redhat.com/errata/RHSA-2024:0533",
       "https://access.redhat.com/security/cve/CVE-2024-0567",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2258544",
       "https://gitlab.com/gnutls/gnutls/-/issues/1521",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/",
       "https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html"
      ],
      "description": "A vulnerability was found in GnuTLS, where a cockpit (which uses gnuTLS) rejects a certificate chain with distributed trust. This issue occurs when validating a certificate chain with cockpit-certificate-ensure. This flaw allows an unauthenticated, remote client or attacker to initiate a denial of service attack.",
@@ -5377,10 +5382,10 @@
        "source": "secalert@redhat.com",
        "type": "Secondary",
        "version": "3.1",
-       "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
        "metrics": {
-        "baseScore": 5.9,
-        "exploitabilityScore": 2.2,
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
         "impactScore": 3.6
        },
        "vendorMetadata": {}
@@ -5557,9 +5562,13 @@
       "http://www.openwall.com/lists/oss-security/2024/01/19/3",
       "https://access.redhat.com/errata/RHSA-2024:0155",
       "https://access.redhat.com/errata/RHSA-2024:0319",
+      "https://access.redhat.com/errata/RHSA-2024:0399",
+      "https://access.redhat.com/errata/RHSA-2024:0451",
+      "https://access.redhat.com/errata/RHSA-2024:0533",
       "https://access.redhat.com/security/cve/CVE-2023-5981",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2248445",
-      "https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23"
+      "https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/"
      ],
      "description": "A vulnerability was found that the response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding.",
      "cvss": [
@@ -11527,6 +11536,80 @@
   },
   {
    "vulnerability": {
+    "id": "CVE-2024-0727",
+    "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-0727",
+    "namespace": "debian:distro:debian:11",
+    "severity": "Unknown",
+    "urls": [
+     "https://security-tracker.debian.org/tracker/CVE-2024-0727"
+    ],
+    "description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL to crash leading to a potential Denial of Service attack  Impact summary: Applications loading files in the PKCS12 format from untrusted sources might terminate abruptly.  A file in PKCS12 format can contain certificates and keys and may come from an untrusted source. The PKCS12 specification allows certain fields to be NULL, but OpenSSL does not correctly check for this case. This can lead to a NULL pointer dereference that results in OpenSSL crashing. If an application processes PKCS12 files from an untrusted source using the OpenSSL APIs then that application will be vulnerable to this issue.  OpenSSL APIs that are vulnerable to this are: PKCS12_parse(), PKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes() and PKCS12_newpass().  We have also fixed a similar issue in SMIME_write_PKCS7(). However since this function is related to writing data we do not consider it security significant.  The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "wont-fix"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-0727",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-0727",
+     "namespace": "nvd:cpe",
+     "urls": [
+      "https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2",
+      "https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a",
+      "https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c",
+      "https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8",
+      "https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539",
+      "https://www.openssl.org/news/secadv/20240125.txt"
+     ],
+     "description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "debian",
+       "version": "11"
+      },
+      "namespace": "debian:distro:debian:11",
+      "package": {
+       "name": "openssl",
+       "version": "1.1.1n-0+deb11u3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-0727"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "bbf1ff7a4d091a07",
+    "name": "libssl1.1",
+    "version": "1.1.1n-0+deb11u3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-0+deb11u3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/debian/libssl1.1@1.1.1n-0+deb11u3?arch=amd64&upstream=openssl&distro=debian-11",
+    "upstreams": [
+     {
+      "name": "openssl"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
     "id": "CVE-2023-4039",
     "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
     "namespace": "debian:distro:debian:11",
@@ -11651,6 +11734,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2222261",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2222672",
       "https://github.com/systemd/systemd/issues/25676",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/"
      ],
      "description": "A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.",
@@ -12781,6 +12865,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2222261",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2222672",
       "https://github.com/systemd/systemd/issues/25676",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/"
      ],
      "description": "A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.",
@@ -14789,7 +14874,8 @@
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/",
       "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/",
-      "https://security.gentoo.org/glsa/202310-03"
+      "https://security.gentoo.org/glsa/202310-03",
+      "https://security.netapp.com/advisory/ntap-20240125-0008/"
      ],
      "description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
      "cvss": [
@@ -17717,6 +17803,76 @@
   },
   {
    "vulnerability": {
+    "id": "CVE-2024-0727",
+    "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-0727",
+    "namespace": "debian:distro:debian:11",
+    "severity": "Unknown",
+    "urls": [
+     "https://security-tracker.debian.org/tracker/CVE-2024-0727"
+    ],
+    "description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL to crash leading to a potential Denial of Service attack  Impact summary: Applications loading files in the PKCS12 format from untrusted sources might terminate abruptly.  A file in PKCS12 format can contain certificates and keys and may come from an untrusted source. The PKCS12 specification allows certain fields to be NULL, but OpenSSL does not correctly check for this case. This can lead to a NULL pointer dereference that results in OpenSSL crashing. If an application processes PKCS12 files from an untrusted source using the OpenSSL APIs then that application will be vulnerable to this issue.  OpenSSL APIs that are vulnerable to this are: PKCS12_parse(), PKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes() and PKCS12_newpass().  We have also fixed a similar issue in SMIME_write_PKCS7(). However since this function is related to writing data we do not consider it security significant.  The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "wont-fix"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-0727",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-0727",
+     "namespace": "nvd:cpe",
+     "urls": [
+      "https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2",
+      "https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a",
+      "https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c",
+      "https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8",
+      "https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539",
+      "https://www.openssl.org/news/secadv/20240125.txt"
+     ],
+     "description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "debian",
+       "version": "11"
+      },
+      "namespace": "debian:distro:debian:11",
+      "package": {
+       "name": "openssl",
+       "version": "1.1.1n-0+deb11u3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-0727"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "ea91770e382016fe",
+    "name": "openssl",
+    "version": "1.1.1n-0+deb11u3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:openssl:openssl:1.1.1n-0+deb11u3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/debian/openssl@1.1.1n-0+deb11u3?arch=amd64&distro=debian-11",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
     "id": "CVE-2023-4641",
     "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-4641",
     "namespace": "debian:distro:debian:11",
@@ -18745,6 +18901,7 @@
      "https://access.redhat.com/errata/RHSA-2023:7885",
      "https://access.redhat.com/errata/RHSA-2024:0304",
      "https://access.redhat.com/errata/RHSA-2024:0332",
+     "https://access.redhat.com/errata/RHSA-2024:0337",
      "https://access.redhat.com/security/cve/CVE-2023-5869",
      "https://bugzilla.redhat.com/show_bug.cgi?id=2247169",
      "https://security.netapp.com/advisory/ntap-20240119-0003/",
@@ -18850,6 +19007,7 @@
      "https://access.redhat.com/errata/RHSA-2023:7885",
      "https://access.redhat.com/errata/RHSA-2024:0304",
      "https://access.redhat.com/errata/RHSA-2024:0332",
+     "https://access.redhat.com/errata/RHSA-2024:0337",
      "https://access.redhat.com/security/cve/CVE-2023-39417",
      "https://bugzilla.redhat.com/show_bug.cgi?id=2228111",
      "https://lists.debian.org/debian-lts-announce/2023/10/msg00003.html",
@@ -19028,6 +19186,7 @@
      "https://access.redhat.com/errata/RHSA-2023:7885",
      "https://access.redhat.com/errata/RHSA-2024:0304",
      "https://access.redhat.com/errata/RHSA-2024:0332",
+     "https://access.redhat.com/errata/RHSA-2024:0337",
      "https://access.redhat.com/security/cve/CVE-2023-5870",
      "https://bugzilla.redhat.com/show_bug.cgi?id=2247170",
      "https://security.netapp.com/advisory/ntap-20240119-0003/",
@@ -19133,6 +19292,7 @@
      "https://access.redhat.com/errata/RHSA-2023:7885",
      "https://access.redhat.com/errata/RHSA-2024:0304",
      "https://access.redhat.com/errata/RHSA-2024:0332",
+     "https://access.redhat.com/errata/RHSA-2024:0337",
      "https://access.redhat.com/security/cve/CVE-2023-5868",
      "https://bugzilla.redhat.com/show_bug.cgi?id=2247168",
      "https://security.netapp.com/advisory/ntap-20240119-0003/",
@@ -25137,12 +25297,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-01-25T01:27:56Z",
+   "built": "2024-01-31T01:24:00Z",
    "schemaVersion": 5,
    "location": "/home/dpacak/.cache/grype/db/5",
-   "checksum": "sha256:0e70dc967985e5a56678500b60aefb9442183c03301261252c7abd7dfae92784",
+   "checksum": "sha256:4d0b746ac5eae7c16d24de7415dacb9d40a2c8af966cc210ff6644103033176a",
    "error": null
   },
-  "timestamp": "2024-01-25T16:32:53.901084917+01:00"
+  "timestamp": "2024-01-31T15:20:48.45869182+01:00"
  }
 }
