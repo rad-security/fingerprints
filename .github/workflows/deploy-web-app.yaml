@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  trigger-build:
+  trigger-deployment:
     runs-on: linux
     steps:
       - name: Invoke deployment hook
