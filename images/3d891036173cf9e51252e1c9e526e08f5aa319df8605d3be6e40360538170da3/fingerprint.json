@@ -224,22 +224,6 @@
             {
               "path": "/sys/kernel/mm/transparent_hugepage/enabled"
             }
-          ],
-          "connections": [
-            {
-              "address": "192.168.160.214",
-              "hostname": "192.168.160.214",
-              "port": 6379
-            }
-          ]
-        }
-      },
-      "exec": {
-        "process": {
-          "programs": [
-            {
-              "comm": "exec"
-            }
           ]
         }
       }

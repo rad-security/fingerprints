@@ -221,22 +221,6 @@
             {
               "path": "/lib/x86_64-linux-gnu/libc-2.31.so"
             }
-          ],
-          "connections": [
-            {
-              "address": "192.168.160.243",
-              "hostname": "192.168.160.243",
-              "port": 6379
-            }
-          ]
-        }
-      },
-      "exec": {
-        "process": {
-          "programs": [
-            {
-              "comm": "exec"
-            }
           ]
         }
       }
