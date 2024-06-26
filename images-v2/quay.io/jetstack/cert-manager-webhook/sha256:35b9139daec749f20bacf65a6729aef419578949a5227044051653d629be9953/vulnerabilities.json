@@ -1,0 +1,508 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "GHSA-4v7x-pqxf-cx7m",
+    "dataSource": "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m"
+    ],
+    "description": "net/http, x/net/http2: close connections when receiving too many headers",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.23.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-45288",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+      "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+      "https://go.dev/cl/576155",
+      "https://go.dev/issue/65051",
+      "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+      "https://pkg.go.dev/vuln/GO-2024-2687",
+      "https://security.netapp.com/advisory/ntap-20240419-0009/"
+     ],
+     "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "golang.org/x/net",
+       "version": "v0.17.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.23.0 (unknown)",
+      "vulnerabilityID": "GHSA-4v7x-pqxf-cx7m"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "6c7d5d7d05f9330e",
+    "name": "golang.org/x/net",
+    "version": "v0.17.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:golang:x/net:v0.17.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/golang.org/x/net@v0.17.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24790",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24790",
+    "namespace": "nvd:cpe",
+    "severity": "Critical",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/590316",
+     "https://go.dev/issue/67680",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://pkg.go.dev/vuln/GO-2024-2887"
+    ],
+    "description": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "metrics": {
+       "baseScore": 9.8,
+       "exploitabilityScore": 3.9,
+       "impactScore": 5.9
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.21.8"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24790",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "e96b79592db7c55a",
+    "name": "stdlib",
+    "version": "go1.21.8",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.8",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24789",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24789",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/585397",
+     "https://go.dev/issue/66869",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/",
+     "https://pkg.go.dev/vuln/GO-2024-2888"
+    ],
+    "description": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.21.8"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24789",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "e96b79592db7c55a",
+    "name": "stdlib",
+    "version": "go1.21.8",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.8",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24787",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24787",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/08/3",
+     "https://go.dev/cl/583815",
+     "https://go.dev/issue/67119",
+     "https://groups.google.com/g/golang-announce/c/wkkO4P9stm0",
+     "https://pkg.go.dev/vuln/GO-2024-2825",
+     "https://security.netapp.com/advisory/ntap-20240531-0006/"
+    ],
+    "description": "On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a \"#cgo LDFLAGS\" directive.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.21.8"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24787",
+      "versionConstraint": "< 1.21.10 || >= 1.22.0-0, < 1.22.3 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "e96b79592db7c55a",
+    "name": "stdlib",
+    "version": "go1.21.8",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.8",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45288",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+     "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+     "https://go.dev/cl/576155",
+     "https://go.dev/issue/65051",
+     "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+     "https://pkg.go.dev/vuln/GO-2024-2687",
+     "https://security.netapp.com/advisory/ntap-20240419-0009/"
+    ],
+    "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.21.8"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45288",
+      "versionConstraint": "< 1.21.9 || >= 1.22.0-0, < 1.22.2 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "e96b79592db7c55a",
+    "name": "stdlib",
+    "version": "go1.21.8",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.8",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "quay.io/jetstack/cert-manager-webhook:sha256:35b9139daec749f20bacf65a6729aef419578949a5227044051653d629be9953",
+   "imageID": "DocumentRoot-Image-quay.io-jetstack-cert-manager-webhook",
+   "manifestDigest": "sha256:c17e97df88eeee8471cad5e6c6656619bbc0954ec36899a4734521c3b3698ceb",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "debian",
+  "version": "11",
+  "idLike": [
+   "debian"
+  ]
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.74.6",
+  "configuration": {
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "ignore-wontfix": "",
+   "platform": "",
+   "search": {
+    "scope": "squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": null,
+   "exclude": [],
+   "db": {
+    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": false
+    },
+    "dotnet": {
+     "using-cpes": false
+    },
+    "golang": {
+     "using-cpes": false,
+     "always-use-cpe-for-stdlib": true
+    },
+    "javascript": {
+     "using-cpes": false
+    },
+    "python": {
+     "using-cpes": false
+    },
+    "ruby": {
+     "using-cpes": false
+    },
+    "rust": {
+     "using-cpes": false
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "show-suppressed": false,
+   "by-cve": false,
+   "name": "",
+   "default-image-pull-source": "",
+   "vex-documents": [],
+   "vex-add": []
+  },
+  "db": {
+   "built": "2024-06-25T01:30:15Z",
+   "schemaVersion": 5,
+   "location": "/Users/james/Library/Caches/grype/db/5",
+   "checksum": "sha256:3b65a36941b92bf0b82cadebbe56790a8968737ccff1709d7a9df210930ed363",
+   "error": null
+  },
+  "timestamp": "2024-06-25T13:10:36.847493+01:00"
+ }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T21:38:04Z"
+  },
+  "containers": [
+    {
+      "name": "alertmanager",
+      "imageName": "quay.io/prometheus/alertmanager:v0.26.0",
+      "imageDigest": "sha256:361db356b33041437517f1cd298462055580585f26555c317df1a3caf2868552",
+      "entrypoint": {
+        "process": {
+          "uid": 65534,
+          "gid": 65534,
+          "programs": [
+            {
+              "comm": "alertmanager",
+              "args": [
+                "/bin/alertmanager",
+                "--storage.path=/alertmanager",
+                "--config.file=/etc/alertmanager/alertmanager.yml"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/bin/alertmanager"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/etc/alertmanager/*/alertmanager.yml"
+            },
+            {
+              "path": "/etc/alertmanager"
+            }
+          ],
+          "connections": [
+          ]
+        }
+      }
+    }
+  ]
+}

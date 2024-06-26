@@ -1,0 +1,3827 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42366",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42366",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42366"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r16"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42366",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42366",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15874"
+     ],
+     "description": "A heap-buffer-overflow was discovered in BusyBox v.1.36.1 in the next_token function at awk.c:1159.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r16 (apk)",
+      "vulnerabilityID": "CVE-2023-42366"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "bb5d492ae8d521c1",
+    "name": "busybox",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42365",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42365",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42365"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42365",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42365",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15871"
+     ],
+     "description": "A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42365"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "bb5d492ae8d521c1",
+    "name": "busybox",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42364",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42364",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42364"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42364",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42364",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15868"
+     ],
+     "description": "A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42364"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "bb5d492ae8d521c1",
+    "name": "busybox",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42363",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42363",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42363"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r17"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42363",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42363",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15865"
+     ],
+     "description": "A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r17 (apk)",
+      "vulnerabilityID": "CVE-2023-42363"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "bb5d492ae8d521c1",
+    "name": "busybox",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42366",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42366",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42366"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r16"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42366",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42366",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15874"
+     ],
+     "description": "A heap-buffer-overflow was discovered in BusyBox v.1.36.1 in the next_token function at awk.c:1159.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r16 (apk)",
+      "vulnerabilityID": "CVE-2023-42366"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "76334d5a8e7313bc",
+    "name": "busybox-binsh",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox-binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox-binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42365",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42365",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42365"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42365",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42365",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15871"
+     ],
+     "description": "A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42365"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "76334d5a8e7313bc",
+    "name": "busybox-binsh",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox-binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox-binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42364",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42364",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42364"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42364",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42364",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15868"
+     ],
+     "description": "A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42364"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "76334d5a8e7313bc",
+    "name": "busybox-binsh",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox-binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox-binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42363",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42363",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42363"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r17"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42363",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42363",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15865"
+     ],
+     "description": "A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r17 (apk)",
+      "vulnerabilityID": "CVE-2023-42363"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "76334d5a8e7313bc",
+    "name": "busybox-binsh",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:busybox-binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox-binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox_binsh:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox-binsh:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox_binsh:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-25629",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-25629",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-25629"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.27.0-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-25629",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-25629",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://github.com/c-ares/c-ares/commit/a804c04ddc8245fc8adf0e92368709639125e183",
+      "https://github.com/c-ares/c-ares/security/advisories/GHSA-mg26-v6qh-x48q",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2P76QYINQNPEHUTEEDOUYIRZ2X6UVZ5K/",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSCMTSPDIE2UHU34TIXQQHZ6JTE3Y3VF/",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GX37LFPFQ3T6FFMMFYQTEGIQXXN7F27U/"
+     ],
+     "description": "c-ares is a C library for asynchronous DNS requests. `ares__read_line()` is used to parse local configuration files such as `/etc/resolv.conf`, `/etc/nsswitch.conf`, the `HOSTALIASES` file, and if using a c-ares version prior to 1.27.0, the `/etc/hosts` file. If any of these configuration files has an embedded `NULL` character as the first character in a new line, it can lead to attempting to read memory prior to the start of the given buffer which may result in a crash. This issue is fixed in c-ares 1.27.0. No known workarounds exist.",
+     "cvss": [
+      {
+       "source": "security-advisories@github.com",
+       "type": "Secondary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 4.4,
+        "exploitabilityScore": 0.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "c-ares",
+       "version": "1.24.0-r1"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.27.0-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-25629"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "15e08cf5db792953",
+    "name": "c-ares",
+    "version": "1.24.0-r1",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:c-ares:c-ares:1.24.0-r1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:c-ares:c_ares:1.24.0-r1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:c_ares:c-ares:1.24.0-r1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:c_ares:c_ares:1.24.0-r1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:c:c-ares:1.24.0-r1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:c:c_ares:1.24.0-r1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/c-ares@1.24.0-r1?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-0853",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-0853",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://curl.se/docs/CVE-2024-0853.html",
+     "https://curl.se/docs/CVE-2024-0853.json",
+     "https://hackerone.com/reports/2298922",
+     "https://security.netapp.com/advisory/ntap-20240307-0004/",
+     "https://security.netapp.com/advisory/ntap-20240426-0009/",
+     "https://security.netapp.com/advisory/ntap-20240503-0012/"
+    ],
+    "description": "curl inadvertently kept the SSL session ID for connections in its cache even when the verify status (*OCSP stapling*) test failed. A subsequent transfer to\nthe same hostname could then succeed if the session ID cache was still fresh, which then skipped the verify status check.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "curl",
+       "version": "8.5.0-r0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-0853",
+      "versionConstraint": "= 8.5.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:8.5.0:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "9c8702cec6b02b4f",
+    "name": "curl",
+    "version": "8.5.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.5.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.5.0-r0?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2466",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2466",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/27/4",
+     "https://curl.se/docs/CVE-2024-2466.html",
+     "https://curl.se/docs/CVE-2024-2466.json",
+     "https://hackerone.com/reports/2416725",
+     "https://security.netapp.com/advisory/ntap-20240503-0010/"
+    ],
+    "description": "libcurl did not check the server certificate of TLS connections done to a host specified as an IP address, when built to use mbedTLS.  libcurl would wrongly avoid using the set hostname function when the specified hostname was given as an IP address, therefore completely skipping the certificate check. This affects all uses of TLS protocols (HTTPS, FTPS, IMAPS, POPS3, SMTPS, etc).",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "curl",
+       "version": "8.5.0-r0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-2466",
+      "versionConstraint": ">= 8.5.0, < 8.7.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "9c8702cec6b02b4f",
+    "name": "curl",
+    "version": "8.5.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.5.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.5.0-r0?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2398",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2398",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/27/3",
+     "https://curl.se/docs/CVE-2024-2398.html",
+     "https://curl.se/docs/CVE-2024-2398.json",
+     "https://hackerone.com/reports/2402845",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2D44YLAUFJU6BZ4XFG2FYV7SBKXB5IZ6/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/",
+     "https://security.netapp.com/advisory/ntap-20240503-0009/"
+    ],
+    "description": "When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "curl",
+       "version": "8.5.0-r0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-2398",
+      "versionConstraint": ">= 7.4.4, < 8.7.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "9c8702cec6b02b4f",
+    "name": "curl",
+    "version": "8.5.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.5.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.5.0-r0?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2004",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2004",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/27/1",
+     "https://curl.se/docs/CVE-2024-2004.html",
+     "https://curl.se/docs/CVE-2024-2004.json",
+     "https://hackerone.com/reports/2384833",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2D44YLAUFJU6BZ4XFG2FYV7SBKXB5IZ6/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GMD6UYKCCRCYETWQZUJ65ZRFULT6SHLI/",
+     "https://security.netapp.com/advisory/ntap-20240524-0006/"
+    ],
+    "description": "When a protocol selection parameter option disables all protocols without adding any then the default set of protocols would remain in the allowed set due to an error in the logic for removing protocols. The below command would perform a request to curl.se with a plaintext protocol which has been explicitly disabled.      curl --proto -all,-http http://curl.se  The flaw is only present if the set of selected protocols disables the entire set of available protocols, in itself a command with no practical use and therefore unlikely to be encountered in real situations. The curl security team has thus assessed this to be low severity bug.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "curl",
+       "version": "8.5.0-r0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-2004",
+      "versionConstraint": ">= 7.85.0, < 8.7.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:haxx:curl:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "9c8702cec6b02b4f",
+    "name": "curl",
+    "version": "8.5.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.5.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.5.0-r0?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-4v7x-pqxf-cx7m",
+    "dataSource": "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m"
+    ],
+    "description": "net/http, x/net/http2: close connections when receiving too many headers",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.23.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-45288",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+      "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+      "https://go.dev/cl/576155",
+      "https://go.dev/issue/65051",
+      "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+      "https://pkg.go.dev/vuln/GO-2024-2687",
+      "https://security.netapp.com/advisory/ntap-20240419-0009/"
+     ],
+     "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "golang.org/x/net",
+       "version": "v0.21.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.23.0 (unknown)",
+      "vulnerabilityID": "GHSA-4v7x-pqxf-cx7m"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "2eb272ea8ce00050",
+    "name": "golang.org/x/net",
+    "version": "v0.21.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:golang:x/net:v0.21.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/golang.org/x/net@v0.21.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:AQyQV4dYCvJ7vGmJyKki9+PBdyvhkSd8EIx/qb0AYv4="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-8r3f-844c-mc37",
+    "dataSource": "https://github.com/advisories/GHSA-8r3f-844c-mc37",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-8r3f-844c-mc37"
+    ],
+    "description": "Golang protojson.Unmarshal function infinite loop when unmarshaling certain forms of invalid JSON",
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.33.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-24786",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24786",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+      "https://go.dev/cl/569356",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/",
+      "https://pkg.go.dev/vuln/GO-2024-2611",
+      "https://security.netapp.com/advisory/ntap-20240517-0002/"
+     ],
+     "description": "The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "google.golang.org/protobuf",
+       "version": "v1.32.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<1.33.0 (unknown)",
+      "vulnerabilityID": "GHSA-8r3f-844c-mc37"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "f2010878074e88c7",
+    "name": "google.golang.org/protobuf",
+    "version": "v1.32.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:google:protobuf:v1.32.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/google.golang.org/protobuf@v1.32.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7I="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-4603",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-4603",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-4603"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.5-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-4603",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-4603",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/05/16/2",
+      "https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397",
+      "https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e",
+      "https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d",
+      "https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740",
+      "https://security.netapp.com/advisory/ntap-20240621-0001/",
+      "https://www.openssl.org/news/secadv/20240516.txt"
+     ],
+     "description": "Issue summary: Checking excessively long DSA keys or parameters may be very\nslow.\n\nImpact summary: Applications that use the functions EVP_PKEY_param_check()\nor EVP_PKEY_public_check() to check a DSA public key or DSA parameters may\nexperience long delays. Where the key or parameters that are being checked\nhave been obtained from an untrusted source this may lead to a Denial of\nService.\n\nThe functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform\nvarious checks on DSA parameters. Some of those computations take a long time\nif the modulus (`p` parameter) is too large.\n\nTrying to use a very large modulus is slow and OpenSSL will not allow using\npublic keys with a modulus which is over 10,000 bits in length for signature\nverification. However the key and parameter check functions do not limit\nthe modulus size when performing the checks.\n\nAn application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()\nand supplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nThese functions are not called by OpenSSL itself on untrusted DSA keys so\nonly applications that directly call these functions may be vulnerable.\n\nAlso vulnerable are the OpenSSL pkey and pkeyparam command line applications\nwhen using the `-check` option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.5-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-4603"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "4edda7a012f1563d",
+    "name": "libcrypto3",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libcrypto3:libcrypto3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto3:libcrypto:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto:libcrypto3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto:libcrypto:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libcrypto3@3.1.4-r5?arch=x86_64&upstream=openssl&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "openssl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2511",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-2511",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-2511"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.4-r6"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-2511",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2511",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/08/5",
+      "https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce",
+      "https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d",
+      "https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08",
+      "https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640",
+      "https://security.netapp.com/advisory/ntap-20240503-0013/",
+      "https://www.openssl.org/news/secadv/20240408.txt"
+     ],
+     "description": "Issue summary: Some non-default TLS server configurations can cause unbounded\nmemory growth when processing TLSv1.3 sessions\n\nImpact summary: An attacker may exploit certain server configurations to trigger\nunbounded memory growth that would lead to a Denial of Service\n\nThis problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is\nbeing used (but not if early_data support is also configured and the default\nanti-replay protection is in use). In this case, under certain conditions, the\nsession cache can get into an incorrect state and it will fail to flush properly\nas it fills. The session cache will continue to grow in an unbounded manner. A\nmalicious client could deliberately create the scenario for this failure to\nforce a Denial of Service. It may also happen by accident in normal operation.\n\nThis issue only affects TLS servers supporting TLSv1.3. It does not affect TLS\nclients.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL\n1.0.2 is also not affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.4-r6 (apk)",
+      "vulnerabilityID": "CVE-2024-2511"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "4edda7a012f1563d",
+    "name": "libcrypto3",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libcrypto3:libcrypto3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto3:libcrypto:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto:libcrypto3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libcrypto:libcrypto:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libcrypto3@3.1.4-r5?arch=x86_64&upstream=openssl&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "openssl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-4603",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-4603",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-4603"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.5-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-4603",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-4603",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/05/16/2",
+      "https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397",
+      "https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e",
+      "https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d",
+      "https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740",
+      "https://security.netapp.com/advisory/ntap-20240621-0001/",
+      "https://www.openssl.org/news/secadv/20240516.txt"
+     ],
+     "description": "Issue summary: Checking excessively long DSA keys or parameters may be very\nslow.\n\nImpact summary: Applications that use the functions EVP_PKEY_param_check()\nor EVP_PKEY_public_check() to check a DSA public key or DSA parameters may\nexperience long delays. Where the key or parameters that are being checked\nhave been obtained from an untrusted source this may lead to a Denial of\nService.\n\nThe functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform\nvarious checks on DSA parameters. Some of those computations take a long time\nif the modulus (`p` parameter) is too large.\n\nTrying to use a very large modulus is slow and OpenSSL will not allow using\npublic keys with a modulus which is over 10,000 bits in length for signature\nverification. However the key and parameter check functions do not limit\nthe modulus size when performing the checks.\n\nAn application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()\nand supplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nThese functions are not called by OpenSSL itself on untrusted DSA keys so\nonly applications that directly call these functions may be vulnerable.\n\nAlso vulnerable are the OpenSSL pkey and pkeyparam command line applications\nwhen using the `-check` option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.5-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-4603"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "973a1843595e0615",
+    "name": "libssl3",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libssl3:libssl3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl3:libssl:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl:libssl3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl:libssl:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libssl3@3.1.4-r5?arch=x86_64&upstream=openssl&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "openssl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2511",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-2511",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-2511"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.4-r6"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-2511",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2511",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/08/5",
+      "https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce",
+      "https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d",
+      "https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08",
+      "https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640",
+      "https://security.netapp.com/advisory/ntap-20240503-0013/",
+      "https://www.openssl.org/news/secadv/20240408.txt"
+     ],
+     "description": "Issue summary: Some non-default TLS server configurations can cause unbounded\nmemory growth when processing TLSv1.3 sessions\n\nImpact summary: An attacker may exploit certain server configurations to trigger\nunbounded memory growth that would lead to a Denial of Service\n\nThis problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is\nbeing used (but not if early_data support is also configured and the default\nanti-replay protection is in use). In this case, under certain conditions, the\nsession cache can get into an incorrect state and it will fail to flush properly\nas it fills. The session cache will continue to grow in an unbounded manner. A\nmalicious client could deliberately create the scenario for this failure to\nforce a Denial of Service. It may also happen by accident in normal operation.\n\nThis issue only affects TLS servers supporting TLSv1.3. It does not affect TLS\nclients.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL\n1.0.2 is also not affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.4-r6 (apk)",
+      "vulnerabilityID": "CVE-2024-2511"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "973a1843595e0615",
+    "name": "libssl3",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libssl3:libssl3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl3:libssl:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl:libssl3:3.1.4-r5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libssl:libssl:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libssl3@3.1.4-r5?arch=x86_64&upstream=openssl&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "openssl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-34459",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-34459",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-34459"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "2.11.8-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-34459",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-34459",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://gitlab.gnome.org/GNOME/libxml2/-/issues/720",
+      "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.11.8",
+      "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.12.7",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5HVUXKYTBWT3G5DEEQX62STJQBY367NL/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/INKSSLW5VMZIXHRPZBAW4TJUX5SQKARG/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VRDJCNQP32LV56KESUQ5SNZKAJWSZZRI/"
+     ],
+     "description": "An issue was discovered in xmllint (from libxml2) before 2.11.8 and 2.12.x before 2.12.7. Formatting error messages with xmllint --htmlout can result in a buffer over-read in xmlHTMLPrintFileContext in xmllint.c.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "libxml2",
+       "version": "2.11.7-r0"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 2.11.8-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-34459"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "f821f6d8276fa365",
+    "name": "libxml2",
+    "version": "2.11.7-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libxml2:libxml2:2.11.7-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libxml2:libxml:2.11.7-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libxml:libxml2:2.11.7-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libxml:libxml:2.11.7-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libxml2@2.11.7-r0?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-28182",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-28182",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+     "https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0",
+     "https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9",
+     "https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q",
+     "https://lists.debian.org/debian-lts-announce/2024/04/msg00026.html",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AGOME6ZXJG7664IPQNVE3DL67E3YP3HY/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J6ZMXUGB66VAXDW5J6QSTHM5ET25FGSA/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PXJO2EASHM2OQQLGVDY5ZSO7UVDVHTDK/"
+    ],
+    "description": "nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. The nghttp2 library prior to version 1.61.0 keeps reading the unbounded number of HTTP/2 CONTINUATION frames even after a stream is reset to keep HPACK context in sync.  This causes excessive CPU usage to decode HPACK stream. nghttp2 v1.61.0 mitigates this vulnerability by limiting the number of CONTINUATION frames it accepts per stream. There is no workaround for this vulnerability.",
+    "cvss": [
+     {
+      "source": "security-advisories@github.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nghttp2:nghttp2:1.58.0-r0:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nghttp2",
+       "version": "1.58.0-r0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-28182",
+      "versionConstraint": "< 1.61.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nghttp2:nghttp2:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "caf6145332f03e48",
+    "name": "nghttp2-libs",
+    "version": "1.58.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2-libs:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2_libs:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2_libs:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp-libs:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp-libs:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2-libs:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2-libs:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2_libs:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2_libs:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp_libs:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp_libs:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp-libs:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp-libs:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp_libs:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp_libs:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp2:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp:nghttp2-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp:nghttp2_libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp:nghttp-libs:1.58.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nghttp:nghttp_libs:1.58.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/nghttp2-libs@1.58.0-r0?arch=x86_64&upstream=nghttp2&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "nghttp2"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24990",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24990",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://my.f5.com/manage/s/article/K000138445"
+    ],
+    "description": "\nWhen NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed requests can cause NGINX worker processes to terminate.\n\nNote: The HTTP/3 QUIC module is not enabled by default and is considered experimental. For more information, refer to  Support for QUIC and HTTP/3 https://nginx.org/en/docs/quic.html .\n\n\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 7.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24990",
+      "versionConstraint": ">= 1.25.0, < 1.25.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24990",
+      "versionConstraint": ">= 1.25.0, < 1.25.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24989",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24989",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://my.f5.com/manage/s/article/K000138444"
+    ],
+    "description": "\nWhen NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed requests can cause NGINX worker processes to terminate.\n\nNote: The HTTP/3 QUIC module is not enabled by default and is considered experimental. For more information, refer to  Support for QUIC and HTTP/3 https://nginx.org/en/docs/quic.html .\n\n\n\nNOTE: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n\n\n\n\n\n\n\n",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 7.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24989",
+      "versionConstraint": ">= 1.25.3, < 1.25.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24989",
+      "versionConstraint": ">= 1.25.3, < 1.25.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-35200",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-35200",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139612"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 requests can cause NGINX worker processes to terminate.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-35200",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-35200",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-34161",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-34161",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139627"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module and the network infrastructure supports a Maximum Transmission Unit (MTU) of 4096 or greater without fragmentation, undisclosed QUIC packets can cause NGINX worker processes to leak previously freed memory.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-34161",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-34161",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-32760",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-32760",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139609"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 encoder instructions can cause NGINX worker processes to terminate or cause or other potential impact.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "metrics": {
+       "baseScore": 6.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 2.5
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-32760",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-32760",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-31079",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-31079",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139611"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 requests can cause NGINX worker processes to terminate or cause other potential impact. This attack requires that a request be specifically timed during the connection draining process, which the attacker has no visibility and limited influence over.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "metrics": {
+       "baseScore": 4.8,
+       "exploitabilityScore": 2.2,
+       "impactScore": 2.5
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-31079",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "nginx",
+       "version": "1.25.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-31079",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "99eefed1e8f3e9a2",
+    "name": "nginx",
+    "version": "1.25.3",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.3",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-4603",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-4603",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-4603"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.5-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-4603",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-4603",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/05/16/2",
+      "https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397",
+      "https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e",
+      "https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d",
+      "https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740",
+      "https://security.netapp.com/advisory/ntap-20240621-0001/",
+      "https://www.openssl.org/news/secadv/20240516.txt"
+     ],
+     "description": "Issue summary: Checking excessively long DSA keys or parameters may be very\nslow.\n\nImpact summary: Applications that use the functions EVP_PKEY_param_check()\nor EVP_PKEY_public_check() to check a DSA public key or DSA parameters may\nexperience long delays. Where the key or parameters that are being checked\nhave been obtained from an untrusted source this may lead to a Denial of\nService.\n\nThe functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform\nvarious checks on DSA parameters. Some of those computations take a long time\nif the modulus (`p` parameter) is too large.\n\nTrying to use a very large modulus is slow and OpenSSL will not allow using\npublic keys with a modulus which is over 10,000 bits in length for signature\nverification. However the key and parameter check functions do not limit\nthe modulus size when performing the checks.\n\nAn application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()\nand supplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nThese functions are not called by OpenSSL itself on untrusted DSA keys so\nonly applications that directly call these functions may be vulnerable.\n\nAlso vulnerable are the OpenSSL pkey and pkeyparam command line applications\nwhen using the `-check` option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.5-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-4603"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "52ff04a609311cc6",
+    "name": "openssl",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:openssl:openssl:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/openssl@3.1.4-r5?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-2511",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-2511",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-2511"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "3.1.4-r6"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-2511",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2511",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/08/5",
+      "https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce",
+      "https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d",
+      "https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08",
+      "https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640",
+      "https://security.netapp.com/advisory/ntap-20240503-0013/",
+      "https://www.openssl.org/news/secadv/20240408.txt"
+     ],
+     "description": "Issue summary: Some non-default TLS server configurations can cause unbounded\nmemory growth when processing TLSv1.3 sessions\n\nImpact summary: An attacker may exploit certain server configurations to trigger\nunbounded memory growth that would lead to a Denial of Service\n\nThis problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is\nbeing used (but not if early_data support is also configured and the default\nanti-replay protection is in use). In this case, under certain conditions, the\nsession cache can get into an incorrect state and it will fail to flush properly\nas it fills. The session cache will continue to grow in an unbounded manner. A\nmalicious client could deliberately create the scenario for this failure to\nforce a Denial of Service. It may also happen by accident in normal operation.\n\nThis issue only affects TLS servers supporting TLSv1.3. It does not affect TLS\nclients.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL\n1.0.2 is also not affected by this issue.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "openssl",
+       "version": "3.1.4-r5"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 3.1.4-r6 (apk)",
+      "vulnerabilityID": "CVE-2024-2511"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "52ff04a609311cc6",
+    "name": "openssl",
+    "version": "3.1.4-r5",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "Apache-2.0"
+    ],
+    "cpes": [
+     "cpe:2.3:a:openssl:openssl:3.1.4-r5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/openssl@3.1.4-r5?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42366",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42366",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42366"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r16"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42366",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42366",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15874"
+     ],
+     "description": "A heap-buffer-overflow was discovered in BusyBox v.1.36.1 in the next_token function at awk.c:1159.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r16 (apk)",
+      "vulnerabilityID": "CVE-2023-42366"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1728ab0c1e9e7f05",
+    "name": "ssl_client",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:ssl-client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl-client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl_client:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42365",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42365",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42365"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42365",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42365",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15871"
+     ],
+     "description": "A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42365"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1728ab0c1e9e7f05",
+    "name": "ssl_client",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:ssl-client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl-client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl_client:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42364",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42364",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42364"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r19"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42364",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42364",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15868"
+     ],
+     "description": "A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r19 (apk)",
+      "vulnerabilityID": "CVE-2023-42364"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1728ab0c1e9e7f05",
+    "name": "ssl_client",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:ssl-client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl-client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl_client:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42363",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-42363",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-42363"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.36.1-r17"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-42363",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42363",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.busybox.net/show_bug.cgi?id=15865"
+     ],
+     "description": "A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1-r15"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 1.36.1-r17 (apk)",
+      "vulnerabilityID": "CVE-2023-42363"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1728ab0c1e9e7f05",
+    "name": "ssl_client",
+    "version": "1.36.1-r15",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:ssl-client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl-client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl_client:ssl_client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl-client:1.36.1-r15:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ssl:ssl_client:1.36.1-r15:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&upstream=busybox&distro=alpine-3.19.1",
+    "upstreams": [
+     {
+      "name": "busybox"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24790",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24790",
+    "namespace": "nvd:cpe",
+    "severity": "Critical",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/590316",
+     "https://go.dev/issue/67680",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://pkg.go.dev/vuln/GO-2024-2887"
+    ],
+    "description": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "metrics": {
+       "baseScore": 9.8,
+       "exploitabilityScore": 3.9,
+       "impactScore": 5.9
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24790",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24789",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24789",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/585397",
+     "https://go.dev/issue/66869",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/",
+     "https://pkg.go.dev/vuln/GO-2024-2888"
+    ],
+    "description": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24789",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24788",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24788",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/08/3",
+     "https://go.dev/cl/578375",
+     "https://go.dev/issue/66754",
+     "https://groups.google.com/g/golang-announce/c/wkkO4P9stm0",
+     "https://pkg.go.dev/vuln/GO-2024-2824",
+     "https://security.netapp.com/advisory/ntap-20240605-0002/",
+     "https://security.netapp.com/advisory/ntap-20240614-0001/"
+    ],
+    "description": "A malformed DNS message in response to a query can cause the Lookup functions to get stuck in an infinite loop.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24788",
+      "versionConstraint": ">= 1.22.0-0, < 1.22.3 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24787",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24787",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/08/3",
+     "https://go.dev/cl/583815",
+     "https://go.dev/issue/67119",
+     "https://groups.google.com/g/golang-announce/c/wkkO4P9stm0",
+     "https://pkg.go.dev/vuln/GO-2024-2825",
+     "https://security.netapp.com/advisory/ntap-20240531-0006/"
+    ],
+    "description": "On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a \"#cgo LDFLAGS\" directive.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24787",
+      "versionConstraint": "< 1.21.10 || >= 1.22.0-0, < 1.22.3 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24785",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24785",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/564196",
+     "https://go.dev/issue/65697",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2610",
+     "https://security.netapp.com/advisory/ntap-20240329-0008/"
+    ],
+    "description": "If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24785",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24784",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24784",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/555596",
+     "https://go.dev/issue/65083",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2609",
+     "https://security.netapp.com/advisory/ntap-20240329-0007/"
+    ],
+    "description": "The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24784",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24783",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24783",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569339",
+     "https://go.dev/issue/65390",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2598",
+     "https://security.netapp.com/advisory/ntap-20240329-0005/"
+    ],
+    "description": "Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24783",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45290",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45290",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569341",
+     "https://go.dev/issue/65383",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2599",
+     "https://security.netapp.com/advisory/ntap-20240329-0004/"
+    ],
+    "description": "When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45290",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45289",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45289",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569340",
+     "https://go.dev/issue/65065",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2600",
+     "https://security.netapp.com/advisory/ntap-20240329-0006/"
+    ],
+    "description": "When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as \"Authorization\" or \"Cookie\". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45289",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45288",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+     "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+     "https://go.dev/cl/576155",
+     "https://go.dev/issue/65051",
+     "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+     "https://pkg.go.dev/vuln/GO-2024-2687",
+     "https://security.netapp.com/advisory/ntap-20240419-0009/"
+    ],
+    "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+      ],
+      "Package": {
+       "name": "stdlib",
+       "version": "go1.22.0"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45288",
+      "versionConstraint": "< 1.21.9 || >= 1.22.0-0, < 1.22.2 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1a6520e8fdf91490",
+    "name": "stdlib",
+    "version": "go1.22.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.0:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-33460",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2023-33460",
+    "namespace": "alpine:distro:alpine:3.19",
+    "severity": "Medium",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2023-33460"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "2.1.0-r9"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-33460",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-33460",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://github.com/lloyd/yajl/issues/250",
+      "https://lists.debian.org/debian-lts-announce/2023/07/msg00000.html",
+      "https://lists.debian.org/debian-lts-announce/2023/07/msg00013.html",
+      "https://lists.debian.org/debian-lts-announce/2023/08/msg00003.html",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IBUUHG27RM4ROEYKMVRROR27AX6R63MB/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KLE3C4CECEJ4EUYI56KXI6OWACWXX7WN/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YO32YDJ74DADC7CMJNLSLBVWN5EXGF5J/"
+     ],
+     "description": "There's a memory leak in yajl 2.1.0 with use of yajl_tree_parse function. which will cause out-of-memory in server and cause crash.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 6.5,
+        "exploitabilityScore": 2.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.19.1"
+      },
+      "namespace": "alpine:distro:alpine:3.19",
+      "package": {
+       "name": "yajl",
+       "version": "2.1.0-r8"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 2.1.0-r9 (apk)",
+      "vulnerabilityID": "CVE-2023-33460"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "ac57d1eea4c2464d",
+    "name": "yajl",
+    "version": "2.1.0-r8",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:yajl:yajl:2.1.0-r8:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/yajl@2.1.0-r8?arch=x86_64&distro=alpine-3.19.1",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "registry.k8s.io/ingress-nginx/controller:sha256:67f647d99b087bebd5e8c7792cc7d5dd715343354698c43ea0edab81896b75f0",
+   "imageID": "DocumentRoot-Image-registry.k8s.io-ingress-nginx-controller",
+   "manifestDigest": "sha256:c2a20dbdba756cbc3c8c892e9bf153bc9ce88ccc79f4d078ba2ef0cfe5a9949f",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "alpine",
+  "version": "3.19.1",
+  "idLike": [
+   "alpine"
+  ]
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.74.6",
+  "configuration": {
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "ignore-wontfix": "",
+   "platform": "",
+   "search": {
+    "scope": "squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": null,
+   "exclude": [],
+   "db": {
+    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": false
+    },
+    "dotnet": {
+     "using-cpes": false
+    },
+    "golang": {
+     "using-cpes": false,
+     "always-use-cpe-for-stdlib": true
+    },
+    "javascript": {
+     "using-cpes": false
+    },
+    "python": {
+     "using-cpes": false
+    },
+    "ruby": {
+     "using-cpes": false
+    },
+    "rust": {
+     "using-cpes": false
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "show-suppressed": false,
+   "by-cve": false,
+   "name": "",
+   "default-image-pull-source": "",
+   "vex-documents": [],
+   "vex-add": []
+  },
+  "db": {
+   "built": "2024-06-25T01:30:15Z",
+   "schemaVersion": 5,
+   "location": "/Users/james/Library/Caches/grype/db/5",
+   "checksum": "sha256:3b65a36941b92bf0b82cadebbe56790a8968737ccff1709d7a9df210930ed363",
+   "error": null
+  },
+  "timestamp": "2024-06-25T13:09:32.952267+01:00"
+ }
+}

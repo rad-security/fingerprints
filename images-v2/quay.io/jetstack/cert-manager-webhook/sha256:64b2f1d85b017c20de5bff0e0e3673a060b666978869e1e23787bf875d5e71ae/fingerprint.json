@@ -1,0 +1,54 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "cert-manager-webhook",
+      "imageName": "quay.io/jetstack/cert-manager-webhook:v1.13.2",
+      "imageDigest": "sha256:0a9470447ebf1d3ff1c172e19268be12dc26125ff83320d456f6826c677c0ed2",
+      "entrypoint": {
+        "process": {
+          "uid": 1000,
+          "gid": 0,
+          "programs": [
+            {
+              "comm": "webhook",
+              "args": [
+                "/app/cmd/webhook/webhook",
+                "--v=2",
+                "--secure-port=10250",
+                "--dynamic-serving-ca-secret-namespace=cert-manager",
+                "--dynamic-serving-ca-secret-name=rad-sandobx-cert-manager-webhook-ca",
+                "--dynamic-serving-dns-names=rad-sandobx-cert-manager-webhook",
+                "--dynamic-serving-dns-names=rad-sandobx-cert-manager-webhook.cert-manager",
+                "--dynamic-serving-dns-names=rad-sandobx-cert-manager-webhook.cert-manager.svc"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/app/cmd/webhook/webhook"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/token"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+            },
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            }
+          ],
+          "connections": [
+          ]
+        }
+      }
+    }
+  ]
+}
