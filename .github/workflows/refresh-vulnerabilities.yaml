@@ -1,6 +1,7 @@
 name: Trigger web application deploy
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 0 * * *
 
