@@ -2,8 +2,9 @@ name: Trigger web application deploy
 
 on:
   workflow_dispatch:
-    inputs:
-      
+    branches:
+      - feat/ENG-1835-gh-action-to-update-vulns
+
   schedule:
     - cron: 0 0 * * *
 
