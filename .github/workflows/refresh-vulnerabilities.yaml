@@ -32,6 +32,10 @@ jobs:
           token: ${{ secrets.RAD_FINGERPRINT_SCRIPTS_CLONE_TOKEN }}
           path: rad-fingerprint-scripts
 
+      - name: Install deps
+        working-directory: rad-fingerprint-scripts
+        run: pnpm i
+
       - name: Update vulnerability.json file
         working-directory: rad-fingerprint-scripts
         run: pnpm refresh-vulnerabilities ${{ github.workspace }}/images-v2
