@@ -5815,6 +5815,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0012/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008"
      ],
@@ -5894,6 +5895,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0014/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007"
      ],
@@ -5973,6 +5975,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0013/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006"
      ],
@@ -6052,6 +6055,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0011/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005"
      ],
@@ -6784,6 +6788,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0012/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008"
      ],
@@ -6858,6 +6863,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0014/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007"
      ],
@@ -6932,6 +6938,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0013/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006"
      ],
@@ -7006,6 +7013,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0011/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005"
      ],
@@ -12428,6 +12436,7 @@
      "severity": "Unknown",
      "urls": [
       "http://www.openwall.com/lists/oss-security/2024/06/27/1",
+      "http://www.openwall.com/lists/oss-security/2024/06/28/4",
       "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
       "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
       "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
@@ -14991,6 +15000,7 @@
      "severity": "Unknown",
      "urls": [
       "http://www.openwall.com/lists/oss-security/2024/06/27/1",
+      "http://www.openwall.com/lists/oss-security/2024/06/28/4",
       "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
       "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
       "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
@@ -17828,12 +17838,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-28T01:30:26Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:68ac5075b9bbf11c641351fb208083dddfb7a69d76c885db8ad3936e2b7cc8c8",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-28T16:01:27.487206+01:00"
+  "timestamp": "2024-07-01T14:06:37.645566+01:00"
  }
 }

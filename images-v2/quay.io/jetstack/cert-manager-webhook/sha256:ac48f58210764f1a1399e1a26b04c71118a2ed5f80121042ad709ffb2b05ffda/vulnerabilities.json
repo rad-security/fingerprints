@@ -9647,6 +9647,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0011/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005"
      ],
@@ -9996,6 +9997,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0013/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006"
      ],
@@ -11764,6 +11766,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0012/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008"
      ],
@@ -11860,6 +11863,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0014/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007"
      ],
@@ -12711,6 +12715,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0011/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005"
      ],
@@ -13093,6 +13098,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0013/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006"
      ],
@@ -15015,6 +15021,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0012/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008"
      ],
@@ -15122,6 +15129,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0014/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007"
      ],
@@ -16043,6 +16051,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0011/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005"
      ],
@@ -16437,6 +16446,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0013/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006"
      ],
@@ -18415,6 +18425,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0012/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008"
      ],
@@ -18526,6 +18537,7 @@
      "namespace": "nvd:cpe",
      "severity": "Unknown",
      "urls": [
+      "https://lists.debian.org/debian-lts-announce/2024/06/msg00026.html",
       "https://security.netapp.com/advisory/ntap-20240524-0014/",
       "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007"
      ],
@@ -20335,6 +20347,7 @@
       "https://access.redhat.com/errata/RHSA-2024:0796",
       "https://access.redhat.com/errata/RHSA-2024:1082",
       "https://access.redhat.com/errata/RHSA-2024:1108",
+      "https://access.redhat.com/errata/RHSA-2024:1383",
       "https://access.redhat.com/security/cve/CVE-2024-0553",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2258412",
       "https://gitlab.com/gnutls/gnutls/-/issues/1522",
@@ -20468,6 +20481,7 @@
       "https://access.redhat.com/errata/RHSA-2024:0399",
       "https://access.redhat.com/errata/RHSA-2024:0451",
       "https://access.redhat.com/errata/RHSA-2024:0533",
+      "https://access.redhat.com/errata/RHSA-2024:1383",
       "https://access.redhat.com/security/cve/CVE-2023-5981",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2248445",
       "https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23",
@@ -21755,6 +21769,178 @@
      "found": {
       "versionConstraint": "< 0:1.18.2-25.el8_8 (rpm)",
       "vulnerabilityID": "CVE-2022-42898"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "269a7eadbe6a3d6b",
+    "name": "krb5-libs",
+    "version": "1.17-9.el8",
+    "type": "rpm",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:krb5-libs:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5-libs:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5_libs:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5_libs:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:redhat:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:redhat:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:rpm/rhel/krb5-libs@1.17-9.el8?arch=x86_64&upstream=krb5-1.17-9.el8.src.rpm&distro=rhel-8.1",
+    "upstreams": [
+     {
+      "name": "krb5",
+      "version": "1.17-9.el8"
+     }
+    ],
+    "metadataType": "RpmMetadata",
+    "metadata": {
+     "epoch": null,
+     "modularityLabel": null
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37371",
+    "dataSource": "https://access.redhat.com/security/cve/CVE-2024-37371",
+    "namespace": "redhat:distro:redhat:8",
+    "severity": "Medium",
+    "urls": [
+     "https://access.redhat.com/security/cve/CVE-2024-37371"
+    ],
+    "description": "A vulnerability was found in Kerberos. This flaw is due to an issue with message token handling.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37371",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "rpm-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "redhat",
+       "version": "8.1"
+      },
+      "namespace": "redhat:distro:redhat:8",
+      "package": {
+       "name": "krb5",
+       "version": "1.17-9.el8"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (rpm)",
+      "vulnerabilityID": "CVE-2024-37371"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "269a7eadbe6a3d6b",
+    "name": "krb5-libs",
+    "version": "1.17-9.el8",
+    "type": "rpm",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "MIT"
+    ],
+    "cpes": [
+     "cpe:2.3:a:krb5-libs:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5-libs:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5_libs:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5_libs:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:redhat:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:redhat:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5:krb5-libs:1.17-9.el8:*:*:*:*:*:*:*",
+     "cpe:2.3:a:krb5:krb5_libs:1.17-9.el8:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:rpm/rhel/krb5-libs@1.17-9.el8?arch=x86_64&upstream=krb5-1.17-9.el8.src.rpm&distro=rhel-8.1",
+    "upstreams": [
+     {
+      "name": "krb5",
+      "version": "1.17-9.el8"
+     }
+    ],
+    "metadataType": "RpmMetadata",
+    "metadata": {
+     "epoch": null,
+     "modularityLabel": null
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37370",
+    "dataSource": "https://access.redhat.com/security/cve/CVE-2024-37370",
+    "namespace": "redhat:distro:redhat:8",
+    "severity": "Medium",
+    "urls": [
+     "https://access.redhat.com/security/cve/CVE-2024-37370"
+    ],
+    "description": "A vulnerability was found in Kerberos. This flaw is due to an issue with message token handling.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37370",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "rpm-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "redhat",
+       "version": "8.1"
+      },
+      "namespace": "redhat:distro:redhat:8",
+      "package": {
+       "name": "krb5",
+       "version": "1.17-9.el8"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (rpm)",
+      "vulnerabilityID": "CVE-2024-37370"
      }
     }
    ],
@@ -39176,7 +39362,7 @@
     "urls": [
      "https://access.redhat.com/security/cve/CVE-2024-35328"
     ],
-    "description": "A flaw was found in libyaml, where it is vulnerable to a distributed denial of service attack (DDOS). This issue affects the yaml_parser_parse function in the /src/libyaml/src/parser.c. file.",
+    "description": "A flaw was found in the libyaml library. Setting a YAML string with the yaml_parser_set_input_string function to be parsed by the yaml_parser_parse function can cause an infinite loop, resulting in a denial of service in the application linked to the library.",
     "cvss": [
      {
       "version": "3.1",
@@ -46018,7 +46204,7 @@
     ],
     "fix": {
      "versions": [],
-     "state": "not-fixed"
+     "state": "wont-fix"
     },
     "advisories": []
    },
@@ -57124,12 +57310,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-25T01:30:15Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:3b65a36941b92bf0b82cadebbe56790a8968737ccff1709d7a9df210930ed363",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-25T13:10:43.571698+01:00"
+  "timestamp": "2024-07-01T14:06:11.998037+01:00"
  }
 }

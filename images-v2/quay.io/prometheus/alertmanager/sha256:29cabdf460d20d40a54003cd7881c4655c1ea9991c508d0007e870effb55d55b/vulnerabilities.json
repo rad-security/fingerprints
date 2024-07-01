@@ -1190,12 +1190,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-20T01:29:12Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:03b0cf970d23408acb3215bc5549b935995057f6e1c347d1195f68b1561305a5",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-20T16:38:59.215677+01:00"
+  "timestamp": "2024-07-01T14:06:39.693309+01:00"
  }
 }

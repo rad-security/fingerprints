@@ -2608,6 +2608,7 @@
      "severity": "Unknown",
      "urls": [
       "http://www.openwall.com/lists/oss-security/2024/06/27/1",
+      "http://www.openwall.com/lists/oss-security/2024/06/28/4",
       "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
       "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
       "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
@@ -4065,6 +4066,7 @@
      "severity": "Unknown",
      "urls": [
       "http://www.openwall.com/lists/oss-security/2024/06/27/1",
+      "http://www.openwall.com/lists/oss-security/2024/06/28/4",
       "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
       "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
       "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
@@ -4509,12 +4511,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-28T01:30:26Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:68ac5075b9bbf11c641351fb208083dddfb7a69d76c885db8ad3936e2b7cc8c8",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-28T15:41:40.237678+01:00"
+  "timestamp": "2024-07-01T14:06:29.442305+01:00"
  }
 }

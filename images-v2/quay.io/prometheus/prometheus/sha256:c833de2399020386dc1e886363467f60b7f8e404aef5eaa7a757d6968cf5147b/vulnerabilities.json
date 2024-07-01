@@ -1129,6 +1129,18 @@
      "description": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
      "cvss": [
       {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      },
+      {
        "source": "security@hashicorp.com",
        "type": "Secondary",
        "version": "3.1",
@@ -8094,12 +8106,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-25T01:30:15Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:3b65a36941b92bf0b82cadebbe56790a8968737ccff1709d7a9df210930ed363",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-25T13:09:47.773147+01:00"
+  "timestamp": "2024-07-01T14:05:47.853887+01:00"
  }
 }

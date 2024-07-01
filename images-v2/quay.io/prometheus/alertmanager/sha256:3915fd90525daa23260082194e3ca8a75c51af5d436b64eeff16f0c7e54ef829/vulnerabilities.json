@@ -2802,6 +2802,8 @@
       "https://security.gentoo.org/glsa/202311-09",
       "https://security.netapp.com/advisory/ntap-20231016-0001/",
       "https://security.netapp.com/advisory/ntap-20240426-0007/",
+      "https://security.netapp.com/advisory/ntap-20240621-0006/",
+      "https://security.netapp.com/advisory/ntap-20240621-0007/",
       "https://security.paloaltonetworks.com/CVE-2023-44487",
       "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14",
       "https://ubuntu.com/security/CVE-2023-44487",
@@ -4509,6 +4511,8 @@
      "https://security.gentoo.org/glsa/202311-09",
      "https://security.netapp.com/advisory/ntap-20231016-0001/",
      "https://security.netapp.com/advisory/ntap-20240426-0007/",
+     "https://security.netapp.com/advisory/ntap-20240621-0006/",
+     "https://security.netapp.com/advisory/ntap-20240621-0007/",
      "https://security.paloaltonetworks.com/CVE-2023-44487",
      "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14",
      "https://ubuntu.com/security/CVE-2023-44487",
@@ -9752,12 +9756,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-20T01:29:12Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:03b0cf970d23408acb3215bc5549b935995057f6e1c347d1195f68b1561305a5",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-20T16:39:22.590396+01:00"
+  "timestamp": "2024-07-01T14:06:40.180473+01:00"
  }
 }

@@ -2,6 +2,117 @@
  "matches": [
   {
    "vulnerability": {
+    "id": "GHSA-v6v8-xj6m-xwqh",
+    "dataSource": "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh"
+    ],
+    "description": "go-retryablehttp can leak basic auth credentials to log files",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 6,
+       "exploitabilityScore": 1.5,
+       "impactScore": 4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.7.7"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6104",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6104",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://discuss.hashicorp.com/c/security"
+     ],
+     "description": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "source": "security@hashicorp.com",
+       "type": "Secondary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 6,
+        "exploitabilityScore": 1.5,
+        "impactScore": 4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/hashicorp/go-retryablehttp",
+       "version": "v0.7.2"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.7.7 (unknown)",
+      "vulnerabilityID": "GHSA-v6v8-xj6m-xwqh"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "d7e81c1a653319f6",
+    "name": "github.com/hashicorp/go-retryablehttp",
+    "version": "v0.7.2",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:hashicorp:go-retryablehttp:v0.7.2:*:*:*:*:*:*:*",
+     "cpe:2.3:a:hashicorp:go_retryablehttp:v0.7.2:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.2",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:AcYqCvkpalPnPF2pn0KamgwamS42TqUDDYFRKq/RAd0="
+    }
+   }
+  },
+  {
+   "vulnerability": {
     "id": "GHSA-8pgv-569h-w5rw",
     "dataSource": "https://github.com/advisories/GHSA-8pgv-569h-w5rw",
     "namespace": "github:language:go",
@@ -748,6 +859,8 @@
       "https://security.gentoo.org/glsa/202311-09",
       "https://security.netapp.com/advisory/ntap-20231016-0001/",
       "https://security.netapp.com/advisory/ntap-20240426-0007/",
+      "https://security.netapp.com/advisory/ntap-20240621-0006/",
+      "https://security.netapp.com/advisory/ntap-20240621-0007/",
       "https://security.paloaltonetworks.com/CVE-2023-44487",
       "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14",
       "https://ubuntu.com/security/CVE-2023-44487",
@@ -1248,6 +1361,8 @@
       "https://security.gentoo.org/glsa/202311-09",
       "https://security.netapp.com/advisory/ntap-20231016-0001/",
       "https://security.netapp.com/advisory/ntap-20240426-0007/",
+      "https://security.netapp.com/advisory/ntap-20240621-0006/",
+      "https://security.netapp.com/advisory/ntap-20240621-0007/",
       "https://security.paloaltonetworks.com/CVE-2023-44487",
       "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14",
       "https://ubuntu.com/security/CVE-2023-44487",
@@ -2037,6 +2152,8 @@
      "https://security.gentoo.org/glsa/202311-09",
      "https://security.netapp.com/advisory/ntap-20231016-0001/",
      "https://security.netapp.com/advisory/ntap-20240426-0007/",
+     "https://security.netapp.com/advisory/ntap-20240621-0006/",
+     "https://security.netapp.com/advisory/ntap-20240621-0007/",
      "https://security.paloaltonetworks.com/CVE-2023-44487",
      "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14",
      "https://ubuntu.com/security/CVE-2023-44487",
@@ -3476,12 +3593,12 @@
    "vex-add": []
   },
   "db": {
-   "built": "2024-06-20T01:29:12Z",
+   "built": "2024-07-01T01:31:17Z",
    "schemaVersion": 5,
    "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:03b0cf970d23408acb3215bc5549b935995057f6e1c347d1195f68b1561305a5",
+   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
    "error": null
   },
-  "timestamp": "2024-06-20T16:36:20.875745+01:00"
+  "timestamp": "2024-07-01T14:06:15.247509+01:00"
  }
 }
