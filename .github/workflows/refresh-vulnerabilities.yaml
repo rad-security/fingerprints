@@ -1,7 +1,7 @@
 name: Trigger web application deploy
 
 on:
-  workflow_dispatch:
+  push:
     branches:
       - feat/ENG-1835-gh-action-to-update-vulns
 
@@ -39,6 +39,7 @@ jobs:
         run: |
           git config user.email "92520293+ksoc-automator@users.noreply.github.com"
           git config user.name "ksoc-automator"
-          git add .
-          git commit -m "Update vulnerabilities"
-          git push
+          git status
+#          git add .
+#          git commit -m "Update vulnerabilities"
+#          git push
