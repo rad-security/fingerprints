@@ -1,0 +1,40 @@
+name: Trigger web application deploy
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  refresh-vulns:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+         fetch-depth: 1
+         ref: feat/ENG-1782-image-format-v2
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Checkout fingerprint-scripts
+        uses: actions/checkout@v4
+        with:
+          repository: ksoc-private/rad-fingerprint-scripts
+          token: ${{ secrets.RAD_FINGERPRINT_SCRIPTS_CLONE_TOKEN }}
+          path: rad-fingerprint-scripts
+
+      - name: Update vulnerability.json file
+        working-directory: rad-fingerprint-scripts
+        run: pnpm refresh-vulnerabilities ${{ github.workspace }}/images-v2
+
+      - name: Push updates to github
+        run: |
+          git config user.email "92520293+ksoc-automator@users.noreply.github.com"
+          git config user.name "ksoc-automator"
+          git add .
+          git commit -m "Update vulnerabilities"
+          git push
