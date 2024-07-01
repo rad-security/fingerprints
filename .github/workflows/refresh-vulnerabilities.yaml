@@ -28,7 +28,7 @@ jobs:
       - name: Install grype
         run: |
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b ${{ github.workspace }}/grype
-          echo "export PATH=\$PATH:/usr/local/bin:${{ github.workspace }}/grype" >> $GITHUB_ENV
+          echo "${{ github.workspace }}/grype" >> $GITHUB_PATH
 
       - name: Checkout fingerprint-scripts
         uses: actions/checkout@v4
