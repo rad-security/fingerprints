@@ -25,6 +25,11 @@ jobs:
           version: 9
           run_install: false
 
+      - name: Install grype
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b ${{ github.workspace }}/grype
+          echo "export PATH=\$PATH:/usr/local/bin:${{ github.workspace }}/grype" >> $GITHUB_ENV
+
       - name: Checkout fingerprint-scripts
         uses: actions/checkout@v4
         with:
@@ -35,6 +40,8 @@ jobs:
       - name: Install deps
         working-directory: rad-fingerprint-scripts
         run: pnpm i
+
+
 
       - name: Update vulnerability.json file
         working-directory: rad-fingerprint-scripts
