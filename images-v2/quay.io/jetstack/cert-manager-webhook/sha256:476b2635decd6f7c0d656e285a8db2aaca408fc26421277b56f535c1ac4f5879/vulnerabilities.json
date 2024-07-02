@@ -72,7 +72,7 @@
     }
    ],
    "artifact": {
-    "id": "6c7d5d7d05f9330e",
+    "id": "c18b71420d52478f",
     "name": "golang.org/x/net",
     "version": "v0.17.0",
     "type": "go-module",
@@ -136,7 +136,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -151,7 +151,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -217,7 +217,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -232,7 +232,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -285,7 +285,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -300,7 +300,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -355,7 +355,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -370,7 +370,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -418,7 +418,7 @@
  },
  "descriptor": {
   "name": "grype",
-  "version": "0.74.6",
+  "version": "0.79.1",
   "configuration": {
    "output": [
     "json"
@@ -437,16 +437,70 @@
     "unindexed-archives": false,
     "indexed-archives": true
    },
-   "ignore": null,
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
    "exclude": [],
    "db": {
-    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "cache-dir": "/home/runner/.cache/grype/db",
     "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
     "ca-cert": "",
     "auto-update": true,
     "validate-by-hash-on-start": false,
     "validate-age": true,
-    "max-allowed-built-age": 432000000000000
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
    },
    "externalSources": {
     "enable": false,
@@ -464,7 +518,8 @@
     },
     "golang": {
      "using-cpes": false,
-     "always-use-cpe-for-stdlib": true
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
     },
     "javascript": {
      "using-cpes": false
@@ -494,15 +549,16 @@
    "name": "",
    "default-image-pull-source": "",
    "vex-documents": [],
-   "vex-add": []
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
   },
   "db": {
-   "built": "2024-07-01T01:31:17Z",
+   "built": "2024-07-02T01:30:36Z",
    "schemaVersion": 5,
-   "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
    "error": null
   },
-  "timestamp": "2024-07-01T14:06:03.578704+01:00"
+  "timestamp": "2024-07-02T11:28:29.662056206Z"
  }
 }

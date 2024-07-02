@@ -630,7 +630,7 @@
     }
    ],
    "artifact": {
-    "id": "08c07b446838baa1",
+    "id": "1b0a156871db56c2",
     "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
     "version": "v1.4.0",
     "type": "go-module",
@@ -741,7 +741,7 @@
     }
    ],
    "artifact": {
-    "id": "ff4f92b88dfd0330",
+    "id": "3dce4a1f70f7ceaf",
     "name": "github.com/go-jose/go-jose/v3",
     "version": "v3.0.1",
     "type": "go-module",
@@ -845,7 +845,7 @@
     }
    ],
    "artifact": {
-    "id": "169adbc01c260976",
+    "id": "3c076e37f0efc7b7",
     "name": "github.com/grafana/grafana",
     "version": "10.3.4",
     "type": "go-module",
@@ -954,7 +954,7 @@
     }
    ],
    "artifact": {
-    "id": "d7e81c1a653319f6",
+    "id": "0d624529ac25e15d",
     "name": "github.com/hashicorp/go-retryablehttp",
     "version": "v0.7.2",
     "type": "go-module",
@@ -1047,7 +1047,7 @@
     }
    ],
    "artifact": {
-    "id": "cd1553c51c81ccda",
+    "id": "c3ed50f614511edc",
     "name": "golang.org/x/net",
     "version": "v0.19.0",
     "type": "go-module",
@@ -1122,7 +1122,7 @@
     }
    ],
    "artifact": {
-    "id": "f2010878074e88c7",
+    "id": "57ea4a9bb3f6baea",
     "name": "google.golang.org/protobuf",
     "version": "v1.32.0",
     "type": "go-module",
@@ -1230,7 +1230,7 @@
     }
    ],
    "artifact": {
-    "id": "b3b892af00299df2",
+    "id": "a4fc885ea8b66df2",
     "name": "gopkg.in/square/go-jose.v2",
     "version": "v2.6.0",
     "type": "go-module",
@@ -2984,6 +2984,168 @@
   },
   {
    "vulnerability": {
+    "id": "CVE-2024-37371",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37371",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37371"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37371",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37371"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "afbdcdb0fc716112",
+    "name": "libgssapi-krb5-2",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37370",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37370",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37370"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37370",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37370"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "afbdcdb0fc716112",
+    "name": "libgssapi-krb5-2",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
     "id": "CVE-2024-26462",
     "dataSource": "https://ubuntu.com/security/CVE-2024-26462",
     "namespace": "ubuntu:distro:ubuntu:22.04",
@@ -3227,6 +3389,150 @@
   },
   {
    "vulnerability": {
+    "id": "CVE-2024-37371",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37371",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37371"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37371",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37371"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "31e64bccc9979f17",
+    "name": "libk5crypto3",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libk5crypto3:libk5crypto3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37370",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37370",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37370"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37370",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37370"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "31e64bccc9979f17",
+    "name": "libk5crypto3",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libk5crypto3:libk5crypto3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
     "id": "CVE-2024-26462",
     "dataSource": "https://ubuntu.com/security/CVE-2024-26462",
     "namespace": "ubuntu:distro:ubuntu:22.04",
@@ -3443,6 +3749,160 @@
   },
   {
    "vulnerability": {
+    "id": "CVE-2024-37371",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37371",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37371"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37371",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37371"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "78f6513930d074b4",
+    "name": "libkrb5-3",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libkrb5-3:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5-3:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5_3:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5_3:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37370",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37370",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37370"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37370",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37370"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "78f6513930d074b4",
+    "name": "libkrb5-3",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libkrb5-3:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5-3:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5_3:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5_3:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5:libkrb5-3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libkrb5:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
     "id": "CVE-2024-26462",
     "dataSource": "https://ubuntu.com/security/CVE-2024-26462",
     "namespace": "ubuntu:distro:ubuntu:22.04",
@@ -3665,6 +4125,150 @@
      "cpe:2.3:a:libkrb5:libkrb5_3:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
     ],
     "purl": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37371",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37371",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37371"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37371",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37371"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "6e3ac7e8f1905b8b",
+    "name": "libkrb5support0",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libkrb5support0:libkrb5support0:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
+    "upstreams": [
+     {
+      "name": "krb5"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-37370",
+    "dataSource": "https://ubuntu.com/security/CVE-2024-37370",
+    "namespace": "ubuntu:distro:ubuntu:22.04",
+    "severity": "Medium",
+    "urls": [
+     "https://ubuntu.com/security/CVE-2024-37370"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-37370",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+      "https://web.mit.edu/kerberos/www/advisories/"
+     ],
+     "description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "22.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:22.04",
+      "package": {
+       "name": "krb5",
+       "version": "1.19.2-2ubuntu0.3"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2024-37370"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "6e3ac7e8f1905b8b",
+    "name": "libkrb5support0",
+    "version": "1.19.2-2ubuntu0.3",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libkrb5support0:libkrb5support0:1.19.2-2ubuntu0.3:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64&upstream=krb5&distro=ubuntu-22.04",
     "upstreams": [
      {
       "name": "krb5"
@@ -5236,7 +5840,7 @@
     "cpes": [
      "cpe:2.3:a:libstdc++6:libstdc++6:12.3.0-1ubuntu1~22.04:*:*:*:*:*:*:*"
     ],
-    "purl": "pkg:deb/ubuntu/libstdc++6@12.3.0-1ubuntu1~22.04?arch=amd64&upstream=gcc-12&distro=ubuntu-22.04",
+    "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&upstream=gcc-12&distro=ubuntu-22.04",
     "upstreams": [
      {
       "name": "gcc-12"
@@ -5334,7 +5938,7 @@
     "cpes": [
      "cpe:2.3:a:libstdc++6:libstdc++6:12.3.0-1ubuntu1~22.04:*:*:*:*:*:*:*"
     ],
-    "purl": "pkg:deb/ubuntu/libstdc++6@12.3.0-1ubuntu1~22.04?arch=amd64&upstream=gcc-12&distro=ubuntu-22.04",
+    "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&upstream=gcc-12&distro=ubuntu-22.04",
     "upstreams": [
      {
       "name": "gcc-12"
@@ -5967,7 +6571,7 @@
     "cpes": [
      "cpe:2.3:a:libzstd1:libzstd1:1.4.8+dfsg-3build1:*:*:*:*:*:*:*"
     ],
-    "purl": "pkg:deb/ubuntu/libzstd1@1.4.8+dfsg-3build1?arch=amd64&upstream=libzstd&distro=ubuntu-22.04",
+    "purl": "pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=amd64&upstream=libzstd&distro=ubuntu-22.04",
     "upstreams": [
      {
       "name": "libzstd"
@@ -6987,7 +7591,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -7002,7 +7606,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -7068,7 +7672,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -7083,7 +7687,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -7136,7 +7740,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -7151,7 +7755,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -7206,7 +7810,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.8"
       }
@@ -7221,7 +7825,7 @@
     }
    ],
    "artifact": {
-    "id": "e96b79592db7c55a",
+    "id": "160e6e806dcc3f0f",
     "name": "stdlib",
     "version": "go1.21.8",
     "type": "go-module",
@@ -7357,7 +7961,7 @@
  },
  "descriptor": {
   "name": "grype",
-  "version": "0.74.6",
+  "version": "0.79.1",
   "configuration": {
    "output": [
     "json"
@@ -7376,16 +7980,70 @@
     "unindexed-archives": false,
     "indexed-archives": true
    },
-   "ignore": null,
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
    "exclude": [],
    "db": {
-    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "cache-dir": "/home/runner/.cache/grype/db",
     "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
     "ca-cert": "",
     "auto-update": true,
     "validate-by-hash-on-start": false,
     "validate-age": true,
-    "max-allowed-built-age": 432000000000000
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
    },
    "externalSources": {
     "enable": false,
@@ -7403,7 +8061,8 @@
     },
     "golang": {
      "using-cpes": false,
-     "always-use-cpe-for-stdlib": true
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
     },
     "javascript": {
      "using-cpes": false
@@ -7433,15 +8092,16 @@
    "name": "",
    "default-image-pull-source": "",
    "vex-documents": [],
-   "vex-add": []
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
   },
   "db": {
-   "built": "2024-07-01T01:31:17Z",
+   "built": "2024-07-02T01:30:36Z",
    "schemaVersion": 5,
-   "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
    "error": null
   },
-  "timestamp": "2024-07-01T14:06:33.366109+01:00"
+  "timestamp": "2024-07-02T11:29:29.887134829Z"
  }
 }

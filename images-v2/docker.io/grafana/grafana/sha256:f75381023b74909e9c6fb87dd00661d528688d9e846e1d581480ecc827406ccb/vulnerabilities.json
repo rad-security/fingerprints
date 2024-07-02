@@ -769,7 +769,7 @@
       "cpes": [
        "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "curl",
        "version": "8.5.0-r0"
       }
@@ -836,7 +836,7 @@
       "cpes": [
        "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "curl",
        "version": "8.5.0-r0"
       }
@@ -905,7 +905,7 @@
       "cpes": [
        "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "curl",
        "version": "8.5.0-r0"
       }
@@ -974,7 +974,7 @@
       "cpes": [
        "cpe:2.3:a:haxx:curl:8.5.0-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "curl",
        "version": "8.5.0-r0"
       }
@@ -1088,7 +1088,7 @@
     }
    ],
    "artifact": {
-    "id": "2b28fcd3c92ae836",
+    "id": "7f0ee9c901e854e8",
     "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
     "version": "v1.3.0",
     "type": "go-module",
@@ -1148,7 +1148,7 @@
     }
    ],
    "artifact": {
-    "id": "d1e41774b2ab4221",
+    "id": "b41a23fb6dc63f9a",
     "name": "github.com/cloudflare/circl",
     "version": "v1.3.3",
     "type": "go-module",
@@ -1258,7 +1258,7 @@
     }
    ],
    "artifact": {
-    "id": "0b8f5819c570229a",
+    "id": "bb94e62bda7004b9",
     "name": "github.com/go-git/go-git/v5",
     "version": "v5.4.2",
     "type": "go-module",
@@ -1373,7 +1373,7 @@
     }
    ],
    "artifact": {
-    "id": "0b8f5819c570229a",
+    "id": "bb94e62bda7004b9",
     "name": "github.com/go-git/go-git/v5",
     "version": "v5.4.2",
     "type": "go-module",
@@ -1488,7 +1488,7 @@
     }
    ],
    "artifact": {
-    "id": "0372de0a302030af",
+    "id": "3dfb75dccefc0dd5",
     "name": "github.com/go-jose/go-jose/v3",
     "version": "v3.0.0",
     "type": "go-module",
@@ -1552,7 +1552,7 @@
     }
    ],
    "artifact": {
-    "id": "0372de0a302030af",
+    "id": "3dfb75dccefc0dd5",
     "name": "github.com/go-jose/go-jose/v3",
     "version": "v3.0.0",
     "type": "go-module",
@@ -1667,7 +1667,7 @@
     }
    ],
    "artifact": {
-    "id": "d7e81c1a653319f6",
+    "id": "0d624529ac25e15d",
     "name": "github.com/hashicorp/go-retryablehttp",
     "version": "v0.7.2",
     "type": "go-module",
@@ -1755,7 +1755,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -1847,7 +1847,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -1944,7 +1944,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2057,7 +2057,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2150,7 +2150,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2245,7 +2245,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2343,7 +2343,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2436,7 +2436,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2530,7 +2530,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2611,7 +2611,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2677,7 +2677,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2743,7 +2743,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2809,7 +2809,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2875,7 +2875,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -2953,7 +2953,7 @@
       "cpes": [
        "cpe:2.3:a:gnu:glibc:2.35-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "glibc",
        "version": "2.35-r0"
       }
@@ -3085,7 +3085,7 @@
     }
    ],
    "artifact": {
-    "id": "50efb2feb289dbc2",
+    "id": "ea2dd7b2abb703c3",
     "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
     "version": "v0.42.0",
     "type": "go-module",
@@ -3203,7 +3203,7 @@
     }
    ],
    "artifact": {
-    "id": "52b52dd5093aaa1d",
+    "id": "e2eac70ff9443d2c",
     "name": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
     "version": "v0.37.0",
     "type": "go-module",
@@ -3321,7 +3321,7 @@
     }
    ],
    "artifact": {
-    "id": "97a73185fab79df2",
+    "id": "f3ebc6092ea7e528",
     "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
     "version": "v0.42.0",
     "type": "go-module",
@@ -3536,7 +3536,7 @@
     }
    ],
    "artifact": {
-    "id": "f027292690bfa314",
+    "id": "34bd98143c6a1e2a",
     "name": "golang.org/x/crypto",
     "version": "v0.11.0",
     "type": "go-module",
@@ -3676,7 +3676,7 @@
     }
    ],
    "artifact": {
-    "id": "369bbfa8a7d104d1",
+    "id": "7a54b2d65301e043",
     "name": "golang.org/x/net",
     "version": "v0.12.0",
     "type": "go-module",
@@ -3913,7 +3913,7 @@
     }
    ],
    "artifact": {
-    "id": "369bbfa8a7d104d1",
+    "id": "7a54b2d65301e043",
     "name": "golang.org/x/net",
     "version": "v0.12.0",
     "type": "go-module",
@@ -4005,7 +4005,7 @@
     }
    ],
    "artifact": {
-    "id": "369bbfa8a7d104d1",
+    "id": "7a54b2d65301e043",
     "name": "golang.org/x/net",
     "version": "v0.12.0",
     "type": "go-module",
@@ -4105,7 +4105,7 @@
     }
    ],
    "artifact": {
-    "id": "369bbfa8a7d104d1",
+    "id": "7a54b2d65301e043",
     "name": "golang.org/x/net",
     "version": "v0.12.0",
     "type": "go-module",
@@ -4178,7 +4178,7 @@
     }
    ],
    "artifact": {
-    "id": "db67069e9a87aa75",
+    "id": "d48c004f44be16f9",
     "name": "google.golang.org/grpc",
     "version": "v1.45.0",
     "type": "go-module",
@@ -4415,7 +4415,7 @@
     }
    ],
    "artifact": {
-    "id": "db67069e9a87aa75",
+    "id": "d48c004f44be16f9",
     "name": "google.golang.org/grpc",
     "version": "v1.45.0",
     "type": "go-module",
@@ -4490,7 +4490,7 @@
     }
    ],
    "artifact": {
-    "id": "c100462ab5ef040c",
+    "id": "dfda5dd489247593",
     "name": "google.golang.org/protobuf",
     "version": "v1.31.0",
     "type": "go-module",
@@ -4598,7 +4598,7 @@
     }
    ],
    "artifact": {
-    "id": "b3b892af00299df2",
+    "id": "a4fc885ea8b66df2",
     "name": "gopkg.in/square/go-jose.v2",
     "version": "v2.6.0",
     "type": "go-module",
@@ -6289,7 +6289,7 @@
       "cpes": [
        "cpe:2.3:a:nghttp2:nghttp2:1.57.0-r0:*:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "nghttp2",
        "version": "1.57.0-r0"
       }
@@ -6775,7 +6775,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -6790,7 +6790,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -6856,7 +6856,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -6871,7 +6871,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -6924,7 +6924,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -6939,7 +6939,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -6992,7 +6992,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7007,7 +7007,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7060,7 +7060,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7075,7 +7075,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7128,7 +7128,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7143,7 +7143,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7196,7 +7196,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7211,7 +7211,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7264,7 +7264,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7279,7 +7279,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7334,7 +7334,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.21.5:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.21.5"
       }
@@ -7349,7 +7349,7 @@
     }
    ],
    "artifact": {
-    "id": "1161c157069bd273",
+    "id": "58aaa06411176efa",
     "name": "stdlib",
     "version": "go1.21.5",
     "type": "go-module",
@@ -7397,7 +7397,7 @@
  },
  "descriptor": {
   "name": "grype",
-  "version": "0.74.6",
+  "version": "0.79.1",
   "configuration": {
    "output": [
     "json"
@@ -7416,16 +7416,70 @@
     "unindexed-archives": false,
     "indexed-archives": true
    },
-   "ignore": null,
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
    "exclude": [],
    "db": {
-    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "cache-dir": "/home/runner/.cache/grype/db",
     "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
     "ca-cert": "",
     "auto-update": true,
     "validate-by-hash-on-start": false,
     "validate-age": true,
-    "max-allowed-built-age": 432000000000000
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
    },
    "externalSources": {
     "enable": false,
@@ -7443,7 +7497,8 @@
     },
     "golang": {
      "using-cpes": false,
-     "always-use-cpe-for-stdlib": true
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
     },
     "javascript": {
      "using-cpes": false
@@ -7473,15 +7528,16 @@
    "name": "",
    "default-image-pull-source": "",
    "vex-documents": [],
-   "vex-add": []
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
   },
   "db": {
-   "built": "2024-07-01T01:31:17Z",
+   "built": "2024-07-02T01:30:36Z",
    "schemaVersion": 5,
-   "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
    "error": null
   },
-  "timestamp": "2024-07-01T14:06:34.759719+01:00"
+  "timestamp": "2024-07-02T11:29:38.406576529Z"
  }
 }

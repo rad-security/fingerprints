@@ -112,7 +112,7 @@
     }
    ],
    "artifact": {
-    "id": "1a69c83cc1513864",
+    "id": "65faeadab1c1debe",
     "name": "github.com/emicklei/go-restful",
     "version": "v2.9.5+incompatible",
     "type": "go-module",
@@ -123,7 +123,7 @@
      "cpe:2.3:a:emicklei:go-restful:v2.9.5+incompatible:*:*:*:*:*:*:*",
      "cpe:2.3:a:emicklei:go_restful:v2.9.5+incompatible:*:*:*:*:*:*:*"
     ],
-    "purl": "pkg:golang/github.com/emicklei/go-restful@v2.9.5+incompatible",
+    "purl": "pkg:golang/github.com/emicklei/go-restful@v2.9.5%2Bincompatible",
     "upstreams": [],
     "metadataType": "GolangBinMetadata",
     "metadata": {
@@ -231,7 +231,7 @@
     }
    ],
    "artifact": {
-    "id": "2ff77213df6ccf08",
+    "id": "bd82cb0f03c611b4",
     "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
     "version": "v0.20.0",
     "type": "go-module",
@@ -446,7 +446,7 @@
     }
    ],
    "artifact": {
-    "id": "cf232c8d9bb5d728",
+    "id": "cd04eebd37af85ed",
     "name": "golang.org/x/crypto",
     "version": "v0.0.0-20220411220226-7b82a4e95df4",
     "type": "go-module",
@@ -557,7 +557,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -669,7 +669,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -772,7 +772,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -912,7 +912,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1032,7 +1032,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1269,7 +1269,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1382,7 +1382,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1474,7 +1474,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1574,7 +1574,7 @@
     }
    ],
    "artifact": {
-    "id": "73601810b5d76b60",
+    "id": "1056200f5ed8459d",
     "name": "golang.org/x/net",
     "version": "v0.0.0-20210224082022-3d97a244fca7",
     "type": "go-module",
@@ -1692,7 +1692,7 @@
     }
    ],
    "artifact": {
-    "id": "b7825e1f9b49ae43",
+    "id": "c68171b747136d4a",
     "name": "golang.org/x/sys",
     "version": "v0.0.0-20220319134239-a9b59b0215f8",
     "type": "go-module",
@@ -1793,7 +1793,7 @@
     }
    ],
    "artifact": {
-    "id": "1b72cb8faef31233",
+    "id": "c0c2b793fce3ece5",
     "name": "golang.org/x/text",
     "version": "v0.3.7",
     "type": "go-module",
@@ -1866,7 +1866,7 @@
     }
    ],
    "artifact": {
-    "id": "67cceb0ee074ac8e",
+    "id": "836145c95f6c572b",
     "name": "google.golang.org/grpc",
     "version": "v1.43.0",
     "type": "go-module",
@@ -2103,7 +2103,7 @@
     }
    ],
    "artifact": {
-    "id": "67cceb0ee074ac8e",
+    "id": "836145c95f6c572b",
     "name": "google.golang.org/grpc",
     "version": "v1.43.0",
     "type": "go-module",
@@ -2178,7 +2178,7 @@
     }
    ],
    "artifact": {
-    "id": "01bc119e5932202c",
+    "id": "0b2c20396ae35979",
     "name": "google.golang.org/protobuf",
     "version": "v1.27.1",
     "type": "go-module",
@@ -2289,7 +2289,7 @@
     }
    ],
    "artifact": {
-    "id": "cb043172c85abd13",
+    "id": "ca53127917b992f8",
     "name": "gopkg.in/yaml.v3",
     "version": "v3.0.0-20210107192922-496545a6307b",
     "type": "go-module",
@@ -2351,7 +2351,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2366,7 +2366,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2433,7 +2433,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2448,7 +2448,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2515,7 +2515,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2530,7 +2530,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2597,7 +2597,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2612,7 +2612,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2676,7 +2676,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2691,7 +2691,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2756,7 +2756,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2771,7 +2771,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2837,7 +2837,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2852,7 +2852,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -2917,7 +2917,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -2932,7 +2932,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3132,7 +3132,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3147,7 +3147,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3216,7 +3216,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3231,7 +3231,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3298,7 +3298,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3313,7 +3313,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3377,7 +3377,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3392,7 +3392,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3456,7 +3456,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3471,7 +3471,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3536,7 +3536,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3551,7 +3551,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3619,7 +3619,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3634,7 +3634,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3700,7 +3700,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3715,7 +3715,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3780,7 +3780,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3795,7 +3795,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3860,7 +3860,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3875,7 +3875,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -3949,7 +3949,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -3964,7 +3964,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4028,7 +4028,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4043,7 +4043,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4109,7 +4109,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4124,7 +4124,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4189,7 +4189,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4204,7 +4204,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4270,7 +4270,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4285,7 +4285,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4351,7 +4351,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4366,7 +4366,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4432,7 +4432,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4447,7 +4447,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4513,7 +4513,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4528,7 +4528,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4592,7 +4592,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4607,7 +4607,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4690,7 +4690,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4705,7 +4705,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4758,7 +4758,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4773,7 +4773,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4826,7 +4826,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4841,7 +4841,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4894,7 +4894,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4909,7 +4909,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -4962,7 +4962,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -4977,7 +4977,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -5030,7 +5030,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -5045,7 +5045,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -5098,7 +5098,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -5113,7 +5113,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -5168,7 +5168,7 @@
       "cpes": [
        "cpe:2.3:a:golang:go:1.18.8:-:*:*:*:*:*:*"
       ],
-      "Package": {
+      "package": {
        "name": "stdlib",
        "version": "go1.18.8"
       }
@@ -5183,7 +5183,7 @@
     }
    ],
    "artifact": {
-    "id": "a2f601a892fbe89f",
+    "id": "6a000c1d564d3002",
     "name": "stdlib",
     "version": "go1.18.8",
     "type": "go-module",
@@ -5231,7 +5231,7 @@
  },
  "descriptor": {
   "name": "grype",
-  "version": "0.74.6",
+  "version": "0.79.1",
   "configuration": {
    "output": [
     "json"
@@ -5250,16 +5250,70 @@
     "unindexed-archives": false,
     "indexed-archives": true
    },
-   "ignore": null,
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
    "exclude": [],
    "db": {
-    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "cache-dir": "/home/runner/.cache/grype/db",
     "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
     "ca-cert": "",
     "auto-update": true,
     "validate-by-hash-on-start": false,
     "validate-age": true,
-    "max-allowed-built-age": 432000000000000
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
    },
    "externalSources": {
     "enable": false,
@@ -5277,7 +5331,8 @@
     },
     "golang": {
      "using-cpes": false,
-     "always-use-cpe-for-stdlib": true
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
     },
     "javascript": {
      "using-cpes": false
@@ -5307,15 +5362,16 @@
    "name": "",
    "default-image-pull-source": "",
    "vex-documents": [],
-   "vex-add": []
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
   },
   "db": {
-   "built": "2024-07-01T01:31:17Z",
+   "built": "2024-07-02T01:30:36Z",
    "schemaVersion": 5,
-   "location": "/Users/james/Library/Caches/grype/db/5",
-   "checksum": "sha256:1a7743e4985bbbfe47bb1cf24458c23586d11eca883b110da21df9fa28853df8",
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
    "error": null
   },
-  "timestamp": "2024-07-01T14:06:06.044439+01:00"
+  "timestamp": "2024-07-02T11:28:40.235807343Z"
  }
 }
