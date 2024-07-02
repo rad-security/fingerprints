@@ -41,6 +41,11 @@ jobs:
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b ${{ github.workspace }}/grype
           echo "${{ github.workspace }}/grype" >> $GITHUB_PATH
 
+      - name: Ensure grype db up to date
+        run: |
+          grype db update
+          grype db status
+
       - name: Checkout fingerprint-scripts
         uses: actions/checkout@v4
         with:
