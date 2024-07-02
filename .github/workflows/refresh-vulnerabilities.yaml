@@ -2,6 +2,9 @@ name: Trigger web application deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feat/ENG-1782-image-format-v2
   schedule:
     - cron: 0 0 * * *
 
