@@ -1,7 +1,7 @@
 # RAD Security Fingerprints
 
 ## Introduction
-KSOC introduces the RAD security standard, a revolutionary approach to combat the rising threat of software supply chain attacks. Fueled by eBPF, this standard establishes verified cloud workload fingerprints, offering a robust defense against zero-day attacks.  This repository provides a free online catalog of verified fingerprints for cloud workloads, as well as SBOMs for analyzed images, and detected vulnerabilities for the packages enumerated in the SBOMs.
+RAD Security introduces the RAD security standard, a revolutionary approach to combat the rising threat of software supply chain attacks. Fueled by eBPF, this standard establishes verified cloud workload fingerprints, offering a robust defense against zero-day attacks.  This repository provides a free online catalog of verified fingerprints for cloud workloads, as well as SBOMs for analyzed images, and detected vulnerabilities for the packages enumerated in the SBOMs.
 
 ### What are RAD Security Fingerprints
 Powered by eBPF, RAD security creates behavioral fingerprints of cloud workloads, providing a transparent defense against zero-day software supply chain attacks. These fingerprints, available in this free online catalog, enable DevSecOps teams to compare verified, clean runtime fingerprints with the actual image running in their environment.
