@@ -1,10 +1,10 @@
-name: Trigger web application deploy
+name: Refresh vulnerabilities
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - feat/ENG-1782-image-format-v2
+      - main
   schedule:
     - cron: 0 0 * * *
 
@@ -30,8 +30,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-         fetch-depth: 1
-         ref: feat/ENG-1782-image-format-v2
+          fetch-depth: 1
+          ref: main
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
