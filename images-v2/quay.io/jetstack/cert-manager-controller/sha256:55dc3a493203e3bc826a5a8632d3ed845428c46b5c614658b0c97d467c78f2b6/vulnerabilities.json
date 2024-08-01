@@ -1,0 +1,544 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "GHSA-m5vv-6r4h-3vj9",
+    "dataSource": "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9"
+    ],
+    "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "1.6.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-35255",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35255"
+     ],
+     "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+     "cvss": [
+      {
+       "source": "secure@microsoft.com",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+       "version": "v1.5.2"
+      }
+     },
+     "found": {
+      "versionConstraint": "<1.6.0 (unknown)",
+      "vulnerabilityID": "GHSA-m5vv-6r4h-3vj9"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "eaac525a380c0a6c",
+    "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+    "version": "v1.5.2",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:Azure:azure-sdk-for-go/sdk/azidentity:v1.5.2:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Azure:azure_sdk_for_go/sdk/azidentity:v1.5.2:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.5.2#sdk/azidentity",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:FDif4R1+UUR+00q6wquyX90K7A8dN+R5E8GEadoP7sU="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-v6v8-xj6m-xwqh",
+    "dataSource": "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh"
+    ],
+    "description": "go-retryablehttp can leak basic auth credentials to log files",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 6,
+       "exploitabilityScore": 1.5,
+       "impactScore": 4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.7.7"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6104",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6104",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://discuss.hashicorp.com/c/security"
+     ],
+     "description": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "source": "security@hashicorp.com",
+       "type": "Secondary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 6,
+        "exploitabilityScore": 1.5,
+        "impactScore": 4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/hashicorp/go-retryablehttp",
+       "version": "v0.7.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.7.7 (unknown)",
+      "vulnerabilityID": "GHSA-v6v8-xj6m-xwqh"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "dd44bcce710abb17",
+    "name": "github.com/hashicorp/go-retryablehttp",
+    "version": "v0.7.6",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:hashicorp:go-retryablehttp:v0.7.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:hashicorp:go_retryablehttp:v0.7.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.6",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:TwRYfx2z2C4cLbXmT8I5PgP/xmuqASDyiVuGYfs9GZM="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24790",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24790",
+    "namespace": "nvd:cpe",
+    "severity": "Critical",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/590316",
+     "https://go.dev/issue/67680",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://pkg.go.dev/vuln/GO-2024-2887"
+    ],
+    "description": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "metrics": {
+       "baseScore": 9.8,
+       "exploitabilityScore": 3.9,
+       "impactScore": 5.9
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.22.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24790",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "7a7a2dcc9d1a662e",
+    "name": "stdlib",
+    "version": "go1.22.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24789",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24789",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/585397",
+     "https://go.dev/issue/66869",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/",
+     "https://pkg.go.dev/vuln/GO-2024-2888"
+    ],
+    "description": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.22.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24789",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "7a7a2dcc9d1a662e",
+    "name": "stdlib",
+    "version": "go1.22.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "quay.io/jetstack/cert-manager-controller:sha256:55dc3a493203e3bc826a5a8632d3ed845428c46b5c614658b0c97d467c78f2b6",
+   "imageID": "DocumentRoot-Image-quay.io-jetstack-cert-manager-controller",
+   "manifestDigest": "sha256:6858a67851e475b159e9c20fe745bc7de4c82b0499a6adda397251e1f306faa6",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "debian",
+  "version": "12",
+  "idLike": [
+   "debian"
+  ]
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.79.1",
+  "configuration": {
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "ignore-wontfix": "",
+   "platform": "",
+   "search": {
+    "scope": "squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
+   "exclude": [],
+   "db": {
+    "cache-dir": "/home/runner/.cache/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": false
+    },
+    "dotnet": {
+     "using-cpes": false
+    },
+    "golang": {
+     "using-cpes": false,
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
+    },
+    "javascript": {
+     "using-cpes": false
+    },
+    "python": {
+     "using-cpes": false
+    },
+    "ruby": {
+     "using-cpes": false
+    },
+    "rust": {
+     "using-cpes": false
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "show-suppressed": false,
+   "by-cve": false,
+   "name": "",
+   "default-image-pull-source": "",
+   "vex-documents": [],
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
+  },
+  "db": {
+   "built": "2024-07-02T01:30:36Z",
+   "schemaVersion": 5,
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
+   "error": null
+  },
+  "timestamp": "2024-07-02T11:31:11.785434494Z"
+ }
+}

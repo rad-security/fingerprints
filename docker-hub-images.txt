@@ -1,0 +1,5 @@
+bitnami/postgresql
+bitnami/redis
+bitnami/mongodb
+grafana/grafana
+kubernetesui/dashboard

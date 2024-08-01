@@ -1,0 +1,74 @@
+name: Refresh vulnerabilities
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: 0 0 * * *
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-vulns:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+
+      - name: Install grype
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b ${{ github.workspace }}/grype
+          echo "${{ github.workspace }}/grype" >> $GITHUB_PATH
+
+      - name: Ensure grype db up to date
+        run: |
+          grype db update
+          grype db status
+
+      - name: Checkout fingerprint-scripts
+        uses: actions/checkout@v4
+        with:
+          repository: ksoc-private/rad-fingerprint-scripts
+          token: ${{ secrets.RAD_FINGERPRINT_SCRIPTS_CLONE_TOKEN }}
+          path: rad-fingerprint-scripts
+
+      - name: Install deps
+        working-directory: rad-fingerprint-scripts
+        run: pnpm i
+
+      - name: Update vulnerability.json file
+        working-directory: rad-fingerprint-scripts
+        run: pnpm refresh-vulnerabilities ${{ github.workspace }}/images-v2
+
+      - name: Push updates to github
+        run: |
+          git config user.email "92520293+ksoc-automator@users.noreply.github.com"
+          git config user.name "ksoc-automator"
+          git status
+          git add --all images-v2
+          git commit -m "Update vulnerabilities"
+          git push

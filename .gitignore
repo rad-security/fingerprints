@@ -1,2 +1,5 @@
 .idea/
 *.iml
+
+grype/
+rad-fingerprint-scripts/

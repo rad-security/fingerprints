@@ -1,0 +1,53 @@
+{
+  "kind": "Fingerprint",
+  "apiVersion": "rad.ksoc.com/v1alpha1",
+  "metadata": {
+    "creationTimestamp": "2024-01-26T11:19:56Z"
+  },
+  "containers": [
+    {
+      "name": "cert-manager-controller",
+      "imageName": "quay.io/jetstack/cert-manager-controller:v1.13.2",
+      "imageDigest": "sha256:9c67cf8c92d8693f9b726bec79c2a84d2cebeb217af6947355601dec4acfa966",
+      "entrypoint": {
+        "process": {
+          "uid": 1000,
+          "gid": 0,
+          "programs": [
+            {
+              "comm": "controller",
+              "args": [
+                "/app/cmd/controller/controller",
+                "--v=2",
+                "--cluster-resource-namespace=cert-manager",
+                "--leader-election-namespace=kube-system",
+                "--acme-http01-solver-image=quay.io/jetstack/cert-manager-acmesolver:v1.13.2",
+                "--max-concurrent-challenges=60"
+              ]
+            }
+          ],
+          "files": [
+            {
+              "path": "/proc/sys/net/core/somaxconn"
+            },
+            {
+              "path": "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size"
+            },
+            {
+              "path": "/app/cmd/controller/controller"
+            },
+            {
+              "path": "/etc/resolv.conf"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/token"
+            },
+            {
+              "path": "/var/run/secrets/kubernetes.io/serviceaccount/*/ca.crt"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

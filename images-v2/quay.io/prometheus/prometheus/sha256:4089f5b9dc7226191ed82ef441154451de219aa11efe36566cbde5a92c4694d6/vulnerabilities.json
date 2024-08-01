@@ -1,0 +1,2175 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42366",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42366",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://bugs.busybox.net/show_bug.cgi?id=15874"
+    ],
+    "description": "A heap-buffer-overflow was discovered in BusyBox v.1.36.1 in the next_token function at awk.c:1159.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-42366",
+      "versionConstraint": "= 1.36.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c3cf840d837438f9",
+    "name": "busybox",
+    "version": "1.36.1",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/busybox@1.36.1",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42365",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42365",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://bugs.busybox.net/show_bug.cgi?id=15871"
+    ],
+    "description": "A use-after-free vulnerability was discovered in BusyBox v.1.36.1 via a crafted awk pattern in the awk.c copyvar function.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-42365",
+      "versionConstraint": "= 1.36.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c3cf840d837438f9",
+    "name": "busybox",
+    "version": "1.36.1",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/busybox@1.36.1",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42364",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42364",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://bugs.busybox.net/show_bug.cgi?id=15868"
+    ],
+    "description": "A use-after-free vulnerability in BusyBox v.1.36.1 allows attackers to cause a denial of service via a crafted awk pattern in the awk.c evaluate function.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-42364",
+      "versionConstraint": "= 1.36.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c3cf840d837438f9",
+    "name": "busybox",
+    "version": "1.36.1",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/busybox@1.36.1",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-42363",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-42363",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://bugs.busybox.net/show_bug.cgi?id=15865"
+    ],
+    "description": "A use-after-free vulnerability was discovered in xasprintf function in xfuncs_printf.c:344 in BusyBox v.1.36.1.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "busybox",
+       "version": "1.36.1"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-42363",
+      "versionConstraint": "= 1.36.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c3cf840d837438f9",
+    "name": "busybox",
+    "version": "1.36.1",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:busybox:busybox:1.36.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/busybox@1.36.1",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-m5vv-6r4h-3vj9",
+    "dataSource": "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-m5vv-6r4h-3vj9"
+    ],
+    "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "1.6.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-35255",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35255"
+     ],
+     "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+     "cvss": [
+      {
+       "source": "secure@microsoft.com",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+       "version": "v1.4.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<1.6.0 (unknown)",
+      "vulnerabilityID": "GHSA-m5vv-6r4h-3vj9"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1b0a156871db56c2",
+    "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+    "version": "v1.4.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:Azure:azure-sdk-for-go/sdk/azidentity:v1.4.0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Azure:azure_sdk_for_go/sdk/azidentity:v1.4.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.4.0#sdk/azidentity",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:BMAjVKJM0U/CYF27gA0ZMmXGkOcvfFtD0oHVZ1TIPRI="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-xw73-rw38-6vjc",
+    "dataSource": "https://github.com/advisories/GHSA-xw73-rw38-6vjc",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-xw73-rw38-6vjc"
+    ],
+    "description": "Classic builder cache poisoning",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L",
+      "metrics": {
+       "baseScore": 6.9,
+       "exploitabilityScore": 1,
+       "impactScore": 5.3
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "24.0.9"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-24557",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24557",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://github.com/moby/moby/commit/3e230cfdcc989dc524882f6579f9e0dac77400ae",
+      "https://github.com/moby/moby/security/advisories/GHSA-xw73-rw38-6vjc"
+     ],
+     "description": "Moby is an open-source project created by Docker to enable software containerization. The classic builder cache system is prone to cache poisoning if the image is built FROM scratch. Also, changes to some instructions (most important being HEALTHCHECK and ONBUILD) would not cause a cache miss. An attacker with the knowledge of the Dockerfile someone is using could poison their cache by making them pull a specially crafted image that would be considered as a valid cache candidate for some build steps. 23.0+ users are only affected if they explicitly opted out of Buildkit (DOCKER_BUILDKIT=0 environment variable) or are using the /build API endpoint. All users on versions older than 23.0 could be impacted. Image build API endpoint (/build) and ImageBuild function from github.com/docker/docker/client is also affected as it the uses classic builder by default. Patches are included in 24.0.9 and 25.0.2 releases.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 7.8,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "source": "security-advisories@github.com",
+       "type": "Secondary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L",
+       "metrics": {
+        "baseScore": 6.9,
+        "exploitabilityScore": 1,
+        "impactScore": 5.3
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/docker/docker",
+       "version": "v24.0.6+incompatible"
+      }
+     },
+     "found": {
+      "versionConstraint": "<24.0.9 (unknown)",
+      "vulnerabilityID": "GHSA-xw73-rw38-6vjc"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "056669304c3b59e0",
+    "name": "github.com/docker/docker",
+    "version": "v24.0.6+incompatible",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:docker:docker:v24.0.6+incompatible:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/docker/docker@v24.0.6%2Bincompatible",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:hceabKCtUgDqPu+qm0NgsaXf28Ljf4/pWFL7xjWWDgE="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-jq35-85cj-fj4p",
+    "dataSource": "https://github.com/advisories/GHSA-jq35-85cj-fj4p",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-jq35-85cj-fj4p"
+    ],
+    "description": "/sys/devices/virtual/powercap accessible by default to containers",
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "24.0.7"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/docker/docker",
+       "version": "v24.0.6+incompatible"
+      }
+     },
+     "found": {
+      "versionConstraint": ">=24.0.0,<24.0.7 (unknown)",
+      "vulnerabilityID": "GHSA-jq35-85cj-fj4p"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "056669304c3b59e0",
+    "name": "github.com/docker/docker",
+    "version": "v24.0.6+incompatible",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:docker:docker:v24.0.6+incompatible:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/docker/docker@v24.0.6%2Bincompatible",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:hceabKCtUgDqPu+qm0NgsaXf28Ljf4/pWFL7xjWWDgE="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-v6v8-xj6m-xwqh",
+    "dataSource": "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-v6v8-xj6m-xwqh"
+    ],
+    "description": "go-retryablehttp can leak basic auth credentials to log files",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 6,
+       "exploitabilityScore": 1.5,
+       "impactScore": 4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.7.7"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6104",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6104",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://discuss.hashicorp.com/c/security"
+     ],
+     "description": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "source": "security@hashicorp.com",
+       "type": "Secondary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 6,
+        "exploitabilityScore": 1.5,
+        "impactScore": 4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "github.com/hashicorp/go-retryablehttp",
+       "version": "v0.7.4"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.7.7 (unknown)",
+      "vulnerabilityID": "GHSA-v6v8-xj6m-xwqh"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "084bcaaf3884ddb6",
+    "name": "github.com/hashicorp/go-retryablehttp",
+    "version": "v0.7.4",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:hashicorp:go-retryablehttp:v0.7.4:*:*:*:*:*:*:*",
+     "cpe:2.3:a:hashicorp:go_retryablehttp:v0.7.4:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.4",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:ZQgVdpTdAL7WpMIwLzCfbalOcSUdkDZnpUv3/+BxzFA="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-45x7-px36-x8w8",
+    "dataSource": "https://github.com/advisories/GHSA-45x7-px36-x8w8",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-45x7-px36-x8w8"
+    ],
+    "description": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "metrics": {
+       "baseScore": 5.9,
+       "exploitabilityScore": 2.2,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.17.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-48795",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-48795",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "http://packetstormsecurity.com/files/176280/Terrapin-SSH-Connection-Weakening.html",
+      "http://seclists.org/fulldisclosure/2024/Mar/21",
+      "http://www.openwall.com/lists/oss-security/2023/12/18/3",
+      "http://www.openwall.com/lists/oss-security/2023/12/19/5",
+      "http://www.openwall.com/lists/oss-security/2023/12/20/3",
+      "http://www.openwall.com/lists/oss-security/2024/03/06/3",
+      "http://www.openwall.com/lists/oss-security/2024/04/17/8",
+      "https://access.redhat.com/security/cve/cve-2023-48795",
+      "https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-integrity-using-novel-data-corruption-attack/",
+      "https://bugs.gentoo.org/920280",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2254210",
+      "https://bugzilla.suse.com/show_bug.cgi?id=1217950",
+      "https://crates.io/crates/thrussh/versions",
+      "https://filezilla-project.org/versions.php",
+      "https://forum.netgate.com/topic/184941/terrapin-ssh-attack",
+      "https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6",
+      "https://github.com/NixOS/nixpkgs/pull/275249",
+      "https://github.com/PowerShell/Win32-OpenSSH/issues/2189",
+      "https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta",
+      "https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0",
+      "https://github.com/TeraTermProject/teraterm/releases/tag/v5.1",
+      "https://github.com/advisories/GHSA-45x7-px36-x8w8",
+      "https://github.com/apache/mina-sshd/issues/445",
+      "https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab",
+      "https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22",
+      "https://github.com/cyd01/KiTTY/issues/520",
+      "https://github.com/drakkan/sftpgo/releases/tag/v2.5.6",
+      "https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42",
+      "https://github.com/erlang/otp/releases/tag/OTP-26.2.1",
+      "https://github.com/golang/crypto/commit/9d2ee975ef9fe627bf0a6f01c1f69e8ef1d4f05d",
+      "https://github.com/hierynomus/sshj/issues/916",
+      "https://github.com/janmojzis/tinyssh/issues/81",
+      "https://github.com/jtesta/ssh-audit/commit/8e972c5e94b460379fe0c7d20209c16df81538a5",
+      "https://github.com/libssh2/libssh2/pull/1291",
+      "https://github.com/mkj/dropbear/blob/17657c36cce6df7716d5ff151ec09a665382d5dd/CHANGES#L25",
+      "https://github.com/mscdex/ssh2/commit/97b223f8891b96d6fc054df5ab1d5a1a545da2a3",
+      "https://github.com/mwiede/jsch/compare/jsch-0.2.14...jsch-0.2.15",
+      "https://github.com/mwiede/jsch/issues/457",
+      "https://github.com/mwiede/jsch/pull/461",
+      "https://github.com/net-ssh/net-ssh/blob/2e65064a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16",
+      "https://github.com/openssh/openssh-portable/commits/master",
+      "https://github.com/paramiko/paramiko/issues/2337",
+      "https://github.com/proftpd/proftpd/blob/0a7ea9b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES",
+      "https://github.com/proftpd/proftpd/blob/d21e7a2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES",
+      "https://github.com/proftpd/proftpd/blob/master/RELEASE_NOTES",
+      "https://github.com/proftpd/proftpd/issues/456",
+      "https://github.com/rapier1/hpn-ssh/releases",
+      "https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst",
+      "https://github.com/ronf/asyncssh/tags",
+      "https://github.com/ssh-mitm/ssh-mitm/issues/165",
+      "https://github.com/warp-tech/russh/releases/tag/v0.40.2",
+      "https://gitlab.com/libssh/libssh-mirror/-/tags",
+      "https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ",
+      "https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg",
+      "https://help.panic.com/releasenotes/transmit5/",
+      "https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/",
+      "https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html",
+      "https://lists.debian.org/debian-lts-announce/2024/01/msg00013.html",
+      "https://lists.debian.org/debian-lts-announce/2024/01/msg00014.html",
+      "https://lists.debian.org/debian-lts-announce/2024/04/msg00016.html",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3JIMLVBDWOP4FUPXPTB4PGHHIOMGFLQE/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6Y74KVCPEPT4MVU3LHDWCNNOXOE5ZLUR/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BL5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HYEDEXIKFKTUJIN43RG4B7T5ZS6MHUSP/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/I724O3LSRCPO4WNVIXTZCT4VVRMXMMSG/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/L5Y6MNNVAPIJSXJERQ6PKZVCIUXSNJK7/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/",
+      "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/",
+      "https://matt.ucc.asn.au/dropbear/CHANGES",
+      "https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC",
+      "https://news.ycombinator.com/item?id=38684904",
+      "https://news.ycombinator.com/item?id=38685286",
+      "https://news.ycombinator.com/item?id=38732005",
+      "https://nova.app/releases/#v11.8",
+      "https://oryx-embedded.com/download/#changelog",
+      "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0002",
+      "https://roumenpetrov.info/secsh/#news20231220",
+      "https://security-tracker.debian.org/tracker/CVE-2023-48795",
+      "https://security-tracker.debian.org/tracker/source-package/libssh2",
+      "https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg",
+      "https://security-tracker.debian.org/tracker/source-package/trilead-ssh2",
+      "https://security.gentoo.org/glsa/202312-16",
+      "https://security.gentoo.org/glsa/202312-17",
+      "https://security.netapp.com/advisory/ntap-20240105-0004/",
+      "https://support.apple.com/kb/HT214084",
+      "https://thorntech.com/cve-2023-48795-and-sftp-gateway/",
+      "https://twitter.com/TrueSkrillor/status/1736774389725565005",
+      "https://ubuntu.com/security/CVE-2023-48795",
+      "https://winscp.net/eng/docs/history#6.2.2",
+      "https://www.bitvise.com/ssh-client-version-history#933",
+      "https://www.bitvise.com/ssh-server-version-history",
+      "https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html",
+      "https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update",
+      "https://www.debian.org/security/2023/dsa-5586",
+      "https://www.debian.org/security/2023/dsa-5588",
+      "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc",
+      "https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508",
+      "https://www.netsarang.com/en/xshell-update-history/",
+      "https://www.openssh.com/openbsd.html",
+      "https://www.openssh.com/txt/release-9.6",
+      "https://www.openwall.com/lists/oss-security/2023/12/18/2",
+      "https://www.openwall.com/lists/oss-security/2023/12/20/3",
+      "https://www.paramiko.org/changelog.html",
+      "https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/",
+      "https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/",
+      "https://www.terrapin-attack.com",
+      "https://www.theregister.com/2023/12/20/terrapin_attack_ssh",
+      "https://www.vandyke.com/products/securecrt/history.txt"
+     ],
+     "description": "The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.",
+     "cvss": [
+      {
+       "source": "nvd@nist.gov",
+       "type": "Primary",
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+       "metrics": {
+        "baseScore": 5.9,
+        "exploitabilityScore": 2.2,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "golang.org/x/crypto",
+       "version": "v0.14.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.17.0 (unknown)",
+      "vulnerabilityID": "GHSA-45x7-px36-x8w8"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "49318d8bdbaa10f3",
+    "name": "golang.org/x/crypto",
+    "version": "v0.14.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:golang:x/crypto:v0.14.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/golang.org/x/crypto@v0.14.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:wBqGXzWJW6m1XrIKlAH0Hs1JJ7+9KBwnIO8v66Q9cHc="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-4v7x-pqxf-cx7m",
+    "dataSource": "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-4v7x-pqxf-cx7m"
+    ],
+    "description": "net/http, x/net/http2: close connections when receiving too many headers",
+    "cvss": [
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {
+       "base_severity": "Medium",
+       "status": "N/A"
+      }
+     }
+    ],
+    "fix": {
+     "versions": [
+      "0.23.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2023-45288",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+      "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+      "https://go.dev/cl/576155",
+      "https://go.dev/issue/65051",
+      "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+      "https://pkg.go.dev/vuln/GO-2024-2687",
+      "https://security.netapp.com/advisory/ntap-20240419-0009/"
+     ],
+     "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "golang.org/x/net",
+       "version": "v0.17.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<0.23.0 (unknown)",
+      "vulnerabilityID": "GHSA-4v7x-pqxf-cx7m"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c18b71420d52478f",
+    "name": "golang.org/x/net",
+    "version": "v0.17.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:golang:x/net:v0.17.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/golang.org/x/net@v0.17.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-8r3f-844c-mc37",
+    "dataSource": "https://github.com/advisories/GHSA-8r3f-844c-mc37",
+    "namespace": "github:language:go",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/advisories/GHSA-8r3f-844c-mc37"
+    ],
+    "description": "Golang protojson.Unmarshal function infinite loop when unmarshaling certain forms of invalid JSON",
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.33.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-24786",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24786",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+      "https://go.dev/cl/569356",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/",
+      "https://pkg.go.dev/vuln/GO-2024-2611",
+      "https://security.netapp.com/advisory/ntap-20240517-0002/"
+     ],
+     "description": "The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "language": "go",
+      "namespace": "github:language:go",
+      "package": {
+       "name": "google.golang.org/protobuf",
+       "version": "v1.31.0"
+      }
+     },
+     "found": {
+      "versionConstraint": "<1.33.0 (unknown)",
+      "vulnerabilityID": "GHSA-8r3f-844c-mc37"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "dfda5dd489247593",
+    "name": "google.golang.org/protobuf",
+    "version": "v1.31.0",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:google:protobuf:v1.31.0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/google.golang.org/protobuf@v1.31.0",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": "",
+     "h1Digest": "h1:g0LDEJHgrBl9N9r17Ru3sqWhkIx2NB67okBHPwC7hs8="
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24790",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24790",
+    "namespace": "nvd:cpe",
+    "severity": "Critical",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/590316",
+     "https://go.dev/issue/67680",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://pkg.go.dev/vuln/GO-2024-2887"
+    ],
+    "description": "The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "metrics": {
+       "baseScore": 9.8,
+       "exploitabilityScore": 3.9,
+       "impactScore": 5.9
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24790",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45285",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45285",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "https://go.dev/cl/540257",
+     "https://go.dev/issue/63845",
+     "https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/",
+     "https://pkg.go.dev/vuln/GO-2023-2383"
+    ],
+    "description": "Using go get to fetch a module with the \".git\" suffix may unexpectedly fallback to the insecure \"git://\" protocol if the module is unavailable via the secure \"https://\" and \"git+ssh://\" protocols, even if GOINSECURE is not set for said module. This only affects users who are not using the module proxy and are fetching modules directly (i.e. GOPROXY=off).",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 7.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45285",
+      "versionConstraint": "< 1.20.12 || >= 1.21.0-0, < 1.21.5 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45283",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45283",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2023/12/05/2",
+     "https://go.dev/cl/540277",
+     "https://go.dev/cl/541175",
+     "https://go.dev/issue/63713",
+     "https://go.dev/issue/64028",
+     "https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY",
+     "https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ",
+     "https://pkg.go.dev/vuln/GO-2023-2185",
+     "https://security.netapp.com/advisory/ntap-20231214-0008/"
+    ],
+    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \\?, resulting in filepath.Clean(\\?\\c:) returning \\?\\c: rather than \\?\\c:\\ (among other effects). The previous behavior has been restored.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "metrics": {
+       "baseScore": 7.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45283",
+      "versionConstraint": "< 1.20.11 || >= 1.21.0-0, < 1.21.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24789",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24789",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/06/04/1",
+     "https://go.dev/cl/585397",
+     "https://go.dev/issue/66869",
+     "https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/",
+     "https://pkg.go.dev/vuln/GO-2024-2888"
+    ],
+    "description": "The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24789",
+      "versionConstraint": "< 1.21.11 || >= 1.22.0-0, < 1.22.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45284",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45284",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://go.dev/cl/540277",
+     "https://go.dev/issue/63713",
+     "https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY",
+     "https://pkg.go.dev/vuln/GO-2023-2186"
+    ],
+    "description": "On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as \"COM1 \", and reserved names \"COM\" and \"LPT\" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45284",
+      "versionConstraint": "< 1.20.11 || >= 1.21.0-0, < 1.21.4 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-39326",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-39326",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://go.dev/cl/547335",
+     "https://go.dev/issue/64433",
+     "https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/",
+     "https://pkg.go.dev/vuln/GO-2023-2382"
+    ],
+    "description": "A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.",
+    "cvss": [
+     {
+      "source": "nvd@nist.gov",
+      "type": "Primary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-39326",
+      "versionConstraint": "< 1.20.12 || >= 1.21.0-0, < 1.21.5 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24787",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24787",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/08/3",
+     "https://go.dev/cl/583815",
+     "https://go.dev/issue/67119",
+     "https://groups.google.com/g/golang-announce/c/wkkO4P9stm0",
+     "https://pkg.go.dev/vuln/GO-2024-2825",
+     "https://security.netapp.com/advisory/ntap-20240531-0006/"
+    ],
+    "description": "On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a \"#cgo LDFLAGS\" directive.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24787",
+      "versionConstraint": "< 1.21.10 || >= 1.22.0-0, < 1.22.3 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24785",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24785",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/564196",
+     "https://go.dev/issue/65697",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2610",
+     "https://security.netapp.com/advisory/ntap-20240329-0008/"
+    ],
+    "description": "If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24785",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24784",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24784",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/555596",
+     "https://go.dev/issue/65083",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2609",
+     "https://security.netapp.com/advisory/ntap-20240329-0007/"
+    ],
+    "description": "The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24784",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24783",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24783",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569339",
+     "https://go.dev/issue/65390",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2598",
+     "https://security.netapp.com/advisory/ntap-20240329-0005/"
+    ],
+    "description": "Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24783",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45290",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45290",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569341",
+     "https://go.dev/issue/65383",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2599",
+     "https://security.netapp.com/advisory/ntap-20240329-0004/"
+    ],
+    "description": "When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45290",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45289",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45289",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/03/08/4",
+     "https://go.dev/cl/569340",
+     "https://go.dev/issue/65065",
+     "https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg",
+     "https://pkg.go.dev/vuln/GO-2024-2600",
+     "https://security.netapp.com/advisory/ntap-20240329-0006/"
+    ],
+    "description": "When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as \"Authorization\" or \"Cookie\". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45289",
+      "versionConstraint": "< 1.21.8 || >= 1.22.0-0, < 1.22.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2023-45288",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288",
+    "namespace": "nvd:cpe",
+    "severity": "Unknown",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/04/03/16",
+     "http://www.openwall.com/lists/oss-security/2024/04/05/4",
+     "https://go.dev/cl/576155",
+     "https://go.dev/issue/65051",
+     "https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/",
+     "https://pkg.go.dev/vuln/GO-2024-2687",
+     "https://security.netapp.com/advisory/ntap-20240419-0009/"
+    ],
+    "description": "An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.",
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.21.3"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2023-45288",
+      "versionConstraint": "< 1.21.9 || >= 1.22.0-0, < 1.22.2 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "16d130e6f1156d64",
+    "name": "stdlib",
+    "version": "go1.21.3",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.21.3:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.21.3",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "quay.io/prometheus/prometheus:sha256:4089f5b9dc7226191ed82ef441154451de219aa11efe36566cbde5a92c4694d6",
+   "imageID": "DocumentRoot-Image-quay.io-prometheus-prometheus",
+   "manifestDigest": "sha256:4f7f2dcf735e0b26c17d76807b9ae33a31049154fc3b57f16be728e494e9a049",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "",
+  "version": "",
+  "idLike": null
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.79.1",
+  "configuration": {
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "ignore-wontfix": "",
+   "platform": "",
+   "search": {
+    "scope": "squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
+   "exclude": [],
+   "db": {
+    "cache-dir": "/home/runner/.cache/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": false
+    },
+    "dotnet": {
+     "using-cpes": false
+    },
+    "golang": {
+     "using-cpes": false,
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
+    },
+    "javascript": {
+     "using-cpes": false
+    },
+    "python": {
+     "using-cpes": false
+    },
+    "ruby": {
+     "using-cpes": false
+    },
+    "rust": {
+     "using-cpes": false
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "show-suppressed": false,
+   "by-cve": false,
+   "name": "",
+   "default-image-pull-source": "",
+   "vex-documents": [],
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
+  },
+  "db": {
+   "built": "2024-07-02T01:30:36Z",
+   "schemaVersion": 5,
+   "location": "/home/runner/.cache/grype/db/5",
+   "checksum": "sha256:a70c35727162c077d4852d16574b5716f58851f21007368bcba1216435afcd00",
+   "error": null
+  },
+  "timestamp": "2024-07-02T11:30:28.143399818Z"
+ }
+}
