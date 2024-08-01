@@ -1,0 +1,948 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "CVE-2024-6874",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-6874",
+    "namespace": "alpine:distro:alpine:3.20",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-6874"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "8.9.0-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6874",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6874",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/07/24/2",
+      "https://curl.se/docs/CVE-2024-6874.html",
+      "https://curl.se/docs/CVE-2024-6874.json",
+      "https://hackerone.com/reports/2604391"
+     ],
+     "description": "libcurl's URL API function\n[curl_url_get()](https://curl.se/libcurl/c/curl_url_get.html) offers punycode\nconversions, to and from IDN. Asking to convert a name that is exactly 256\nbytes, libcurl ends up reading outside of a stack based buffer when built to\nuse the *macidn* IDN backend. The conversion function then fills up the\nprovided buffer exactly - but does not null terminate the string.\n\nThis flaw can lead to stack contents accidently getting returned as part of\nthe converted string.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.20.0"
+      },
+      "namespace": "alpine:distro:alpine:3.20",
+      "package": {
+       "name": "curl",
+       "version": "8.8.0-r0"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 8.9.0-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-6874"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "69eae5e6587d73a3",
+    "name": "curl",
+    "version": "8.8.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.8.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.8.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.8.0-r0?arch=x86_64&distro=alpine-3.20.0",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-6197",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-6197",
+    "namespace": "alpine:distro:alpine:3.20",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-6197"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "8.9.0-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6197",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6197",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/07/24/1",
+      "http://www.openwall.com/lists/oss-security/2024/07/24/5",
+      "https://curl.se/docs/CVE-2024-6197.html",
+      "https://curl.se/docs/CVE-2024-6197.json",
+      "https://hackerone.com/reports/2559516"
+     ],
+     "description": "libcurl's ASN1 parser has this utf8asn1str() function used for parsing an ASN.1 UTF-8 string. Itcan detect an invalid field and return error. Unfortunately, when doing so it also invokes `free()` on a 4 byte localstack buffer.  Most modern malloc implementations detect this error and immediately abort. Some however accept the input pointer and add that memory to its list of available chunks. This leads to the overwriting of nearby stack memory. The content of the overwrite is decided by the `free()` implementation; likely to be memory pointers and a set of flags.  The most likely outcome of exploting this flaw is a crash, although it cannot be ruled out that more serious results can be had in special circumstances.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.20.0"
+      },
+      "namespace": "alpine:distro:alpine:3.20",
+      "package": {
+       "name": "curl",
+       "version": "8.8.0-r0"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 8.9.0-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-6197"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "69eae5e6587d73a3",
+    "name": "curl",
+    "version": "8.8.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:curl:curl:8.8.0-r0:*:*:*:*:*:*:*",
+     "cpe:2.3:a:haxx:curl:8.8.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/curl@8.8.0-r0?arch=x86_64&distro=alpine-3.20.0",
+    "upstreams": [],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-6874",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-6874",
+    "namespace": "alpine:distro:alpine:3.20",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-6874"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "8.9.0-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6874",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6874",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/07/24/2",
+      "https://curl.se/docs/CVE-2024-6874.html",
+      "https://curl.se/docs/CVE-2024-6874.json",
+      "https://hackerone.com/reports/2604391"
+     ],
+     "description": "libcurl's URL API function\n[curl_url_get()](https://curl.se/libcurl/c/curl_url_get.html) offers punycode\nconversions, to and from IDN. Asking to convert a name that is exactly 256\nbytes, libcurl ends up reading outside of a stack based buffer when built to\nuse the *macidn* IDN backend. The conversion function then fills up the\nprovided buffer exactly - but does not null terminate the string.\n\nThis flaw can lead to stack contents accidently getting returned as part of\nthe converted string.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.20.0"
+      },
+      "namespace": "alpine:distro:alpine:3.20",
+      "package": {
+       "name": "curl",
+       "version": "8.8.0-r0"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 8.9.0-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-6874"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "06946f1c1ba4bac3",
+    "name": "libcurl",
+    "version": "8.8.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libcurl:libcurl:8.8.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libcurl@8.8.0-r0?arch=x86_64&upstream=curl&distro=alpine-3.20.0",
+    "upstreams": [
+     {
+      "name": "curl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-6197",
+    "dataSource": "https://www.cve.org/CVERecord?id=CVE-2024-6197",
+    "namespace": "alpine:distro:alpine:3.20",
+    "severity": "Unknown",
+    "urls": [
+     "https://www.cve.org/CVERecord?id=CVE-2024-6197"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "8.9.0-r0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2024-6197",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-6197",
+     "namespace": "nvd:cpe",
+     "severity": "Unknown",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2024/07/24/1",
+      "http://www.openwall.com/lists/oss-security/2024/07/24/5",
+      "https://curl.se/docs/CVE-2024-6197.html",
+      "https://curl.se/docs/CVE-2024-6197.json",
+      "https://hackerone.com/reports/2559516"
+     ],
+     "description": "libcurl's ASN1 parser has this utf8asn1str() function used for parsing an ASN.1 UTF-8 string. Itcan detect an invalid field and return error. Unfortunately, when doing so it also invokes `free()` on a 4 byte localstack buffer.  Most modern malloc implementations detect this error and immediately abort. Some however accept the input pointer and add that memory to its list of available chunks. This leads to the overwriting of nearby stack memory. The content of the overwrite is decided by the `free()` implementation; likely to be memory pointers and a set of flags.  The most likely outcome of exploting this flaw is a crash, although it cannot be ruled out that more serious results can be had in special circumstances.",
+     "cvss": []
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "apk-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "alpine",
+       "version": "3.20.0"
+      },
+      "namespace": "alpine:distro:alpine:3.20",
+      "package": {
+       "name": "curl",
+       "version": "8.8.0-r0"
+      }
+     },
+     "found": {
+      "versionConstraint": "< 8.9.0-r0 (apk)",
+      "vulnerabilityID": "CVE-2024-6197"
+     }
+    }
+   ],
+   "artifact": {
+    "id": "06946f1c1ba4bac3",
+    "name": "libcurl",
+    "version": "8.8.0-r0",
+    "type": "apk",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "curl"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libcurl:libcurl:8.8.0-r0:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:apk/alpine/libcurl@8.8.0-r0?arch=x86_64&upstream=curl&distro=alpine-3.20.0",
+    "upstreams": [
+     {
+      "name": "curl"
+     }
+    ],
+    "metadataType": "ApkMetadata",
+    "metadata": {
+     "files": []
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-35200",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-35200",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139612"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 requests can cause NGINX worker processes to terminate.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-35200",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-35200",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1f3bb1301f537e37",
+    "name": "nginx",
+    "version": "1.25.5",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.5",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-34161",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-34161",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139627"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module and the network infrastructure supports a Maximum Transmission Unit (MTU) of 4096 or greater without fragmentation, undisclosed QUIC packets can cause NGINX worker processes to leak previously freed memory.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "metrics": {
+       "baseScore": 5.3,
+       "exploitabilityScore": 3.9,
+       "impactScore": 1.4
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-34161",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-34161",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1f3bb1301f537e37",
+    "name": "nginx",
+    "version": "1.25.5",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.5",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-32760",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-32760",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139609"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 encoder instructions can cause NGINX worker processes to terminate or cause or other potential impact.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "metrics": {
+       "baseScore": 6.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 2.5
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-32760",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-32760",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1f3bb1301f537e37",
+    "name": "nginx",
+    "version": "1.25.5",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.5",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-31079",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-31079",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "http://www.openwall.com/lists/oss-security/2024/05/30/4",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MLAOKJWDALQZBIV3WKGPJ6T5Z56D3PRD/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R7RPLWC35WHEUFCGKNFG62ESNID25TEZ/",
+     "https://my.f5.com/manage/s/article/K000139611"
+    ],
+    "description": "When NGINX Plus or NGINX OSS are configured to use the HTTP/3 QUIC module, undisclosed HTTP/3 requests can cause NGINX worker processes to terminate or cause other potential impact. This attack requires that a request be specifically timed during the connection draining process, which the attacker has no visibility and limited influence over.",
+    "cvss": [
+     {
+      "source": "f5sirt@f5.com",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "metrics": {
+       "baseScore": 4.8,
+       "exploitabilityScore": 2.2,
+       "impactScore": 2.5
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-31079",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    },
+    {
+     "type": "cpe-match",
+     "matcher": "stock-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "nginx",
+       "version": "1.25.5"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-31079",
+      "versionConstraint": ">= 1.25.0, < 1.26.1 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "1f3bb1301f537e37",
+    "name": "nginx",
+    "version": "1.25.5",
+    "type": "UnknownPackage",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:f5:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*",
+     "cpe:2.3:a:nginx:nginx:1.25.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:generic/nginx@1.25.5",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2024-24791",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-24791",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "https://go.dev/cl/591255",
+     "https://go.dev/issue/67555",
+     "https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ",
+     "https://pkg.go.dev/vuln/GO-2024-2963"
+    ],
+    "description": "The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an \"Expect: 100-continue\" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending \"Expect: 100-continue\" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.",
+    "cvss": [
+     {
+      "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+      "type": "Secondary",
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 7.5,
+       "exploitabilityScore": 3.9,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:golang:go:1.22.4:-:*:*:*:*:*:*"
+      ],
+      "package": {
+       "name": "stdlib",
+       "version": "go1.22.4"
+      }
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2024-24791",
+      "versionConstraint": "< 1.21.12 || >= 1.22.0-0, < 1.22.5 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:golang:go:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "id": "c588fa813944a944",
+    "name": "stdlib",
+    "version": "go1.22.4",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [
+     "BSD-3-Clause"
+    ],
+    "cpes": [
+     "cpe:2.3:a:golang:go:1.22.4:-:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/stdlib@1.22.4",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "registry.k8s.io/ingress-nginx/controller:sha256:9818b69f6e49fcc5a284c875f1e58dac1a73486b0dff869a0609145871d752a9",
+   "imageID": "DocumentRoot-Image-registry.k8s.io-ingress-nginx-controller",
+   "manifestDigest": "sha256:9818b69f6e49fcc5a284c875f1e58dac1a73486b0dff869a0609145871d752a9",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "alpine",
+  "version": "3.20.0",
+  "idLike": [
+   "alpine"
+  ]
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.79.2",
+  "configuration": {
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "ignore-wontfix": "",
+   "platform": "",
+   "search": {
+    "scope": "squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": [
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "kernel-headers",
+      "version": "",
+      "language": "",
+      "type": "rpm",
+      "location": "",
+      "upstream-name": "kernel"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-headers-.*",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    },
+    {
+     "vulnerability": "",
+     "reason": "",
+     "namespace": "",
+     "fix-state": "",
+     "package": {
+      "name": "linux-libc-dev",
+      "version": "",
+      "language": "",
+      "type": "deb",
+      "location": "",
+      "upstream-name": "linux"
+     },
+     "vex-status": "",
+     "vex-justification": "",
+     "match-type": "exact-indirect-match"
+    }
+   ],
+   "exclude": [],
+   "db": {
+    "cache-dir": "/Users/james/Library/Caches/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000,
+    "update-available-timeout": 30000000000,
+    "update-download-timeout": 120000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": false
+    },
+    "dotnet": {
+     "using-cpes": false
+    },
+    "golang": {
+     "using-cpes": false,
+     "always-use-cpe-for-stdlib": true,
+     "allow-main-module-pseudo-version-comparison": false
+    },
+    "javascript": {
+     "using-cpes": false
+    },
+    "python": {
+     "using-cpes": false
+    },
+    "ruby": {
+     "using-cpes": false
+    },
+    "rust": {
+     "using-cpes": false
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "show-suppressed": false,
+   "by-cve": false,
+   "name": "",
+   "default-image-pull-source": "",
+   "vex-documents": [],
+   "vex-add": [],
+   "match-upstream-kernel-headers": false
+  },
+  "db": {
+   "built": "2024-08-01T01:31:18Z",
+   "schemaVersion": 5,
+   "location": "/Users/james/Library/Caches/grype/db/5",
+   "checksum": "sha256:172b02967a5761fb6a3f2c186c077bd72ce10245d6bab765c0bbee4ad184c501",
+   "error": null
+  },
+  "timestamp": "2024-08-01T15:32:59.53336+01:00"
+ }
+}
